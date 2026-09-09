@@ -1,78 +1,63 @@
 # ICON_WORKFLOW
 
-Практический workflow для AI-агента и разработчика.
+Практический workflow для AI-агента и разработчика, работающего с локальной библиотекой иконок.
 
-## Шаг 1. Классифицировать задачу
+## 1. Определи роль иконки
 
-Перед поиском иконки определи её роль:
+Перед поиском классифицируй задачу:
 
 - `navigation` — переход между разделами;
 - `action` — выполнить действие;
 - `status` — показать состояние;
-- `feature` — визуально подчеркнуть функцию;
+- `feature` — подчеркнуть функцию;
 - `empty-state` — поддержать пустой экран;
-- `decorative` — визуальный акцент без отдельного смысла.
+- `decorative` — визуальный акцент;
+- `brand` — логотип/сервис;
+- `game` — предмет, способность, оружие, ресурс или игровое действие.
 
-Для `navigation/action/status` приоритет — ясность. Для `feature/empty-state/decorative` допускается более выразительный стиль.
+Для navigation/action/status приоритет — ясность и консистентность. Для feature/empty-state/decorative можно использовать более выразительные семейства.
 
-## Шаг 2. Выбрать pack
+## 2. Сначала выбери family
 
-Используй `catalog/icons8-packs.json`.
+Основные семейства описаны в `ICON_MAP.md` и `catalog/icon-map.json`.
 
-Быстрый выбор:
+- `core` — универсальные UI, system, brand, emoji, game и common icons.
+- `beautiful` — более выразительные современные UI packs.
+- `handdrawn` — friendly/freehand UI и иллюстративные варианты.
+- дополнительные производные families могут использоваться для accent/marketing/game UI, если они присутствуют в карте.
 
-- Human/friendly product UI → Claude Hand Drawn.
-- Glassmorphism / premium → Liquid Glass.
-- Compact/dense UI → Tiny Color.
-- Large editorial/marketing → Dotted.
-- Playful/game → Puffy Outline.
-- Big illustrative accent → 3D Fluency.
+Не смешивай несколько визуальных языков внутри одной toolbar/sidebar/navigation-группы.
 
-## Шаг 3. Искать по семантике
+## 3. Ищи по семантике
 
-Ищи английское действие или сущность. Примеры:
+Используй CLI:
 
-- `search`
-- `filter`
-- `calendar`
-- `download`
-- `upload`
-- `settings`
-- `security`
-- `user`
-- `notification`
-- `edit`
-- `delete`
-- `analytics`
-
-Если найдено несколько вариантов, выбирай тот, который лучше соответствует остальным пиктограммам экрана по толщине, заполнению и оптической массе.
-
-## Шаг 4. Получить иконку легально
-
-Используй официальный Icons8 интерфейс либо официальный API:
-
-- https://icons8.com/icons
-- https://developers.icons8.com/docs/getting-started
-- https://developers.icons8.com/docs/searchIcons
-- https://developers.icons8.com/docs/renderer
-
-Для API ключ передавай через environment variable/secret store. Не записывай его в исходный код и Git.
-
-## Шаг 5. Не хранить Icons8 pack в этом Git-репозитории
-
-Этот репозиторий предназначен для правил и метаданных, а не для распространения исходных Icons8 assets.
-
-Рекомендуемые локальные пути:
-
-```text
-vendor/icons8/
-.local/icons8/
-.tmp/icons8/
+```bash
+node scripts/search-icons.mjs search
+node scripts/search-icons.mjs "security shield" --family=beautiful --limit=30
+node scripts/search-icons.mjs upload --family=handdrawn
+node scripts/search-icons.mjs sword --family=core
 ```
 
-Они исключены через `.gitignore`.
+Полезные английские ключи: `search`, `filter`, `calendar`, `download`, `upload`, `settings`, `security`, `user`, `notification`, `edit`, `delete`, `analytics`, `mail`, `camera`, `play`, `wallet`, `cart`, `shield`, `sword`.
 
-## Шаг 6. Интеграция
+Если результатов много, сузь поиск по family, pack, taxonomy category или style tag.
+
+## 4. Выбери 2–5 кандидатов
+
+Сравни:
+
+- семантическую точность;
+- stroke/fill;
+- оптическую массу;
+- corner radius;
+- размер canvas;
+- наличие цвета;
+- совместимость с уже используемым pack.
+
+Красота не должна побеждать понятность действия.
+
+## 5. Интеграция
 
 ### Кнопка с текстом
 
@@ -97,42 +82,43 @@ vendor/icons8/
 <img src={featureIcon} alt="" aria-hidden="true" width={64} height={64} />
 ```
 
-## Шаг 7. Visual QA
+## 6. Visual QA
 
 Перед завершением проверь:
 
 - одинаковый визуальный вес соседних иконок;
-- одинаковый размер canvas/контейнера;
+- одинаковую логику размера и отступов;
 - вертикальное выравнивание;
-- контраст на светлом и тёмном фоне;
-- hover/focus/disabled состояния;
+- light/dark backgrounds;
+- hover/focus/disabled states;
 - отсутствие растяжения SVG;
-- нет ли смешения несовместимых styles;
-- понятен ли смысл без угадывания.
+- отсутствие случайного смешения styles;
+- понятность смысла без угадывания.
 
-## Шаг 8. Accessibility QA
+## 7. Accessibility QA
 
-- У icon-only button должен быть accessible name.
-- Декоративная графика скрывается от screen reader.
-- Важный статус не кодируется только цветом.
-- Touch target должен быть существенно больше самой пиктограммы.
+- Icon-only button всегда имеет accessible name.
+- Decorative graphics скрываются от screen reader.
+- Критический статус не передаётся только цветом.
+- Touch target обычно должен быть около 40–44 px или больше, даже если сама иконка меньше.
 
-## Шаг 9. License QA
+## 8. License QA
 
-Перед релизом проверь актуальную лицензию:
+Каждый pack сохраняет исходные `author` и `license` metadata. Перед публичным релизом:
 
-- https://icons8.com/license
-- https://icons8.com/terms-and-conditions
+1. проверь `THIRD_PARTY_LICENSES.md`;
+2. сохрани attribution для лицензий, где он требуется;
+3. не удаляй provenance/source metadata у производных вариантов;
+4. не утверждай, что вся библиотека имеет одну общую лицензию.
 
-Free usage обычно требует attribution. Не распространяй исходные Icons8 SVG/PNG как самостоятельную библиотеку и не зеркаль их каталог.
-
-## Правило для агента при нехватке иконки
-
-Если точной иконки нет:
+## 9. Если точной иконки нет
 
 1. Проверь синонимы.
-2. Проверь другой icon внутри **того же style**.
-3. Если всё равно нет — используй нейтральный понятный symbol из того же набора.
-4. Только затем предложи смену всего icon style для этого UI-контекста.
+2. Проверь варианты внутри того же pack.
+3. Проверь другой pack внутри той же family/style-группы.
+4. Только затем используй другую family.
+5. Генерируй новую иконку только если локальная библиотека действительно не покрывает задачу.
 
-Нельзя брать случайную иконку из другого pack только потому, что она «красивее».
+## Главное правило
+
+**Семантика → family → pack → 2–5 кандидатов → визуальная консистентность → accessibility → license/provenance.**
