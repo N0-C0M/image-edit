@@ -1,50 +1,77 @@
 import fs from 'node:fs';
+import fsp from 'node:fs/promises';
 import readline from 'node:readline';
+import { createClassifier, familyFromManifest, loadTaxonomy } from './lib/classifier.mjs';
 
 const args = process.argv.slice(2);
-const familyArg = args.find((x) => x.startsWith('--family='));
-const limitArg = args.find((x) => x.startsWith('--limit='));
-const family = familyArg ? familyArg.split('=')[1] : 'all';
-const limit = Number(limitArg ? limitArg.split('=')[1] : '50');
-const query = args.filter((x) => !x.startsWith('--family=') && !x.startsWith('--limit=')).join(' ').trim().toLowerCase();
+const option = (name, fallback = null) => args.find((x) => x.startsWith(`--${name}=`))?.slice(name.length + 3) ?? fallback;
+const has = (name) => args.includes(`--${name}`);
 
-if (!query) {
-  console.error('Usage: node scripts/search-icons.mjs <query> [--family=core|handdrawn|beautiful] [--limit=50]');
+const family = option('family', 'all').toLowerCase();
+const pack = option('pack', '').toLowerCase();
+const categoryFilter = option('category', '').toLowerCase();
+const styleFilter = option('style', '').toLowerCase();
+const limit = Math.max(1, Math.min(Number(option('limit', '50')) || 50, 1000));
+const jsonOutput = has('json');
+const pathOnly = has('path-only');
+const query = args
+  .filter((x) => !x.startsWith('--'))
+  .join(' ')
+  .trim()
+  .toLowerCase();
+
+if (!query && !categoryFilter && !styleFilter && !pack) {
+  console.error('Usage: node scripts/search-icons.mjs <query> [--family=all] [--pack=tabler] [--category=security] [--style=outline] [--limit=50] [--json|--path-only]');
   process.exit(1);
 }
 
-const manifests = [
-  { family: 'core', file: 'manifest.jsonl' },
-  { family: 'handdrawn', file: 'manifest-handdrawn.jsonl' },
-  { family: 'beautiful', file: 'manifest-beautiful.jsonl' },
-].filter((x) => family === 'all' || x.family === family);
+const taxonomy = await loadTaxonomy();
+const classify = createClassifier(taxonomy);
+const manifestFiles = (await fsp.readdir('.'))
+  .filter((name) => /^manifest(?:-[a-z0-9-]+)?\.jsonl$/i.test(name))
+  .sort();
+
+const manifests = manifestFiles
+  .map((file) => ({ family: familyFromManifest(file), file }))
+  .filter((source) => family === 'all' || source.family === family);
 
 const tokens = query.split(/\s+/).filter(Boolean);
 const results = [];
 
-function score(item, itemFamily) {
+function score(item, itemFamily, classification) {
   const name = String(item.name || '').toLowerCase();
   const collection = String(item.collection || '').toLowerCase();
   const prefix = String(item.prefix || '').toLowerCase();
-  const category = String(item.category || '').toLowerCase();
-  const hay = `${name} ${collection} ${prefix} ${category}`;
-  let value = 0;
+  const sourceId = String(item.sourceId || item.id || '').toLowerCase();
+  const semanticCategory = String(classification.category || '').toLowerCase();
+  const styles = classification.styles.join(' ').toLowerCase();
+  const hay = `${name} ${collection} ${prefix} ${sourceId} ${semanticCategory} ${styles}`;
 
-  if (name === query) value += 1000;
-  if (name.startsWith(query)) value += 600;
-  if (name.includes(query)) value += 350;
-  if (hay.includes(query)) value += 150;
+  if (pack && prefix !== pack && !collection.includes(pack)) return -1;
+  if (categoryFilter && semanticCategory !== categoryFilter) return -1;
+  if (styleFilter && !classification.styles.includes(styleFilter)) return -1;
+
+  let value = 0;
+  if (!query) value = 1;
+  if (name === query) value += 1200;
+  if (name.startsWith(query)) value += 700;
+  if (name.includes(query)) value += 420;
+  if (sourceId.includes(query)) value += 260;
+  if (hay.includes(query)) value += 120;
 
   for (const token of tokens) {
-    if (name === token) value += 250;
-    else if (name.startsWith(token)) value += 120;
-    else if (name.includes(token)) value += 80;
-    if (collection.includes(token)) value += 25;
-    if (category.includes(token)) value += 15;
+    if (name === token) value += 300;
+    else if (name.startsWith(token)) value += 150;
+    else if (name.includes(token)) value += 100;
+    if (collection.includes(token)) value += 28;
+    if (prefix.includes(token)) value += 24;
+    if (semanticCategory.includes(token)) value += 22;
+    if (styles.includes(token)) value += 16;
   }
 
+  if (item.variant === 'native-freehand') value += 8;
+  if (item.variant === 'original') value += 5;
   if (itemFamily === 'beautiful') value += 3;
-  if (itemFamily === 'handdrawn' && item.variant === 'native-freehand') value += 5;
   return value;
 }
 
@@ -56,22 +83,39 @@ for (const source of manifests) {
     if (!line.trim()) continue;
     let item;
     try { item = JSON.parse(line); } catch { continue; }
-    const itemScore = score(item, source.family);
+    const classification = classify(item, source.family);
+    const itemScore = score(item, source.family, classification);
     if (itemScore <= 0) continue;
-    results.push({ score: itemScore, family: source.family, ...item });
+    results.push({
+      score: itemScore,
+      family: source.family,
+      category: classification.category,
+      styles: classification.styles,
+      ...item,
+    });
   }
 }
 
-results.sort((a, b) => b.score - a.score || String(a.name).localeCompare(String(b.name)));
-const top = results.slice(0, Math.max(1, Math.min(limit, 500)));
+results.sort((a,b) => b.score-a.score || String(a.name).localeCompare(String(b.name)));
+const top = results.slice(0, limit);
+
+if (jsonOutput) {
+  console.log(JSON.stringify({ query, filters: { family, pack, category: categoryFilter, style: styleFilter }, totalMatches: results.length, results: top }, null, 2));
+  process.exit(0);
+}
+
+if (pathOnly) {
+  for (const item of top) console.log(item.path);
+  process.exit(0);
+}
 
 if (!top.length) {
-  console.log(`No icons found for: ${query}`);
+  console.log('No icons found for the supplied query/filters.');
   process.exit(0);
 }
 
 console.log(`Found ${results.length} matches. Showing ${top.length}:\n`);
-console.log('SCORE\tFAMILY\tVARIANT\tICON\tCOLLECTION\tPATH');
+console.log('SCORE\tFAMILY\tCATEGORY\tSTYLES\tICON\tPACK\tPATH');
 for (const item of top) {
-  console.log(`${item.score}\t${item.family}\t${item.variant || 'original'}\t${item.sourceId || item.id}\t${item.collection || ''}\t${item.path}`);
+  console.log(`${item.score}\t${item.family}\t${item.category}\t${item.styles.join(',')}\t${item.sourceId || item.id}\t${item.collection || item.prefix || ''}\t${item.path}`);
 }
