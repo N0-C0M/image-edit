@@ -1,0 +1,48 @@
+name: Build icon classification indexes
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'manifest*.jsonl'
+      - 'catalog/taxonomy.json'
+      - 'scripts/build-classification.mjs'
+      - '.github/workflows/build-classification.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: icon-classification
+  cancel-in-progress: true
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build classification indexes
+        run: node scripts/build-classification.mjs
+
+      - name: Commit classification
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/packs.json catalog/categories.json catalog/styles.json catalog/classification-stats.json
+          if git diff --cached --quiet; then
+            echo "Classification unchanged"
+            exit 0
+          fi
+          git commit -m "Rebuild icon taxonomy indexes"
+          git pull --rebase
+          git push
