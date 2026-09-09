@@ -1,0 +1,2121 @@
+{
+  "beautiful:icon-park": {
+    "name": "IconPark",
+    "total": 2658,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "icon-park",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2658
+  },
+  "beautiful:streamline-color": {
+    "name": "Streamline color",
+    "total": 2000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "graph",
+      "pie-chart-flat",
+      "filter-2",
+      "asterisk-1",
+      "flash-2-flat",
+      "bracket"
+    ],
+    "height": 28,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2000
+  },
+  "beautiful:streamline-plump-color": {
+    "name": "Plump color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "tune-adjust-volume",
+      "pacman-flat",
+      "web",
+      "sad-face",
+      "location-pin-flat",
+      "smiley-indiferent-flat"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "streamline-plump-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1000
+  },
+  "beautiful:streamline-freehand-color": {
+    "name": "Freehand color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "discount-percent-thin",
+      "cursor-speed-1",
+      "data-transfer-diagonal",
+      "terminal",
+      "delete-disable-block-1",
+      "power-button"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-freehand-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1000
+  },
+  "beautiful:streamline-flex-color": {
+    "name": "Flex color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "fahrenheit",
+      "tablet-capsule-flat",
+      "shuffle",
+      "music-equalizer",
+      "thermometer-flat",
+      "merge-vertical"
+    ],
+    "height": 28,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-flex-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1000
+  },
+  "beautiful:streamline-sharp-color": {
+    "name": "Sharp color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "file-bookmark-flat",
+      "double-bookmark-flat",
+      "battery-medium-3-flat",
+      "bluetooth",
+      "new-folder-flat",
+      "check"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "streamline-sharp-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1000
+  },
+  "beautiful:mingcute": {
+    "name": "MingCute Icon",
+    "total": 3320,
+    "author": {
+      "name": "MingCute Design",
+      "url": "https://github.com/Richard9394/MingCute"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    },
+    "samples": [
+      "edit-3-line",
+      "alert-fill",
+      "riding-line",
+      "layout-9-line",
+      "currency-dollar-2-line",
+      "trello-board-fill"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "mingcute",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 3364
+  },
+  "beautiful:ri": {
+    "name": "Remix Icon",
+    "total": 3188,
+    "version": "4.8.0",
+    "author": {
+      "name": "Remix Design",
+      "url": "https://github.com/cyberalien/RemixIcon"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/cyberalien/RemixIcon/blob/master/License"
+    },
+    "samples": [
+      "lock-2-line",
+      "mark-pen-fill",
+      "moon-line",
+      "filter-2-fill",
+      "text",
+      "add-line"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ri",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 3244
+  },
+  "beautiful:streamline": {
+    "name": "Streamline",
+    "total": 3000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "sign-hashtag",
+      "open-umbrella-solid",
+      "graph-bar-increase",
+      "camping-tent",
+      "add-circle-solid",
+      "filter-2"
+    ],
+    "height": 28,
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "streamline",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 4000
+  },
+  "beautiful:icon-park-outline": {
+    "name": "IconPark Outline",
+    "total": 2658,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "icon-park-outline",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2658
+  },
+  "beautiful:mynaui": {
+    "name": "Myna UI Icons",
+    "total": 2620,
+    "author": {
+      "name": "Praveen Juge",
+      "url": "https://github.com/praveenjuge/mynaui-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/praveenjuge/mynaui-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "signal",
+      "power",
+      "tree",
+      "cart",
+      "filter",
+      "cog-three"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "mynaui",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2892
+  },
+  "beautiful:carbon": {
+    "name": "Carbon",
+    "total": 2618,
+    "version": "11.87.0",
+    "author": {
+      "name": "IBM",
+      "url": "https://github.com/carbon-design-system/carbon/tree/main/packages/icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0"
+    },
+    "samples": [
+      "user-certification",
+      "humidity",
+      "edit-off",
+      "flag-filled",
+      "binding-01",
+      "mac-option"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "carbon",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2779
+  },
+  "beautiful:bi": {
+    "name": "Bootstrap Icons",
+    "total": 2078,
+    "version": "1.13.1",
+    "author": {
+      "name": "The Bootstrap Authors",
+      "url": "https://github.com/twbs/icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/twbs/icons/blob/main/LICENSE.md"
+    },
+    "samples": [
+      "graph-up",
+      "card-image",
+      "code-slash",
+      "egg-fill",
+      "brilliance",
+      "toggle-on"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "bi",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2090
+  },
+  "beautiful:griddy-icons": {
+    "name": "Griddy Icons",
+    "total": 2010,
+    "version": "0.2.0",
+    "author": {
+      "name": "Zuzana Benova",
+      "url": "https://github.com/griddy-icons/griddy-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/griddy-icons/griddy-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "annotation",
+      "twitch-filled",
+      "chart-bar-up-alt",
+      "framer-filled",
+      "etsy",
+      "egg-filled"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "griddy-icons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2010
+  },
+  "beautiful:streamline-ultimate": {
+    "name": "Ultimate free icons",
+    "total": 1999,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "power-button",
+      "arrow-right",
+      "stairs-descend",
+      "mouse-smart-bold",
+      "end-point-circle",
+      "subtract-circle-bold"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "streamline-ultimate",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1999
+  },
+  "beautiful:icon-park-solid": {
+    "name": "IconPark Solid",
+    "total": 1947,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "icon-park-solid",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1970
+  },
+  "beautiful:icon-park-twotone": {
+    "name": "IconPark TwoTone",
+    "total": 1944,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "icon-park-twotone",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1947
+  },
+  "beautiful:lucide": {
+    "name": "Lucide",
+    "total": 1816,
+    "author": {
+      "name": "Lucide Contributors",
+      "url": "https://github.com/lucide-icons/lucide"
+    },
+    "license": {
+      "title": "ISC",
+      "spdx": "ISC",
+      "url": "https://github.com/lucide-icons/lucide/blob/main/LICENSE"
+    },
+    "samples": [
+      "circle-check",
+      "award",
+      "house",
+      "check",
+      "mountain",
+      "chevron-up"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "lucide",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2102
+  },
+  "beautiful:iconamoon": {
+    "name": "IconaMoon",
+    "total": 1781,
+    "author": {
+      "name": "Dariush Habibpour",
+      "url": "https://github.com/dariushhpg1/IconaMoon"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shield-off-thin",
+      "lightning-1-duotone",
+      "player-previous-fill",
+      "folder-remove-duotone",
+      "frame-bold",
+      "menu-kebab-vertical-circle-light"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "iconamoon",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1818
+  },
+  "beautiful:streamline-sharp": {
+    "name": "Sharp free icons",
+    "total": 1500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "home-1",
+      "paperclip-2",
+      "new-folder",
+      "check",
+      "webcam-video-solid",
+      "wave-signal"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "palette": false,
+    "prefix": "streamline-sharp",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1500
+  },
+  "beautiful:streamline-flex": {
+    "name": "Flex free icons",
+    "total": 1500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shield-2",
+      "number-sign",
+      "heart",
+      "merge-vertical",
+      "thermometer-solid",
+      "music-equalizer"
+    ],
+    "height": 28,
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "streamline-flex",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1500
+  },
+  "beautiful:streamline-plump": {
+    "name": "Plump free icons",
+    "total": 1499,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "smiley-indiferent",
+      "music-note-2",
+      "web",
+      "circle-clock",
+      "loading-horizontal-2",
+      "steps-1-solid"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "palette": false,
+    "prefix": "streamline-plump",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1499
+  },
+  "beautiful:ion": {
+    "name": "IonIcons",
+    "total": 1357,
+    "version": "8.0.13",
+    "author": {
+      "name": "Ben Sperry",
+      "url": "https://github.com/ionic-team/ionicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/ionic-team/ionicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "code-download-sharp",
+      "contrast-outline",
+      "checkmark-done",
+      "navigate-sharp",
+      "arrow-redo-outline",
+      "bookmark-sharp"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ion",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2607
+  },
+  "beautiful:heroicons": {
+    "name": "HeroIcons",
+    "total": 1288,
+    "version": "2.2.0",
+    "author": {
+      "name": "Refactoring UI Inc",
+      "url": "https://github.com/tailwindlabs/heroicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "camera",
+      "building-library",
+      "receipt-refund",
+      "bookmark",
+      "cloud",
+      "folder"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "heroicons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1297
+  },
+  "beautiful:teenyicons": {
+    "name": "Teenyicons",
+    "total": 1200,
+    "version": "0.4.1",
+    "author": {
+      "name": "smhmd",
+      "url": "https://github.com/teenyicons/teenyicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/teenyicons/teenyicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "face-id-solid",
+      "user-outline",
+      "page-break-outline",
+      "hexagon-outline",
+      "send-left-outline",
+      "frame-solid"
+    ],
+    "height": 15,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "teenyicons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1200
+  },
+  "beautiful:clarity": {
+    "name": "Clarity",
+    "total": 1103,
+    "author": {
+      "name": "VMware",
+      "url": "https://github.com/vmware/clarity"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/vmware/clarity-assets/blob/master/LICENSE"
+    },
+    "samples": [
+      "help-outline-badged",
+      "heart-broken-solid",
+      "shield-outline-alerted",
+      "bookmark-solid",
+      "check-line",
+      "tablet-solid"
+    ],
+    "height": 36,
+    "displayHeight": 18,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "clarity",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1105
+  },
+  "beautiful:streamline-freehand": {
+    "name": "Freehand free icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "terminal",
+      "cursor-speed-1",
+      "lock-cancel-slash",
+      "data-transfer-vertical",
+      "discount-percent-thin",
+      "layouts-right"
+    ],
+    "height": 24,
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "streamline-freehand",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1000
+  },
+  "beautiful:streamline-ultimate-color": {
+    "name": "Ultimate color icons",
+    "total": 998,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "touch-up",
+      "like",
+      "download-bottom",
+      "power-button",
+      "move-expand-vertical",
+      "keyboard-asterisk-3"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-ultimate-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 998
+  },
+  "beautiful:fluent-color": {
+    "name": "Fluent UI System Color Icons",
+    "total": 890,
+    "version": "1.1.339",
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-system-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "mic-20",
+      "alert-32",
+      "wrench-24",
+      "shifts-32",
+      "add-circle-16",
+      "shield-24"
+    ],
+    "category": "UI Multicolor",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": true,
+    "prefix": "fluent-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 890
+  },
+  "beautiful:streamline-cyber-color": {
+    "name": "Cyber color icons",
+    "total": 500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shopping-basket-3",
+      "command-2",
+      "music-note-1",
+      "loop-diamond",
+      "cursor-scroll-vertical",
+      "map-target-2"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": true,
+    "prefix": "streamline-cyber-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 500
+  },
+  "beautiful:streamline-kameleon-color": {
+    "name": "Kameleon color icons",
+    "total": 400,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "pointer",
+      "filter-duo",
+      "text-file",
+      "oven-glove-duo",
+      "prism-2",
+      "bank-duo"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-kameleon-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 400
+  },
+  "beautiful:streamline-stickies-color": {
+    "name": "Stickies color icons",
+    "total": 200,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "mail",
+      "love",
+      "validation-1",
+      "help",
+      "graph-pie",
+      "cursor"
+    ],
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-stickies-color",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 200
+  },
+  "beautiful:gravity-ui": {
+    "name": "Gravity UI Icons",
+    "total": 799,
+    "version": "2.22.0",
+    "author": {
+      "name": "YANDEX LLC",
+      "url": "https://github.com/gravity-ui/icons/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/gravity-ui/icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "magnifier",
+      "bookmark-fill",
+      "display",
+      "italic",
+      "caret-down",
+      "ban"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "gravity-ui",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 799
+  },
+  "beautiful:majesticons": {
+    "name": "Majesticons",
+    "total": 760,
+    "version": "2.1.3",
+    "author": {
+      "name": "Gerrit Halfmann",
+      "url": "https://github.com/halfmage/majesticons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/halfmage/majesticons/blob/main/LICENSE"
+    },
+    "samples": [
+      "chats-line",
+      "home",
+      "edit-pen-4-line",
+      "pulse",
+      "send-line",
+      "lightning-bolt"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "majesticons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1045
+  },
+  "beautiful:octicon": {
+    "name": "Octicons",
+    "total": 749,
+    "author": {
+      "name": "GitHub",
+      "url": "https://github.com/primer/octicons/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/primer/octicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "alert-24",
+      "bell-slash-24",
+      "hourglass-24",
+      "skip-fill-16",
+      "chevron-up-16",
+      "kebab-horizontal-16"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "octicon",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 951
+  },
+  "beautiful:streamline-pixel": {
+    "name": "Pixel free icons",
+    "total": 662,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shopping-shipping-bag-1",
+      "interface-essential-battery",
+      "social-rewards-flag",
+      "interface-essential-synchronize-arrows-square-2",
+      "shopping-shipping-box",
+      "weather-temperature-thermometer"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "streamline-pixel",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 662
+  },
+  "beautiful:streamline-cyber": {
+    "name": "Cyber free icons",
+    "total": 500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "music-note-1",
+      "navigation-up-arrow",
+      "map-direction",
+      "glass-1",
+      "phone-5",
+      "fork-knife"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "streamline-cyber",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 500
+  },
+  "beautiful:lucide-lab": {
+    "name": "Lucide Lab",
+    "total": 373,
+    "author": {
+      "name": "Lucide Contributors",
+      "url": "https://github.com/lucide-icons/lucide-lab"
+    },
+    "license": {
+      "title": "ISC",
+      "spdx": "ISC",
+      "url": "https://github.com/lucide-icons/lucide-lab/blob/main/LICENSE"
+    },
+    "samples": [
+      "venn",
+      "card-credit",
+      "pac-man",
+      "cent",
+      "candlestick-big-lit",
+      "gearbox"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "lucide-lab",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 388
+  },
+  "beautiful:radix-icons": {
+    "name": "Radix Icons",
+    "total": 332,
+    "version": "1.3.2",
+    "author": {
+      "name": "WorkOS",
+      "url": "https://github.com/radix-ui/icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/radix-ui/icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "width",
+      "checkbox",
+      "code",
+      "border-width",
+      "all-sides",
+      "half-2"
+    ],
+    "height": 15,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "radix-icons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 345
+  },
+  "beautiful:streamline-block": {
+    "name": "Streamline Block",
+    "total": 300,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "other-ui-chat",
+      "content-write",
+      "content-bookmark",
+      "nature-lightning",
+      "control-buttons-play",
+      "basic-ui-remove"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "streamline-block",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 300
+  },
+  "beautiful:fe": {
+    "name": "Feather Icon",
+    "total": 255,
+    "version": "1.0.2",
+    "author": {
+      "name": "Megumi Hano",
+      "url": "https://github.com/feathericon/feathericon"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/feathericon/feathericon/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-cart",
+      "comments",
+      "link-external",
+      "check",
+      "bolt",
+      "map"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "fe",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 255
+  },
+  "beautiful:fluent-emoji": {
+    "name": "Fluent Emoji",
+    "total": 3126,
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-emoji"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE"
+    },
+    "samples": [
+      "avocado",
+      "ticket",
+      "straight-ruler"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "hidden": true,
+    "prefix": "fluent-emoji",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 3181
+  },
+  "beautiful:fluent-mdl2": {
+    "name": "Fluent UI MDL2",
+    "total": 1735,
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui/tree/master/packages/react-icons-mdl2"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui/blob/master/packages/react-icons-mdl2/LICENSE"
+    },
+    "samples": [
+      "flow",
+      "home",
+      "switch",
+      "caret-solid-16",
+      "accept",
+      "wind-direction"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "fluent-mdl2",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1735
+  },
+  "beautiful:feather": {
+    "name": "Feather Icons",
+    "total": 286,
+    "author": {
+      "name": "Cole Bemis",
+      "url": "https://github.com/feathericons/feather"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/feathericons/feather/blob/master/LICENSE"
+    },
+    "samples": [
+      "check-circle",
+      "award",
+      "home"
+    ],
+    "height": 24,
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "hidden": true,
+    "prefix": "feather",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 286
+  },
+  "beautiful:heroicons-outline": {
+    "name": "HeroIcons v1 Outline",
+    "total": 230,
+    "version": "1.0.6",
+    "author": {
+      "name": "Refactoring UI Inc",
+      "url": "https://github.com/tailwindlabs/heroicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "color-swatch",
+      "library",
+      "receipt-refund",
+      "bookmark",
+      "cloud",
+      "folder"
+    ],
+    "height": 24,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "heroicons-outline",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 385
+  },
+  "beautiful:heroicons-solid": {
+    "name": "HeroIcons v1 Solid",
+    "total": 230,
+    "version": "1.0.6",
+    "author": {
+      "name": "Refactoring UI Inc",
+      "url": "https://github.com/tailwindlabs/heroicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "color-swatch",
+      "library",
+      "receipt-refund",
+      "bookmark",
+      "cloud",
+      "folder"
+    ],
+    "height": 20,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "heroicons-solid",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 389
+  },
+  "beautiful:glyphs": {
+    "name": "Glyphs",
+    "total": 3452,
+    "author": {
+      "name": "Goran Spasojevic",
+      "url": "https://github.com/gorango/glyphs"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/gorango/glyphs/blob/main/license"
+    },
+    "samples": [
+      "mouse-2-bold",
+      "object-select",
+      "comment-1-duo",
+      "asterisk-outline",
+      "search-1-duo",
+      "bandage"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "glyphs",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 3452
+  },
+  "beautiful:keyline-icons": {
+    "name": "Keyline Icons",
+    "total": 3250,
+    "author": {
+      "name": "Keyline Icons",
+      "url": "https://github.com/keyline-icons/keyline-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/keyline-icons/keyline-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "arrow-up-narrow-wide-duotone",
+      "credit-card-fill",
+      "upload",
+      "activity",
+      "terminal",
+      "bar-chart"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "keyline-icons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 3250
+  },
+  "beautiful:tdesign": {
+    "name": "TDesign Icons",
+    "total": 2356,
+    "author": {
+      "name": "TDesign",
+      "url": "https://github.com/Tencent/tdesign-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/Tencent/tdesign-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "activity",
+      "doge",
+      "dam",
+      "view-list",
+      "rotation",
+      "laptop"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "tdesign",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2370
+  },
+  "beautiful:fa7-solid": {
+    "name": "Font Awesome Solid",
+    "total": 2000,
+    "version": "7.3.1",
+    "author": {
+      "name": "Dave Gandy",
+      "url": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "location-pin",
+      "gem",
+      "folder",
+      "mound",
+      "toggle-on",
+      "table-columns"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "fa7-solid",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2000
+  },
+  "beautiful:iconoir": {
+    "name": "Iconoir",
+    "total": 1671,
+    "version": "7.12.1",
+    "author": {
+      "name": "Luca Burgio",
+      "url": "https://github.com/iconoir-icons/iconoir"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/iconoir-icons/iconoir/blob/main/LICENSE"
+    },
+    "samples": [
+      "chat-bubble-check",
+      "edit",
+      "activity",
+      "check",
+      "droplet",
+      "hashtag"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "iconoir",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 2020
+  },
+  "beautiful:lets-icons": {
+    "name": "Lets Icons",
+    "total": 1528,
+    "author": {
+      "name": "Leonid Tsvetkov",
+      "url": "https://www.figma.com/community/file/886554014393250663"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "search-duotone-line",
+      "view-alt",
+      "message-duotone",
+      "remote-light",
+      "blank-alt-duotone",
+      "code"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "lets-icons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1544
+  },
+  "beautiful:ix": {
+    "name": "Siemens Industrial Experience Icons",
+    "total": 1479,
+    "author": {
+      "name": "Siemens AG",
+      "url": "https://github.com/siemens/ix-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/siemens/ix-icons/blob/main/LICENSE.md"
+    },
+    "samples": [
+      "notification-filled",
+      "home-filled",
+      "panel-ipc",
+      "plant-filled",
+      "play-filled",
+      "folder-filled"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ix",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1498
+  },
+  "beautiful:famicons": {
+    "name": "Famicons",
+    "total": 1342,
+    "author": {
+      "name": "Family",
+      "url": "https://github.com/familyjs/famicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/familyjs/famicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "backspace-outline",
+      "home-sharp",
+      "bluetooth-outline",
+      "glasses-sharp",
+      "resize",
+      "funnel-sharp"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "famicons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1342
+  },
+  "beautiful:si": {
+    "name": "Sargam Icons",
+    "total": 1299,
+    "author": {
+      "name": "Abhimanyu Rana",
+      "url": "https://github.com/planetabhi/sargam-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/planetabhi/sargam-icons/blob/main/LICENSE.txt"
+    },
+    "samples": [
+      "eject-duotone",
+      "zoom-in-line",
+      "play-duotone",
+      "add-fill",
+      "segment-duotone",
+      "check-line"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "si",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1305
+  },
+  "beautiful:pepicons-pop": {
+    "name": "Pepicons Pop!",
+    "total": 1275,
+    "version": "3.1.1",
+    "author": {
+      "name": "CyCraft",
+      "url": "https://github.com/CyCraft/pepicons"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://github.com/CyCraft/pepicons/blob/dev/LICENSE"
+    },
+    "samples": [
+      "bookmark",
+      "moon",
+      "pen",
+      "hash",
+      "heart",
+      "times"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "pepicons-pop",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1298
+  },
+  "beautiful:pepicons-print": {
+    "name": "Pepicons Print",
+    "total": 1275,
+    "version": "3.1.1",
+    "author": {
+      "name": "CyCraft",
+      "url": "https://github.com/CyCraft/pepicons"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://github.com/CyCraft/pepicons/blob/dev/LICENSE"
+    },
+    "samples": [
+      "bookmark",
+      "moon",
+      "pen",
+      "hash",
+      "heart",
+      "times"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "pepicons-print",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1286
+  },
+  "beautiful:pepicons-pencil": {
+    "name": "Pepicons Pencil",
+    "total": 1275,
+    "version": "3.1.1",
+    "author": {
+      "name": "CyCraft",
+      "url": "https://github.com/CyCraft/pepicons"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://github.com/CyCraft/pepicons/blob/dev/LICENSE"
+    },
+    "samples": [
+      "bookmark",
+      "moon",
+      "pen",
+      "hash",
+      "heart",
+      "times"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "pepicons-pencil",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1275
+  },
+  "beautiful:f7": {
+    "name": "Framework7 Icons",
+    "total": 1253,
+    "version": "5.0.5",
+    "author": {
+      "name": "Vladimir Kharlampidi",
+      "url": "https://github.com/framework7io/framework7-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/framework7io/framework7-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "hourglass-bottomhalf-fill",
+      "pencil-outline",
+      "rosette",
+      "placemark-fill",
+      "barcode",
+      "logo-rss"
+    ],
+    "height": 28,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "f7",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1253
+  },
+  "beautiful:uil": {
+    "name": "Unicons",
+    "total": 1215,
+    "version": "4.2.0",
+    "author": {
+      "name": "Iconscout",
+      "url": "https://github.com/Iconscout/unicons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/Iconscout/unicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "arrow-circle-right",
+      "chat-bubble-user",
+      "edit-alt",
+      "grids",
+      "ellipsis-v",
+      "bars"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "uil",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1244
+  },
+  "beautiful:dinkie-icons": {
+    "name": "Dinkie Icons",
+    "total": 1198,
+    "author": {
+      "name": "atelierAnchor",
+      "url": "https://github.com/atelier-anchor/dinkie-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/atelier-anchor/dinkie-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "lock-small-filled",
+      "u1faab-small",
+      "battery-small",
+      "monospaced",
+      "mobile-phone",
+      "menu-small"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "dinkie-icons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1198
+  },
+  "beautiful:mage": {
+    "name": "Mage Icons",
+    "total": 1042,
+    "author": {
+      "name": "MageIcons",
+      "url": "https://github.com/Mage-Icons/mage-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/Mage-Icons/mage-icons/blob/main/License.txt"
+    },
+    "samples": [
+      "chart-25",
+      "music-fill",
+      "coin-a-fill",
+      "multiply",
+      "dash-menu",
+      "cancel-fill"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "mage",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1042
+  },
+  "beautiful:pixelarticons": {
+    "name": "Pixelarticons",
+    "total": 1036,
+    "version": "2.4.1",
+    "author": {
+      "name": "Gerrit Halfmann",
+      "url": "https://github.com/halfmage/pixelarticons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/halfmage/pixelarticons/blob/master/LICENSE"
+    },
+    "samples": [
+      "home",
+      "arrows-horizontal",
+      "heart",
+      "tab",
+      "hash",
+      "folder"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "pixelarticons",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 1308
+  },
+  "beautiful:glyphs-poly": {
+    "name": "Glyphs Poly",
+    "total": 863,
+    "author": {
+      "name": "Goran Spasojevic",
+      "url": "https://github.com/gorango/glyphs"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/gorango/glyphs/blob/main/license"
+    },
+    "samples": [
+      "mouse-2",
+      "object-select",
+      "comment-1",
+      "asterisk",
+      "search-1",
+      "bandage"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "glyphs-poly",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 863
+  },
+  "beautiful:marketeq": {
+    "name": "Marketeq",
+    "total": 590,
+    "author": {
+      "name": "Marketeq"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT"
+    },
+    "samples": [
+      "mute",
+      "desk-6",
+      "fishing-hook",
+      "delta",
+      "infinite-2",
+      "backward-2"
+    ],
+    "height": 25,
+    "category": "UI Multicolor",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "marketeq",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 590
+  },
+  "beautiful:stash": {
+    "name": "Stash Icons",
+    "total": 982,
+    "author": {
+      "name": "Pingback LLC",
+      "url": "https://github.com/stash-ui/icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/stash-ui/icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "cloud-solid",
+      "clock-duotone",
+      "search-duotone",
+      "check-solid",
+      "heart-solid",
+      "burger-classic"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "stash",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 982
+  },
+  "beautiful:jam": {
+    "name": "Jam Icons",
+    "total": 940,
+    "author": {
+      "name": "Michael Amprimo",
+      "url": "https://github.com/michaelampr"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/cyberalien/jam-backup/blob/main/LICENSE"
+    },
+    "samples": [
+      "chevrons-square-up-right",
+      "luggage-f",
+      "rubber",
+      "capsule-f",
+      "header",
+      "tablet"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "jam",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 940
+  },
+  "beautiful:garden": {
+    "name": "Garden SVG Icons",
+    "total": 932,
+    "author": {
+      "name": "Zendesk",
+      "url": "https://github.com/zendeskgarden/svg-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/zendeskgarden/svg-icons/blob/main/LICENSE.md"
+    },
+    "samples": [
+      "asterisk-stroke-12",
+      "bookmark-fill-12",
+      "moon-fill-12",
+      "x-stroke-16",
+      "menu-stroke-12",
+      "heading-stroke-12"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "garden",
+    "family": "beautiful",
+    "variant": "original",
+    "exported": 492
+  }
+}

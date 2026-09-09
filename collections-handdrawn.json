@@ -1,0 +1,1826 @@
+{
+  "handdrawn:streamline-freehand": {
+    "name": "Freehand free icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "terminal",
+      "cursor-speed-1",
+      "lock-cancel-slash",
+      "data-transfer-vertical",
+      "discount-percent-thin",
+      "layouts-right"
+    ],
+    "height": 24,
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "streamline-freehand",
+    "family": "handdrawn",
+    "variant": "native-freehand",
+    "exported": 1000
+  },
+  "handdrawn:streamline-freehand-color": {
+    "name": "Freehand color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "discount-percent-thin",
+      "cursor-speed-1",
+      "data-transfer-diagonal",
+      "terminal",
+      "delete-disable-block-1",
+      "power-button"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-freehand-color",
+    "family": "handdrawn",
+    "variant": "native-freehand",
+    "exported": 1000
+  },
+  "handdrawn:icon-park": {
+    "name": "IconPark",
+    "total": 2658,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "icon-park",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2658
+  },
+  "handdrawn:streamline-color": {
+    "name": "Streamline color",
+    "total": 2000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "graph",
+      "pie-chart-flat",
+      "filter-2",
+      "asterisk-1",
+      "flash-2-flat",
+      "bracket"
+    ],
+    "height": 28,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2000
+  },
+  "handdrawn:streamline-plump-color": {
+    "name": "Plump color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "tune-adjust-volume",
+      "pacman-flat",
+      "web",
+      "sad-face",
+      "location-pin-flat",
+      "smiley-indiferent-flat"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "streamline-plump-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1000
+  },
+  "handdrawn:streamline-flex-color": {
+    "name": "Flex color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "fahrenheit",
+      "tablet-capsule-flat",
+      "shuffle",
+      "music-equalizer",
+      "thermometer-flat",
+      "merge-vertical"
+    ],
+    "height": 28,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-flex-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1000
+  },
+  "handdrawn:streamline-sharp-color": {
+    "name": "Sharp color icons",
+    "total": 1000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "file-bookmark-flat",
+      "double-bookmark-flat",
+      "battery-medium-3-flat",
+      "bluetooth",
+      "new-folder-flat",
+      "check"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "prefix": "streamline-sharp-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1000
+  },
+  "handdrawn:fluent": {
+    "name": "Fluent UI System Icons",
+    "total": 19757,
+    "version": "1.1.339",
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-system-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "zoom-out-24-filled",
+      "drink-coffee-24-regular",
+      "photo-filter-24-regular",
+      "checkmark-24-filled",
+      "oval-24-filled",
+      "cloud-24-filled"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "fluent",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:ph": {
+    "name": "Phosphor",
+    "total": 9072,
+    "version": "2.1.1",
+    "author": {
+      "name": "Phosphor Icons",
+      "url": "https://github.com/phosphor-icons/core"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    },
+    "samples": [
+      "folder-open-duotone",
+      "check-square-offset-thin",
+      "pencil-line-fill",
+      "check-thin",
+      "browser-duotone",
+      "thermometer-simple-fill"
+    ],
+    "height": 24,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ph",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:solar": {
+    "name": "Solar",
+    "total": 7608,
+    "author": {
+      "name": "480 Design",
+      "url": "https://www.figma.com/community/file/1166831539721848736"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "magnifier-zoom-out-broken",
+      "armchair-2-bold-duotone",
+      "traffic-economy-line-duotone",
+      "user-rounded-bold-duotone",
+      "soundwave-linear",
+      "hamburger-menu-broken"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "solar",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:tabler": {
+    "name": "Tabler Icons",
+    "total": 6184,
+    "version": "3.46.0",
+    "author": {
+      "name": "Paweł Kuna",
+      "url": "https://github.com/tabler/tabler-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tabler/tabler-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "alien",
+      "device-desktop",
+      "photo",
+      "chevron-right",
+      "check",
+      "square-root"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "tabler",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:hugeicons": {
+    "name": "Huge Icons",
+    "total": 5979,
+    "author": {
+      "name": "Hugeicons",
+      "url": "https://icon-sets.iconify.design/icon-sets/hugeicons/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT"
+    },
+    "samples": [
+      "analytics-up",
+      "android",
+      "search-02",
+      "tick-02",
+      "not-equal-sign",
+      "text-align-left-01"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "hugeicons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:mingcute": {
+    "name": "MingCute Icon",
+    "total": 3320,
+    "author": {
+      "name": "MingCute Design",
+      "url": "https://github.com/Richard9394/MingCute"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    },
+    "samples": [
+      "edit-3-line",
+      "alert-fill",
+      "riding-line",
+      "layout-9-line",
+      "currency-dollar-2-line",
+      "trello-board-fill"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "mingcute",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:ri": {
+    "name": "Remix Icon",
+    "total": 3188,
+    "version": "4.8.0",
+    "author": {
+      "name": "Remix Design",
+      "url": "https://github.com/cyberalien/RemixIcon"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/cyberalien/RemixIcon/blob/master/License"
+    },
+    "samples": [
+      "lock-2-line",
+      "mark-pen-fill",
+      "moon-line",
+      "filter-2-fill",
+      "text",
+      "add-line"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ri",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:streamline": {
+    "name": "Streamline",
+    "total": 3000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "sign-hashtag",
+      "open-umbrella-solid",
+      "graph-bar-increase",
+      "camping-tent",
+      "add-circle-solid",
+      "filter-2"
+    ],
+    "height": 28,
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "streamline",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:icon-park-outline": {
+    "name": "IconPark Outline",
+    "total": 2658,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "icon-park-outline",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2658
+  },
+  "handdrawn:mynaui": {
+    "name": "Myna UI Icons",
+    "total": 2620,
+    "author": {
+      "name": "Praveen Juge",
+      "url": "https://github.com/praveenjuge/mynaui-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/praveenjuge/mynaui-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "signal",
+      "power",
+      "tree",
+      "cart",
+      "filter",
+      "cog-three"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "mynaui",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2892
+  },
+  "handdrawn:carbon": {
+    "name": "Carbon",
+    "total": 2618,
+    "version": "11.87.0",
+    "author": {
+      "name": "IBM",
+      "url": "https://github.com/carbon-design-system/carbon/tree/main/packages/icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0"
+    },
+    "samples": [
+      "user-certification",
+      "humidity",
+      "edit-off",
+      "flag-filled",
+      "binding-01",
+      "mac-option"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "carbon",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2779
+  },
+  "handdrawn:bi": {
+    "name": "Bootstrap Icons",
+    "total": 2078,
+    "version": "1.13.1",
+    "author": {
+      "name": "The Bootstrap Authors",
+      "url": "https://github.com/twbs/icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/twbs/icons/blob/main/LICENSE.md"
+    },
+    "samples": [
+      "graph-up",
+      "card-image",
+      "code-slash",
+      "egg-fill",
+      "brilliance",
+      "toggle-on"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "bi",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2090
+  },
+  "handdrawn:griddy-icons": {
+    "name": "Griddy Icons",
+    "total": 2010,
+    "version": "0.2.0",
+    "author": {
+      "name": "Zuzana Benova",
+      "url": "https://github.com/griddy-icons/griddy-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/griddy-icons/griddy-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "annotation",
+      "twitch-filled",
+      "chart-bar-up-alt",
+      "framer-filled",
+      "etsy",
+      "egg-filled"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "griddy-icons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2010
+  },
+  "handdrawn:streamline-ultimate": {
+    "name": "Ultimate free icons",
+    "total": 1999,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "power-button",
+      "arrow-right",
+      "stairs-descend",
+      "mouse-smart-bold",
+      "end-point-circle",
+      "subtract-circle-bold"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "streamline-ultimate",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1999
+  },
+  "handdrawn:icon-park-solid": {
+    "name": "IconPark Solid",
+    "total": 1947,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "icon-park-solid",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1970
+  },
+  "handdrawn:icon-park-twotone": {
+    "name": "IconPark TwoTone",
+    "total": 1944,
+    "version": "1.4.2",
+    "author": {
+      "name": "ByteDance",
+      "url": "https://github.com/bytedance/IconPark"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-one",
+      "english-mustache",
+      "basketball-clothes",
+      "sort",
+      "lightning",
+      "pinwheel"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "icon-park-twotone",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1947
+  },
+  "handdrawn:lucide": {
+    "name": "Lucide",
+    "total": 1816,
+    "author": {
+      "name": "Lucide Contributors",
+      "url": "https://github.com/lucide-icons/lucide"
+    },
+    "license": {
+      "title": "ISC",
+      "spdx": "ISC",
+      "url": "https://github.com/lucide-icons/lucide/blob/main/LICENSE"
+    },
+    "samples": [
+      "circle-check",
+      "award",
+      "house",
+      "check",
+      "mountain",
+      "chevron-up"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "lucide",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2102
+  },
+  "handdrawn:iconamoon": {
+    "name": "IconaMoon",
+    "total": 1781,
+    "author": {
+      "name": "Dariush Habibpour",
+      "url": "https://github.com/dariushhpg1/IconaMoon"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shield-off-thin",
+      "lightning-1-duotone",
+      "player-previous-fill",
+      "folder-remove-duotone",
+      "frame-bold",
+      "menu-kebab-vertical-circle-light"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "iconamoon",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1818
+  },
+  "handdrawn:streamline-sharp": {
+    "name": "Sharp free icons",
+    "total": 1500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "home-1",
+      "paperclip-2",
+      "new-folder",
+      "check",
+      "webcam-video-solid",
+      "wave-signal"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "palette": false,
+    "prefix": "streamline-sharp",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1500
+  },
+  "handdrawn:streamline-flex": {
+    "name": "Flex free icons",
+    "total": 1500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shield-2",
+      "number-sign",
+      "heart",
+      "merge-vertical",
+      "thermometer-solid",
+      "music-equalizer"
+    ],
+    "height": 28,
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "streamline-flex",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1500
+  },
+  "handdrawn:streamline-plump": {
+    "name": "Plump free icons",
+    "total": 1499,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "smiley-indiferent",
+      "music-note-2",
+      "web",
+      "circle-clock",
+      "loading-horizontal-2",
+      "steps-1-solid"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "palette": false,
+    "prefix": "streamline-plump",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1499
+  },
+  "handdrawn:ion": {
+    "name": "IonIcons",
+    "total": 1357,
+    "version": "8.0.13",
+    "author": {
+      "name": "Ben Sperry",
+      "url": "https://github.com/ionic-team/ionicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/ionic-team/ionicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "code-download-sharp",
+      "contrast-outline",
+      "checkmark-done",
+      "navigate-sharp",
+      "arrow-redo-outline",
+      "bookmark-sharp"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ion",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2607
+  },
+  "handdrawn:heroicons": {
+    "name": "HeroIcons",
+    "total": 1288,
+    "version": "2.2.0",
+    "author": {
+      "name": "Refactoring UI Inc",
+      "url": "https://github.com/tailwindlabs/heroicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "camera",
+      "building-library",
+      "receipt-refund",
+      "bookmark",
+      "cloud",
+      "folder"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "heroicons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1297
+  },
+  "handdrawn:teenyicons": {
+    "name": "Teenyicons",
+    "total": 1200,
+    "version": "0.4.1",
+    "author": {
+      "name": "smhmd",
+      "url": "https://github.com/teenyicons/teenyicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/teenyicons/teenyicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "face-id-solid",
+      "user-outline",
+      "page-break-outline",
+      "hexagon-outline",
+      "send-left-outline",
+      "frame-solid"
+    ],
+    "height": 15,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "teenyicons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1200
+  },
+  "handdrawn:clarity": {
+    "name": "Clarity",
+    "total": 1103,
+    "author": {
+      "name": "VMware",
+      "url": "https://github.com/vmware/clarity"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/vmware/clarity-assets/blob/master/LICENSE"
+    },
+    "samples": [
+      "help-outline-badged",
+      "heart-broken-solid",
+      "shield-outline-alerted",
+      "bookmark-solid",
+      "check-line",
+      "tablet-solid"
+    ],
+    "height": 36,
+    "displayHeight": 18,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "clarity",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1105
+  },
+  "handdrawn:streamline-ultimate-color": {
+    "name": "Ultimate color icons",
+    "total": 998,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "touch-up",
+      "like",
+      "download-bottom",
+      "power-button",
+      "move-expand-vertical",
+      "keyboard-asterisk-3"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-ultimate-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 998
+  },
+  "handdrawn:fluent-color": {
+    "name": "Fluent UI System Color Icons",
+    "total": 890,
+    "version": "1.1.339",
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-system-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "mic-20",
+      "alert-32",
+      "wrench-24",
+      "shifts-32",
+      "add-circle-16",
+      "shield-24"
+    ],
+    "category": "UI Multicolor",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": true,
+    "prefix": "fluent-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 890
+  },
+  "handdrawn:streamline-cyber-color": {
+    "name": "Cyber color icons",
+    "total": 500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shopping-basket-3",
+      "command-2",
+      "music-note-1",
+      "loop-diamond",
+      "cursor-scroll-vertical",
+      "map-target-2"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": true,
+    "prefix": "streamline-cyber-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 500
+  },
+  "handdrawn:streamline-kameleon-color": {
+    "name": "Kameleon color icons",
+    "total": 400,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "pointer",
+      "filter-duo",
+      "text-file",
+      "oven-glove-duo",
+      "prism-2",
+      "bank-duo"
+    ],
+    "height": 24,
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-kameleon-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 400
+  },
+  "handdrawn:streamline-stickies-color": {
+    "name": "Stickies color icons",
+    "total": 200,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "mail",
+      "love",
+      "validation-1",
+      "help",
+      "graph-pie",
+      "cursor"
+    ],
+    "category": "UI Multicolor",
+    "palette": true,
+    "prefix": "streamline-stickies-color",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 200
+  },
+  "handdrawn:gravity-ui": {
+    "name": "Gravity UI Icons",
+    "total": 799,
+    "version": "2.22.0",
+    "author": {
+      "name": "YANDEX LLC",
+      "url": "https://github.com/gravity-ui/icons/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/gravity-ui/icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "magnifier",
+      "bookmark-fill",
+      "display",
+      "italic",
+      "caret-down",
+      "ban"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "gravity-ui",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 799
+  },
+  "handdrawn:majesticons": {
+    "name": "Majesticons",
+    "total": 760,
+    "version": "2.1.3",
+    "author": {
+      "name": "Gerrit Halfmann",
+      "url": "https://github.com/halfmage/majesticons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/halfmage/majesticons/blob/main/LICENSE"
+    },
+    "samples": [
+      "chats-line",
+      "home",
+      "edit-pen-4-line",
+      "pulse",
+      "send-line",
+      "lightning-bolt"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "majesticons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1045
+  },
+  "handdrawn:octicon": {
+    "name": "Octicons",
+    "total": 749,
+    "author": {
+      "name": "GitHub",
+      "url": "https://github.com/primer/octicons/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/primer/octicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "alert-24",
+      "bell-slash-24",
+      "hourglass-24",
+      "skip-fill-16",
+      "chevron-up-16",
+      "kebab-horizontal-16"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "octicon",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 951
+  },
+  "handdrawn:streamline-pixel": {
+    "name": "Pixel free icons",
+    "total": 662,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "shopping-shipping-bag-1",
+      "interface-essential-battery",
+      "social-rewards-flag",
+      "interface-essential-synchronize-arrows-square-2",
+      "shopping-shipping-box",
+      "weather-temperature-thermometer"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "streamline-pixel",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 662
+  },
+  "handdrawn:streamline-cyber": {
+    "name": "Cyber free icons",
+    "total": 500,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "music-note-1",
+      "navigation-up-arrow",
+      "map-direction",
+      "glass-1",
+      "phone-5",
+      "fork-knife"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "streamline-cyber",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 500
+  },
+  "handdrawn:lucide-lab": {
+    "name": "Lucide Lab",
+    "total": 373,
+    "author": {
+      "name": "Lucide Contributors",
+      "url": "https://github.com/lucide-icons/lucide-lab"
+    },
+    "license": {
+      "title": "ISC",
+      "spdx": "ISC",
+      "url": "https://github.com/lucide-icons/lucide-lab/blob/main/LICENSE"
+    },
+    "samples": [
+      "venn",
+      "card-credit",
+      "pac-man",
+      "cent",
+      "candlestick-big-lit",
+      "gearbox"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "lucide-lab",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 388
+  },
+  "handdrawn:radix-icons": {
+    "name": "Radix Icons",
+    "total": 332,
+    "version": "1.3.2",
+    "author": {
+      "name": "WorkOS",
+      "url": "https://github.com/radix-ui/icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/radix-ui/icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "width",
+      "checkbox",
+      "code",
+      "border-width",
+      "all-sides",
+      "half-2"
+    ],
+    "height": 15,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "radix-icons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 345
+  },
+  "handdrawn:streamline-block": {
+    "name": "Streamline Block",
+    "total": 300,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "other-ui-chat",
+      "content-write",
+      "content-bookmark",
+      "nature-lightning",
+      "control-buttons-play",
+      "basic-ui-remove"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "streamline-block",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 300
+  },
+  "handdrawn:fe": {
+    "name": "Feather Icon",
+    "total": 255,
+    "version": "1.0.2",
+    "author": {
+      "name": "Megumi Hano",
+      "url": "https://github.com/feathericon/feathericon"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/feathericon/feathericon/blob/master/LICENSE"
+    },
+    "samples": [
+      "add-cart",
+      "comments",
+      "link-external",
+      "check",
+      "bolt",
+      "map"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "fe",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 255
+  },
+  "handdrawn:fluent-emoji": {
+    "name": "Fluent Emoji",
+    "total": 3126,
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-emoji"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE"
+    },
+    "samples": [
+      "avocado",
+      "ticket",
+      "straight-ruler"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "hidden": true,
+    "prefix": "fluent-emoji",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:fluent-mdl2": {
+    "name": "Fluent UI MDL2",
+    "total": 1735,
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui/tree/master/packages/react-icons-mdl2"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui/blob/master/packages/react-icons-mdl2/LICENSE"
+    },
+    "samples": [
+      "flow",
+      "home",
+      "switch",
+      "caret-solid-16",
+      "accept",
+      "wind-direction"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "fluent-mdl2",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1735
+  },
+  "handdrawn:feather": {
+    "name": "Feather Icons",
+    "total": 286,
+    "author": {
+      "name": "Cole Bemis",
+      "url": "https://github.com/feathericons/feather"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/feathericons/feather/blob/master/LICENSE"
+    },
+    "samples": [
+      "check-circle",
+      "award",
+      "home"
+    ],
+    "height": 24,
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "hidden": true,
+    "prefix": "feather",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 286
+  },
+  "handdrawn:heroicons-outline": {
+    "name": "HeroIcons v1 Outline",
+    "total": 230,
+    "version": "1.0.6",
+    "author": {
+      "name": "Refactoring UI Inc",
+      "url": "https://github.com/tailwindlabs/heroicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "color-swatch",
+      "library",
+      "receipt-refund",
+      "bookmark",
+      "cloud",
+      "folder"
+    ],
+    "height": 24,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "heroicons-outline",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 385
+  },
+  "handdrawn:heroicons-solid": {
+    "name": "HeroIcons v1 Solid",
+    "total": 230,
+    "version": "1.0.6",
+    "author": {
+      "name": "Refactoring UI Inc",
+      "url": "https://github.com/tailwindlabs/heroicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
+    },
+    "samples": [
+      "color-swatch",
+      "library",
+      "receipt-refund",
+      "bookmark",
+      "cloud",
+      "folder"
+    ],
+    "height": 20,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "heroicons-solid",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 389
+  },
+  "handdrawn:iconmind": {
+    "name": "IconMind",
+    "total": 22722,
+    "author": {
+      "name": "IconMind",
+      "url": "https://github.com/Iconmind/iconmind"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/Iconmind/iconmind/blob/main/LICENSE"
+    },
+    "samples": [
+      "agent-outline-regular",
+      "vector-database-duotone-thin",
+      "stub-tool-outline-bold",
+      "crop-outline-bold",
+      "action-step-outline-thin",
+      "bottom-sheet-duotone-bold"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "iconmind",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:reicon": {
+    "name": "Reicon",
+    "total": 6590,
+    "version": "1.4.1",
+    "author": {
+      "name": "REICON",
+      "url": "https://github.com/dqev/reicon"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/dqev/reicon/blob/main/LICENSE"
+    },
+    "samples": [
+      "ruler4",
+      "cart-add2-filled",
+      "search-normal2",
+      "command-filled",
+      "sort3",
+      "user2-filled"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "reicon",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:boxicons": {
+    "name": "Boxicons",
+    "total": 3768,
+    "version": "1.0.5",
+    "author": {
+      "name": "Boxicons",
+      "url": "https://github.com/box-icons/boxicons-core"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/box-icons/boxicons-core/blob/main/LICENSE"
+    },
+    "samples": [
+      "clock-2-filled",
+      "desk",
+      "battery-filled",
+      "crop",
+      "crypto-coin-filled",
+      "scan"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "boxicons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:glyphs": {
+    "name": "Glyphs",
+    "total": 3452,
+    "author": {
+      "name": "Goran Spasojevic",
+      "url": "https://github.com/gorango/glyphs"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/gorango/glyphs/blob/main/license"
+    },
+    "samples": [
+      "mouse-2-bold",
+      "object-select",
+      "comment-1-duo",
+      "asterisk-outline",
+      "search-1-duo",
+      "bandage"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "glyphs",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:keyline-icons": {
+    "name": "Keyline Icons",
+    "total": 3250,
+    "author": {
+      "name": "Keyline Icons",
+      "url": "https://github.com/keyline-icons/keyline-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/keyline-icons/keyline-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "arrow-up-narrow-wide-duotone",
+      "credit-card-fill",
+      "upload",
+      "activity",
+      "terminal",
+      "bar-chart"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "keyline-icons",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 3000
+  },
+  "handdrawn:tdesign": {
+    "name": "TDesign Icons",
+    "total": 2356,
+    "author": {
+      "name": "TDesign",
+      "url": "https://github.com/Tencent/tdesign-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/Tencent/tdesign-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "activity",
+      "doge",
+      "dam",
+      "view-list",
+      "rotation",
+      "laptop"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "tdesign",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 2370
+  },
+  "handdrawn:fa7-solid": {
+    "name": "Font Awesome Solid",
+    "total": 2000,
+    "version": "7.3.1",
+    "author": {
+      "name": "Dave Gandy",
+      "url": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "location-pin",
+      "gem",
+      "folder",
+      "mound",
+      "toggle-on",
+      "table-columns"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "fa7-solid",
+    "family": "handdrawn",
+    "variant": "generated-freehand",
+    "exported": 1971
+  }
+}
