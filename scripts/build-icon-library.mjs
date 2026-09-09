@@ -1,9 +1,7 @@
 // Generates a diverse, redistributable 100k SVG library from current Iconify collections.
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { parseIconSet } from '@iconify/utils/lib/icon-set/parse';
-import { iconToSVG } from '@iconify/utils/lib/svg/build';
-import { defaults } from '@iconify/utils/lib/customisations';
+import { parseIconSet, iconToSVG } from '@iconify/utils';
 
 const sourceRoot = process.argv[2] || '.cache/iconify';
 const target = Number(process.argv[3] || '100000');
@@ -44,7 +42,7 @@ for (const [prefix, meta] of prefixes) {
   parseIconSet(data, (iconName, iconData) => {
     if (!iconData || total >= target || exported >= maxPerCollection) return;
 
-    const render = iconToSVG(iconData, { ...defaults, height: 'auto' });
+    const render = iconToSVG(iconData, { height: 'auto' });
     const attrs = {
       xmlns: 'http://www.w3.org/2000/svg',
       'xmlns:xlink': 'http://www.w3.org/1999/xlink',
