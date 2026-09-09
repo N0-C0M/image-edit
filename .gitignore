@@ -1,7 +1,16 @@
-# Licensed / locally downloaded Icons8 assets
-vendor/icons8/
-.local/icons8/
-.tmp/icons8/
+# Local build/cache directories
+.cache/
+.tmp/
+.local/
+vendor/
+node_modules/
+
+# Generated local archives and previews
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.log
 
 # API secrets
 .env
