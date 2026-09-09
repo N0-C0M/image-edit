@@ -1,0 +1,4428 @@
+{
+  "generatedAt": "2026-09-09T18:42:38.565Z",
+  "totals": {
+    "color": 59526,
+    "duotone": 24607,
+    "rounded": 10043,
+    "outline": 42702,
+    "sticker": 812,
+    "brand": 26073,
+    "filled": 63669,
+    "game": 4517,
+    "handdrawn": 103524,
+    "pixel": 1393,
+    "glass": 359,
+    "sharp": 12213,
+    "standard": 60073,
+    "minimal": 1444,
+    "neon": 11
+  },
+  "packs": {
+    "standard": [
+      {
+        "pack": "core:hugeicons",
+        "count": 4905
+      },
+      {
+        "pack": "core:tabler",
+        "count": 3685
+      },
+      {
+        "pack": "core:mdi",
+        "count": 3532
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 2841
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 2475
+      },
+      {
+        "pack": "core:ph",
+        "count": 2155
+      },
+      {
+        "pack": "core:ic",
+        "count": 2129
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 2021
+      },
+      {
+        "pack": "core:reicon",
+        "count": 2020
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 1776
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 1676
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 1615
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 1505
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 1396
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 1367
+      },
+      {
+        "pack": "beautiful:bi",
+        "count": 1349
+      },
+      {
+        "pack": "beautiful:tdesign",
+        "count": 1285
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 1218
+      },
+      {
+        "pack": "core:material-symbols",
+        "count": 1216
+      },
+      {
+        "pack": "core:material-symbols-light",
+        "count": 1191
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 1138
+      },
+      {
+        "pack": "beautiful:ix",
+        "count": 1075
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 966
+      },
+      {
+        "pack": "beautiful:pepicons-pop",
+        "count": 963
+      },
+      {
+        "pack": "beautiful:pepicons-print",
+        "count": 963
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 930
+      },
+      {
+        "pack": "beautiful:jam",
+        "count": 929
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 911
+      },
+      {
+        "pack": "beautiful:iconamoon",
+        "count": 900
+      },
+      {
+        "pack": "beautiful:octicon",
+        "count": 885
+      },
+      {
+        "pack": "beautiful:lets-icons",
+        "count": 873
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 822
+      },
+      {
+        "pack": "core:solar",
+        "count": 788
+      },
+      {
+        "pack": "beautiful:f7",
+        "count": 705
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 657
+      },
+      {
+        "pack": "beautiful:keyline-icons",
+        "count": 627
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 572
+      },
+      {
+        "pack": "beautiful:stash",
+        "count": 526
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 507
+      },
+      {
+        "pack": "beautiful:streamline-cyber",
+        "count": 491
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 409
+      },
+      {
+        "pack": "beautiful:lucide-lab",
+        "count": 386
+      },
+      {
+        "pack": "beautiful:heroicons",
+        "count": 314
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 314
+      },
+      {
+        "pack": "beautiful:streamline-block",
+        "count": 297
+      },
+      {
+        "pack": "beautiful:feather",
+        "count": 285
+      },
+      {
+        "pack": "beautiful:fe",
+        "count": 250
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 148
+      },
+      {
+        "pack": "core:fluent",
+        "count": 52
+      },
+      {
+        "pack": "beautiful:garden",
+        "count": 33
+      }
+    ],
+    "filled": [
+      {
+        "pack": "core:fluent",
+        "count": 2477
+      },
+      {
+        "pack": "core:reicon",
+        "count": 2051
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 2000
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 1971
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 1970
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 1970
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 1887
+      },
+      {
+        "pack": "core:solar",
+        "count": 1688
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 1683
+      },
+      {
+        "pack": "core:iconmind",
+        "count": 1667
+      },
+      {
+        "pack": "core:ph",
+        "count": 1667
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 1547
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 1503
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 1501
+      },
+      {
+        "pack": "handdrawn:fluent",
+        "count": 1484
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 1436
+      },
+      {
+        "pack": "handdrawn:mynaui",
+        "count": 1436
+      },
+      {
+        "pack": "handdrawn:ri",
+        "count": 1427
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 1238
+      },
+      {
+        "pack": "beautiful:tdesign",
+        "count": 1026
+      },
+      {
+        "pack": "handdrawn:tdesign",
+        "count": 1026
+      },
+      {
+        "pack": "handdrawn:solar",
+        "count": 1012
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 1007
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 1001
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 1001
+      },
+      {
+        "pack": "handdrawn:iconmind",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 1000
+      },
+      {
+        "pack": "beautiful:heroicons",
+        "count": 971
+      },
+      {
+        "pack": "handdrawn:heroicons",
+        "count": 971
+      },
+      {
+        "pack": "beautiful:keyline-icons",
+        "count": 948
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 893
+      },
+      {
+        "pack": "handdrawn:keyline-icons",
+        "count": 879
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 852
+      },
+      {
+        "pack": "core:tabler",
+        "count": 852
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 852
+      },
+      {
+        "pack": "handdrawn:glyphs",
+        "count": 780
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 731
+      },
+      {
+        "pack": "beautiful:bi",
+        "count": 707
+      },
+      {
+        "pack": "handdrawn:bi",
+        "count": 707
+      },
+      {
+        "pack": "beautiful:iconamoon",
+        "count": 606
+      },
+      {
+        "pack": "handdrawn:iconamoon",
+        "count": 606
+      },
+      {
+        "pack": "beautiful:teenyicons",
+        "count": 601
+      },
+      {
+        "pack": "handdrawn:teenyicons",
+        "count": 601
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 546
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 502
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 502
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 500
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 500
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 500
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 500
+      },
+      {
+        "pack": "beautiful:clarity",
+        "count": 477
+      },
+      {
+        "pack": "handdrawn:clarity",
+        "count": 477
+      },
+      {
+        "pack": "beautiful:f7",
+        "count": 471
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 448
+      },
+      {
+        "pack": "beautiful:si",
+        "count": 441
+      },
+      {
+        "pack": "beautiful:heroicons-solid",
+        "count": 389
+      },
+      {
+        "pack": "handdrawn:heroicons-solid",
+        "count": 389
+      },
+      {
+        "pack": "beautiful:ix",
+        "count": 387
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 345
+      },
+      {
+        "pack": "beautiful:pepicons-pop",
+        "count": 311
+      },
+      {
+        "pack": "beautiful:pepicons-print",
+        "count": 299
+      },
+      {
+        "pack": "beautiful:pepicons-pencil",
+        "count": 299
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 296
+      },
+      {
+        "pack": "beautiful:lets-icons",
+        "count": 239
+      },
+      {
+        "pack": "beautiful:garden",
+        "count": 234
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 191
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 191
+      },
+      {
+        "pack": "beautiful:stash",
+        "count": 168
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 155
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 155
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 70
+      },
+      {
+        "pack": "handdrawn:gravity-ui",
+        "count": 70
+      },
+      {
+        "pack": "core:mdi",
+        "count": 67
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 55
+      },
+      {
+        "pack": "beautiful:octicon",
+        "count": 51
+      },
+      {
+        "pack": "handdrawn:octicon",
+        "count": 51
+      },
+      {
+        "pack": "core:ic",
+        "count": 33
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 11
+      },
+      {
+        "pack": "handdrawn:radix-icons",
+        "count": 11
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 4
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:majesticons",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:jam",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 2
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 2
+      },
+      {
+        "pack": "core:token-branded",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:lucide",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-pixel",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:lucide-lab",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-block",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:feather",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:fe",
+        "count": 1
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 1
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-pixel",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:lucide-lab",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-block",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:feather",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fe",
+        "count": 1
+      }
+    ],
+    "game": [
+      {
+        "pack": "core:game-icons",
+        "count": 4137
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 16
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 16
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 16
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 16
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 13
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 13
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 9
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 9
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:streamline-color",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:streamline-color",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 7
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 6
+      },
+      {
+        "pack": "core:ph",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:streamline-pixel",
+        "count": 5
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 5
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 5
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:streamline-pixel",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:teenyicons",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "core:reicon",
+        "count": 4
+      },
+      {
+        "pack": "core:token-branded",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:ri",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:teenyicons",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 3
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 3
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 3
+      },
+      {
+        "pack": "core:noto",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 2
+      },
+      {
+        "pack": "core:mdi",
+        "count": 2
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:fluent-color",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:marketeq",
+        "count": 1
+      },
+      {
+        "pack": "core:tabler",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fluent-color",
+        "count": 1
+      }
+    ],
+    "rounded": [
+      {
+        "pack": "core:material-symbols-light",
+        "count": 1790
+      },
+      {
+        "pack": "core:material-symbols",
+        "count": 1766
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 1499
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 1499
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 1000
+      },
+      {
+        "pack": "core:ic",
+        "count": 623
+      },
+      {
+        "pack": "core:solar",
+        "count": 192
+      },
+      {
+        "pack": "handdrawn:solar",
+        "count": 108
+      },
+      {
+        "pack": "beautiful:lets-icons",
+        "count": 31
+      },
+      {
+        "pack": "core:reicon",
+        "count": 27
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 27
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 25
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 21
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 20
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 19
+      },
+      {
+        "pack": "handdrawn:lucide",
+        "count": 19
+      },
+      {
+        "pack": "core:tabler",
+        "count": 15
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 14
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 14
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 13
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 13
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 13
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 13
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 13
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 13
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 10
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 10
+      },
+      {
+        "pack": "core:mdi",
+        "count": 10
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 10
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 10
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 10
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 9
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:glyphs",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 8
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:tdesign",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-color",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 6
+      },
+      {
+        "pack": "core:ph",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:tdesign",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-color",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:pepicons-pop",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:pepicons-print",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:pepicons-pencil",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:heroicons",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-flex-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:heroicons",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-flex-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:marketeq",
+        "count": 2
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 2
+      },
+      {
+        "pack": "core:noto",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:ix",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:ri",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:gravity-ui",
+        "count": 1
+      }
+    ],
+    "duotone": [
+      {
+        "pack": "core:iconmind",
+        "count": 2501
+      },
+      {
+        "pack": "core:noto",
+        "count": 2152
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 2151
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 2079
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 1947
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 1947
+      },
+      {
+        "pack": "core:solar",
+        "count": 1691
+      },
+      {
+        "pack": "handdrawn:iconmind",
+        "count": 1500
+      },
+      {
+        "pack": "beautiful:keyline-icons",
+        "count": 1044
+      },
+      {
+        "pack": "handdrawn:solar",
+        "count": 1005
+      },
+      {
+        "pack": "handdrawn:keyline-icons",
+        "count": 959
+      },
+      {
+        "pack": "core:reicon",
+        "count": 906
+      },
+      {
+        "pack": "core:ph",
+        "count": 838
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 534
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 504
+      },
+      {
+        "pack": "beautiful:si",
+        "count": 443
+      },
+      {
+        "pack": "beautiful:lets-icons",
+        "count": 408
+      },
+      {
+        "pack": "beautiful:iconamoon",
+        "count": 303
+      },
+      {
+        "pack": "handdrawn:iconamoon",
+        "count": 303
+      },
+      {
+        "pack": "beautiful:stash",
+        "count": 272
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 148
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 148
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 148
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 148
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 110
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 110
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 44
+      },
+      {
+        "pack": "handdrawn:mynaui",
+        "count": 44
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 18
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 12
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 12
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 12
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 11
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 9
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:streamline-color",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:streamline-color",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 6
+      },
+      {
+        "pack": "core:ic",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 4
+      },
+      {
+        "pack": "core:mdi",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:ix",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:clarity",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 1
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "core:tabler",
+        "count": 1
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:clarity",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 1
+      }
+    ],
+    "color": [
+      {
+        "pack": "core:selfhst",
+        "count": 5000
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 4864
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 4728
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 4651
+      },
+      {
+        "pack": "core:token-branded",
+        "count": 4167
+      },
+      {
+        "pack": "core:noto",
+        "count": 4104
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 3181
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 3000
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 2658
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 2658
+      },
+      {
+        "pack": "beautiful:streamline-color",
+        "count": 2000
+      },
+      {
+        "pack": "handdrawn:streamline-color",
+        "count": 2000
+      },
+      {
+        "pack": "beautiful:streamline-flex-color",
+        "count": 1000
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 1000
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 1000
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-flex-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 1000
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 998
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 998
+      },
+      {
+        "pack": "beautiful:fluent-color",
+        "count": 890
+      },
+      {
+        "pack": "handdrawn:fluent-color",
+        "count": 890
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 863
+      },
+      {
+        "pack": "beautiful:marketeq",
+        "count": 590
+      },
+      {
+        "pack": "beautiful:streamline-cyber-color",
+        "count": 500
+      },
+      {
+        "pack": "handdrawn:streamline-cyber-color",
+        "count": 500
+      },
+      {
+        "pack": "beautiful:streamline-kameleon-color",
+        "count": 400
+      },
+      {
+        "pack": "handdrawn:streamline-kameleon-color",
+        "count": 400
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 380
+      },
+      {
+        "pack": "beautiful:streamline-stickies-color",
+        "count": 200
+      },
+      {
+        "pack": "handdrawn:streamline-stickies-color",
+        "count": 200
+      },
+      {
+        "pack": "core:material-symbols-light",
+        "count": 37
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 35
+      },
+      {
+        "pack": "beautiful:bi",
+        "count": 34
+      },
+      {
+        "pack": "handdrawn:bi",
+        "count": 34
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 31
+      },
+      {
+        "pack": "core:ic",
+        "count": 30
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 29
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 23
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 23
+      },
+      {
+        "pack": "core:solar",
+        "count": 18
+      },
+      {
+        "pack": "handdrawn:solar",
+        "count": 18
+      },
+      {
+        "pack": "core:reicon",
+        "count": 17
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 17
+      },
+      {
+        "pack": "beautiful:stash",
+        "count": 16
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 14
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 14
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 12
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 12
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 12
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 11
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 11
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 10
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:streamline-pixel",
+        "count": 8
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:streamline-pixel",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:tdesign",
+        "count": 7
+      },
+      {
+        "pack": "core:mdi",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:ri",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:tdesign",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:si",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 6
+      },
+      {
+        "pack": "core:iconmind",
+        "count": 6
+      },
+      {
+        "pack": "core:material-symbols",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:majesticons",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:pepicons-pop",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:pepicons-print",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:pepicons-pencil",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:clarity",
+        "count": 5
+      },
+      {
+        "pack": "core:tabler",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:mynaui",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:clarity",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:lets-icons",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:heroicons-solid",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:heroicons-outline",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:heroicons-solid",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:heroicons-outline",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:jam",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-block",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-block",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:radix-icons",
+        "count": 1
+      }
+    ],
+    "brand": [
+      {
+        "pack": "core:arcticons",
+        "count": 5000
+      },
+      {
+        "pack": "core:selfhst",
+        "count": 5000
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 4864
+      },
+      {
+        "pack": "core:token-branded",
+        "count": 4167
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 3751
+      },
+      {
+        "pack": "core:simple-icons",
+        "count": 830
+      },
+      {
+        "pack": "core:tabler",
+        "count": 411
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 411
+      },
+      {
+        "pack": "core:ph",
+        "count": 180
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 174
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 174
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 94
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 80
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 80
+      },
+      {
+        "pack": "beautiful:tdesign",
+        "count": 78
+      },
+      {
+        "pack": "handdrawn:tdesign",
+        "count": 78
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 72
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 52
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 52
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 46
+      },
+      {
+        "pack": "handdrawn:mynaui",
+        "count": 46
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 40
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 40
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 40
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 40
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 35
+      },
+      {
+        "pack": "handdrawn:gravity-ui",
+        "count": 35
+      },
+      {
+        "pack": "beautiful:streamline-pixel",
+        "count": 21
+      },
+      {
+        "pack": "handdrawn:streamline-pixel",
+        "count": 21
+      },
+      {
+        "pack": "beautiful:f7",
+        "count": 17
+      },
+      {
+        "pack": "beautiful:ix",
+        "count": 16
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 14
+      },
+      {
+        "pack": "handdrawn:radix-icons",
+        "count": 14
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 12
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:octicon",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:octicon",
+        "count": 6
+      },
+      {
+        "pack": "core:material-symbols",
+        "count": 5
+      },
+      {
+        "pack": "core:material-symbols-light",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 2
+      },
+      {
+        "pack": "core:ic",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 1
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 1
+      }
+    ],
+    "sticker": [
+      {
+        "pack": "beautiful:f7",
+        "count": 65
+      },
+      {
+        "pack": "core:tabler",
+        "count": 42
+      },
+      {
+        "pack": "core:material-symbols",
+        "count": 39
+      },
+      {
+        "pack": "core:material-symbols-light",
+        "count": 39
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 39
+      },
+      {
+        "pack": "beautiful:bi",
+        "count": 26
+      },
+      {
+        "pack": "handdrawn:bi",
+        "count": 26
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 24
+      },
+      {
+        "pack": "core:iconmind",
+        "count": 24
+      },
+      {
+        "pack": "handdrawn:iconmind",
+        "count": 24
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 23
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 23
+      },
+      {
+        "pack": "handdrawn:lucide",
+        "count": 23
+      },
+      {
+        "pack": "core:mdi",
+        "count": 16
+      },
+      {
+        "pack": "beautiful:iconamoon",
+        "count": 12
+      },
+      {
+        "pack": "core:fluent",
+        "count": 12
+      },
+      {
+        "pack": "handdrawn:fluent",
+        "count": 12
+      },
+      {
+        "pack": "handdrawn:iconamoon",
+        "count": 12
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 10
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 9
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 9
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:heroicons",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:stash",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:glyphs",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:heroicons",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:clarity",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-flex-color",
+        "count": 6
+      },
+      {
+        "pack": "core:ph",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:ri",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:clarity",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-flex-color",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:octicon",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:fluent-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:garden",
+        "count": 4
+      },
+      {
+        "pack": "core:reicon",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:octicon",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:fluent-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-cyber-color",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-cyber",
+        "count": 3
+      },
+      {
+        "pack": "core:ic",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-cyber-color",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-cyber",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:heroicons-solid",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:heroicons-outline",
+        "count": 2
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:mynaui",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:majesticons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:gravity-ui",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:heroicons-solid",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:heroicons-outline",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:marketeq",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 1
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:noto",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:radix-icons",
+        "count": 1
+      }
+    ],
+    "glass": [
+      {
+        "pack": "beautiful:streamline",
+        "count": 23
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 20
+      },
+      {
+        "pack": "beautiful:heroicons",
+        "count": 20
+      },
+      {
+        "pack": "handdrawn:heroicons",
+        "count": 20
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 19
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 16
+      },
+      {
+        "pack": "core:mdi",
+        "count": 13
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 10
+      },
+      {
+        "pack": "core:tabler",
+        "count": 8
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 8
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 8
+      },
+      {
+        "pack": "core:noto",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 7
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-color",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 6
+      },
+      {
+        "pack": "core:iconmind",
+        "count": 6
+      },
+      {
+        "pack": "core:ph",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:iconmind",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:streamline-color",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:heroicons-solid",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:heroicons-outline",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:heroicons-solid",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:heroicons-outline",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:jam",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-cyber-color",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-cyber",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-cyber-color",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-cyber",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-flex-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-kameleon-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fe",
+        "count": 2
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 2
+      },
+      {
+        "pack": "core:reicon",
+        "count": 2
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 2
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-flex-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-kameleon-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:fe",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:ix",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:lucide-lab",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:lucide",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:lucide-lab",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:radix-icons",
+        "count": 1
+      }
+    ],
+    "outline": [
+      {
+        "pack": "core:iconmind",
+        "count": 3351
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 2658
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 2658
+      },
+      {
+        "pack": "core:solar",
+        "count": 2500
+      },
+      {
+        "pack": "core:fluent",
+        "count": 2489
+      },
+      {
+        "pack": "core:ic",
+        "count": 2225
+      },
+      {
+        "pack": "core:material-symbols-light",
+        "count": 2043
+      },
+      {
+        "pack": "core:material-symbols",
+        "count": 2026
+      },
+      {
+        "pack": "handdrawn:iconmind",
+        "count": 2016
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 1689
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 1549
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 1507
+      },
+      {
+        "pack": "handdrawn:solar",
+        "count": 1499
+      },
+      {
+        "pack": "handdrawn:fluent",
+        "count": 1495
+      },
+      {
+        "pack": "handdrawn:ri",
+        "count": 1429
+      },
+      {
+        "pack": "core:mdi",
+        "count": 1384
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 887
+      },
+      {
+        "pack": "handdrawn:glyphs",
+        "count": 774
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 678
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 678
+      },
+      {
+        "pack": "beautiful:clarity",
+        "count": 632
+      },
+      {
+        "pack": "handdrawn:clarity",
+        "count": 632
+      },
+      {
+        "pack": "beautiful:teenyicons",
+        "count": 602
+      },
+      {
+        "pack": "handdrawn:teenyicons",
+        "count": 602
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 524
+      },
+      {
+        "pack": "handdrawn:majesticons",
+        "count": 524
+      },
+      {
+        "pack": "beautiful:si",
+        "count": 437
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 416
+      },
+      {
+        "pack": "beautiful:heroicons-outline",
+        "count": 385
+      },
+      {
+        "pack": "handdrawn:heroicons-outline",
+        "count": 385
+      },
+      {
+        "pack": "beautiful:garden",
+        "count": 229
+      },
+      {
+        "pack": "beautiful:lets-icons",
+        "count": 203
+      },
+      {
+        "pack": "core:ph",
+        "count": 162
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 156
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 140
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 138
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 54
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 54
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 45
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 41
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 39
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 35
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 30
+      },
+      {
+        "pack": "handdrawn:gravity-ui",
+        "count": 30
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 27
+      },
+      {
+        "pack": "handdrawn:lucide",
+        "count": 27
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 23
+      },
+      {
+        "pack": "beautiful:tdesign",
+        "count": 21
+      },
+      {
+        "pack": "handdrawn:tdesign",
+        "count": 21
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 20
+      },
+      {
+        "pack": "beautiful:ix",
+        "count": 20
+      },
+      {
+        "pack": "beautiful:pepicons-pop",
+        "count": 20
+      },
+      {
+        "pack": "beautiful:pepicons-print",
+        "count": 20
+      },
+      {
+        "pack": "beautiful:pepicons-pencil",
+        "count": 20
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 20
+      },
+      {
+        "pack": "beautiful:f7",
+        "count": 19
+      },
+      {
+        "pack": "core:tabler",
+        "count": 18
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 17
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 17
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 16
+      },
+      {
+        "pack": "handdrawn:mynaui",
+        "count": 16
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 14
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 14
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 12
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 11
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 11
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 10
+      },
+      {
+        "pack": "core:reicon",
+        "count": 10
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 9
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 9
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 9
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 9
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:heroicons",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 8
+      },
+      {
+        "pack": "handdrawn:heroicons",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:keyline-icons",
+        "count": 6
+      },
+      {
+        "pack": "core:selfhst",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:keyline-icons",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:fluent-color",
+        "count": 4
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:fluent-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:bi",
+        "count": 3
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 3
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:bi",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-flex-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:marketeq",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:heroicons-solid",
+        "count": 2
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-flex-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:heroicons-solid",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:jam",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-cyber-color",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:streamline-cyber",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:fe",
+        "count": 1
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 1
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 1
+      },
+      {
+        "pack": "core:noto",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-cyber-color",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:streamline-cyber",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:radix-icons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fe",
+        "count": 1
+      }
+    ],
+    "handdrawn": [
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:fluent-emoji",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:fluent",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:glyphs",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:iconmind",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:keyline-icons",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:mingcute",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:reicon",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:ri",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:solar",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:streamline",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 3000
+      },
+      {
+        "pack": "handdrawn:mynaui",
+        "count": 2892
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 2779
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 2658
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 2658
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 2607
+      },
+      {
+        "pack": "handdrawn:tdesign",
+        "count": 2370
+      },
+      {
+        "pack": "handdrawn:lucide",
+        "count": 2102
+      },
+      {
+        "pack": "handdrawn:bi",
+        "count": 2090
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 2010
+      },
+      {
+        "pack": "handdrawn:streamline-color",
+        "count": 2000
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 1999
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 1971
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 1970
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 1947
+      },
+      {
+        "pack": "handdrawn:iconamoon",
+        "count": 1818
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 1735
+      },
+      {
+        "pack": "handdrawn:streamline-flex",
+        "count": 1500
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 1500
+      },
+      {
+        "pack": "handdrawn:streamline-plump",
+        "count": 1499
+      },
+      {
+        "pack": "handdrawn:heroicons",
+        "count": 1297
+      },
+      {
+        "pack": "beautiful:pepicons-pencil",
+        "count": 1275
+      },
+      {
+        "pack": "handdrawn:teenyicons",
+        "count": 1200
+      },
+      {
+        "pack": "handdrawn:clarity",
+        "count": 1105
+      },
+      {
+        "pack": "handdrawn:majesticons",
+        "count": 1045
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 1000
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-flex-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-plump-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 998
+      },
+      {
+        "pack": "handdrawn:octicon",
+        "count": 951
+      },
+      {
+        "pack": "handdrawn:fluent-color",
+        "count": 890
+      },
+      {
+        "pack": "handdrawn:gravity-ui",
+        "count": 799
+      },
+      {
+        "pack": "handdrawn:streamline-pixel",
+        "count": 662
+      },
+      {
+        "pack": "handdrawn:streamline-cyber-color",
+        "count": 500
+      },
+      {
+        "pack": "handdrawn:streamline-cyber",
+        "count": 500
+      },
+      {
+        "pack": "handdrawn:streamline-kameleon-color",
+        "count": 400
+      },
+      {
+        "pack": "handdrawn:heroicons-solid",
+        "count": 389
+      },
+      {
+        "pack": "handdrawn:lucide-lab",
+        "count": 388
+      },
+      {
+        "pack": "handdrawn:heroicons-outline",
+        "count": 385
+      },
+      {
+        "pack": "handdrawn:radix-icons",
+        "count": 345
+      },
+      {
+        "pack": "handdrawn:streamline-block",
+        "count": 300
+      },
+      {
+        "pack": "handdrawn:feather",
+        "count": 286
+      },
+      {
+        "pack": "handdrawn:fe",
+        "count": 255
+      },
+      {
+        "pack": "handdrawn:streamline-stickies-color",
+        "count": 200
+      },
+      {
+        "pack": "core:tabler",
+        "count": 27
+      },
+      {
+        "pack": "beautiful:mingcute",
+        "count": 14
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 14
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 12
+      },
+      {
+        "pack": "beautiful:ri",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:heroicons",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:f7",
+        "count": 8
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 8
+      },
+      {
+        "pack": "beautiful:stash",
+        "count": 7
+      },
+      {
+        "pack": "beautiful:keyline-icons",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:streamline-plump",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:octicon",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:streamline-pixel",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:clarity",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-plump-color",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-kameleon-color",
+        "count": 4
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:bi",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:streamline-flex",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:marketeq",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:heroicons-solid",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:heroicons-outline",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:radix-icons",
+        "count": 3
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:mynaui",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:dinkie-icons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-flex-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:jam",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-cyber-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-cyber",
+        "count": 2
+      },
+      {
+        "pack": "core:mdi",
+        "count": 2
+      },
+      {
+        "pack": "core:reicon",
+        "count": 2
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:fluent-emoji",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:fe",
+        "count": 1
+      },
+      {
+        "pack": "core:twemoji",
+        "count": 1
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 1
+      },
+      {
+        "pack": "core:noto",
+        "count": 1
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 1
+      }
+    ],
+    "pixel": [
+      {
+        "pack": "beautiful:streamline-pixel",
+        "count": 662
+      },
+      {
+        "pack": "handdrawn:streamline-pixel",
+        "count": 662
+      },
+      {
+        "pack": "beautiful:glyphs",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-ultimate",
+        "count": 4
+      },
+      {
+        "pack": "core:selfhst",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:streamline-ultimate-color",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:streamline-ultimate-color",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:teenyicons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-freehand-color",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline-freehand",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:jam",
+        "count": 2
+      },
+      {
+        "pack": "core:token-branded",
+        "count": 2
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:boxicons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:teenyicons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:majesticons",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-freehand-color",
+        "count": 2
+      },
+      {
+        "pack": "handdrawn:streamline-freehand",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park-outline",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park-solid",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:icon-park-twotone",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:fluent-mdl2",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:glyphs-poly",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:gravity-ui",
+        "count": 1
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 1
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park-outline",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park-solid",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:icon-park-twotone",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:fluent-mdl2",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:gravity-ui",
+        "count": 1
+      }
+    ],
+    "sharp": [
+      {
+        "pack": "beautiful:keyline-icons",
+        "count": 1625
+      },
+      {
+        "pack": "beautiful:streamline-sharp",
+        "count": 1500
+      },
+      {
+        "pack": "handdrawn:streamline-sharp",
+        "count": 1500
+      },
+      {
+        "pack": "handdrawn:keyline-icons",
+        "count": 1499
+      },
+      {
+        "pack": "core:material-symbols",
+        "count": 1212
+      },
+      {
+        "pack": "core:material-symbols-light",
+        "count": 1205
+      },
+      {
+        "pack": "beautiful:streamline-sharp-color",
+        "count": 1000
+      },
+      {
+        "pack": "handdrawn:streamline-sharp-color",
+        "count": 1000
+      },
+      {
+        "pack": "beautiful:ion",
+        "count": 429
+      },
+      {
+        "pack": "handdrawn:ion",
+        "count": 429
+      },
+      {
+        "pack": "beautiful:famicons",
+        "count": 417
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 333
+      },
+      {
+        "pack": "core:ph",
+        "count": 12
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 7
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 6
+      },
+      {
+        "pack": "core:tabler",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:teenyicons",
+        "count": 4
+      },
+      {
+        "pack": "core:ic",
+        "count": 4
+      },
+      {
+        "pack": "handdrawn:teenyicons",
+        "count": 4
+      },
+      {
+        "pack": "beautiful:carbon",
+        "count": 3
+      },
+      {
+        "pack": "core:mdi",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:carbon",
+        "count": 3
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 2
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:streamline",
+        "count": 1
+      },
+      {
+        "pack": "beautiful:griddy-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:simple-icons",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:griddy-icons",
+        "count": 1
+      }
+    ],
+    "minimal": [
+      {
+        "pack": "core:simple-icons",
+        "count": 830
+      },
+      {
+        "pack": "core:ph",
+        "count": 318
+      },
+      {
+        "pack": "handdrawn:ph",
+        "count": 150
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 31
+      },
+      {
+        "pack": "beautiful:si",
+        "count": 24
+      },
+      {
+        "pack": "beautiful:fa7-solid",
+        "count": 12
+      },
+      {
+        "pack": "handdrawn:fa7-solid",
+        "count": 12
+      },
+      {
+        "pack": "beautiful:majesticons",
+        "count": 10
+      },
+      {
+        "pack": "handdrawn:majesticons",
+        "count": 10
+      },
+      {
+        "pack": "beautiful:iconamoon",
+        "count": 6
+      },
+      {
+        "pack": "handdrawn:iconamoon",
+        "count": 6
+      },
+      {
+        "pack": "beautiful:lucide",
+        "count": 5
+      },
+      {
+        "pack": "beautiful:iconoir",
+        "count": 5
+      },
+      {
+        "pack": "handdrawn:lucide",
+        "count": 5
+      },
+      {
+        "pack": "core:hugeicons",
+        "count": 3
+      },
+      {
+        "pack": "handdrawn:hugeicons",
+        "count": 3
+      },
+      {
+        "pack": "beautiful:pixelarticons",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:uil",
+        "count": 2
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 2
+      },
+      {
+        "pack": "core:boxicons",
+        "count": 2
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 2
+      },
+      {
+        "pack": "beautiful:mage",
+        "count": 1
+      },
+      {
+        "pack": "core:tabler",
+        "count": 1
+      },
+      {
+        "pack": "core:openmoji",
+        "count": 1
+      },
+      {
+        "pack": "handdrawn:tabler",
+        "count": 1
+      }
+    ],
+    "neon": [
+      {
+        "pack": "core:token-branded",
+        "count": 6
+      },
+      {
+        "pack": "core:thesvg-color",
+        "count": 2
+      },
+      {
+        "pack": "core:arcticons",
+        "count": 1
+      },
+      {
+        "pack": "core:game-icons",
+        "count": 1
+      },
+      {
+        "pack": "core:thesvg",
+        "count": 1
+      }
+    ]
+  }
+}
