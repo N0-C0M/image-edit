@@ -1,3 +1,4 @@
+// Generates a diverse, redistributable 100k SVG library from current Iconify collections.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { parseIconSet } from '@iconify/utils/lib/icon-set/parse';
@@ -83,7 +84,6 @@ if (total < target) {
   throw new Error(`Only ${total} icons exported; target is ${target}`);
 }
 
-// Write SVGs after selection so exactly TARGET files are emitted.
 for (const item of manifest) {
   await fs.writeFile(item.path, item.svg, 'utf8');
   delete item.svg;
