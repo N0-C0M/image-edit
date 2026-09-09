@@ -1,0 +1,13 @@
+# Licensed / locally downloaded Icons8 assets
+vendor/icons8/
+.local/icons8/
+.tmp/icons8/
+
+# API secrets
+.env
+.env.*
+!.env.example
+
+# Common local files
+.DS_Store
+Thumbs.db
