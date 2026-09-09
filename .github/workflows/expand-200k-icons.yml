@@ -71,8 +71,9 @@ jobs:
             ICON_LIBRARY_STATS.md \
             THIRD_PARTY_LICENSES.md
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No generated changes to commit"
             exit 0
           fi
           git commit -m "Add 200000 curated SVG icons"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
