@@ -1,0 +1,78 @@
+name: Expand icon library by 200k
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/build-expanded-library.mjs'
+      - '.github/workflows/expand-200k-icons.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expand-icon-library
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Iconify utilities
+        run: npm install --no-save @iconify/utils
+
+      - name: Download current Iconify icon sets
+        run: |
+          rm -rf .cache/iconify
+          git clone --depth 1 https://github.com/iconify/icon-sets.git .cache/iconify
+
+      - name: Build 100k hand-drawn and 100k beautiful SVGs
+        env:
+          MAX_BEAUTIFUL_PER_COLLECTION: '4000'
+          MAX_HANDDRAWN_PER_COLLECTION: '3000'
+        run: node scripts/build-expanded-library.mjs .cache/iconify 100000 100000
+
+      - name: Validate all icon families
+        run: |
+          core=$(find library -type f -name '*.svg' | wc -l)
+          handdrawn=$(find library-handdrawn -type f -name '*.svg' | wc -l)
+          beautiful=$(find library-beautiful -type f -name '*.svg' | wc -l)
+          echo "core=$core handdrawn=$handdrawn beautiful=$beautiful total=$((core + handdrawn + beautiful))"
+          test "$core" -eq 100000
+          test "$handdrawn" -eq 100000
+          test "$beautiful" -eq 100000
+          test $((core + handdrawn + beautiful)) -eq 300000
+
+      - name: Commit expanded library
+        run: |
+          rm -rf node_modules package-lock.json .cache
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            library-handdrawn \
+            library-beautiful \
+            manifest-handdrawn.jsonl \
+            manifest-beautiful.jsonl \
+            collections-handdrawn.json \
+            collections-beautiful.json \
+            catalog/icon-map.json \
+            ICON_MAP.md \
+            ICON_LIBRARY_STATS.md \
+            THIRD_PARTY_LICENSES.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Add 200000 curated SVG icons"
+          git push
