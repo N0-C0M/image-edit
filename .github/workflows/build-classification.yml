@@ -7,6 +7,8 @@ on:
       - 'manifest*.jsonl'
       - 'catalog/taxonomy.json'
       - 'scripts/build-classification.mjs'
+      - 'scripts/build-icon-map.mjs'
+      - 'scripts/lib/**'
       - '.github/workflows/build-classification.yml'
 
 permissions:
@@ -19,7 +21,7 @@ concurrency:
 jobs:
   classify:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,15 +36,18 @@ jobs:
       - name: Build classification indexes
         run: node scripts/build-classification.mjs
 
-      - name: Commit classification
+      - name: Rebuild human-readable icon map
+        run: node scripts/build-icon-map.mjs
+
+      - name: Commit classification and map
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog/packs.json catalog/categories.json catalog/styles.json catalog/classification-stats.json
+          git add catalog/packs.json catalog/categories.json catalog/styles.json catalog/classification-stats.json ICON_MAP.md
           if git diff --cached --quiet; then
             echo "Classification unchanged"
             exit 0
           fi
-          git commit -m "Rebuild icon taxonomy indexes"
+          git commit -m "Rebuild icon taxonomy and map"
           git pull --rebase
           git push
