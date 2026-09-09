@@ -1,0 +1,79 @@
+{
+  "source": "Icons8",
+  "reviewed_at": "2026-09-09",
+  "policy": {
+    "store_icons8_assets_in_git": false,
+    "use_official_download_or_api": true,
+    "check_license_before_use": true,
+    "default_primary_style": "claude-hand-drawn",
+    "max_styles_per_screen": 2
+  },
+  "packs": [
+    {
+      "id": "claude-hand-drawn",
+      "name": "Claude Hand Drawn",
+      "url": "https://icons8.com/icons/claude-hand-drawn",
+      "approx_icon_count": 2292,
+      "rank": 1,
+      "best_for": ["saas", "landing", "onboarding", "friendly-ui", "cards", "empty-state", "product-ui"],
+      "avoid_for": ["ultra-dense-toolbar", "strict-system-ui"],
+      "recommended_size_px": [24, 32, 48, 64],
+      "agent_note": "Default choice when the project has no established icon language. Warm, expressive, human-looking UI style."
+    },
+    {
+      "id": "liquid-glass",
+      "name": "Liquid Glass",
+      "url": "https://icons8.com/icons/liquid-glass",
+      "approx_icon_count": 4816,
+      "rank": 2,
+      "best_for": ["glassmorphism", "premium-ui", "hero", "feature-cards", "modern-mobile", "branding"],
+      "avoid_for": ["tiny-toolbar", "monochrome-enterprise-ui", "very-busy-background"],
+      "recommended_size_px": [28, 32, 48, 64],
+      "agent_note": "Use as a polished accent or when the entire UI already uses translucent/glass visual language."
+    },
+    {
+      "id": "tiny-color",
+      "name": "Tiny Color",
+      "url": "https://icons8.com/icons/tiny-color",
+      "approx_icon_count": 2925,
+      "rank": 3,
+      "best_for": ["dense-ui", "mobile", "small-controls", "dashboard", "compact-navigation"],
+      "avoid_for": ["large-hero-art", "luxury-marketing"],
+      "recommended_size_px": [16, 20, 24, 32],
+      "agent_note": "Use when clarity in limited space matters more than decorative personality."
+    },
+    {
+      "id": "dotted",
+      "name": "Dotted",
+      "url": "https://icons8.com/icons/dotty",
+      "approx_icon_count": 5958,
+      "rank": 4,
+      "best_for": ["large-ui", "landing", "editorial", "marketing", "presentation", "infographic"],
+      "avoid_for": ["very-small-controls", "dense-mobile-toolbar"],
+      "recommended_size_px": [24, 32, 48, 64],
+      "agent_note": "Detailed outline style with dot accents; give it enough visual space."
+    },
+    {
+      "id": "puffy-outline",
+      "name": "Puffy Outline",
+      "url": "https://icons8.com/icons/puffy",
+      "approx_icon_count": 3104,
+      "rank": 5,
+      "best_for": ["games", "playful-ui", "consumer-app", "children-ui", "casual-product"],
+      "avoid_for": ["strict-enterprise", "security-critical-dashboard", "formal-finance"],
+      "recommended_size_px": [20, 24, 32, 48],
+      "agent_note": "Soft and playful. Use only when the product tone supports it."
+    },
+    {
+      "id": "3d-fluency",
+      "name": "3D Fluency",
+      "url": "https://icons8.com/icons/3d-fluency",
+      "approx_icon_count": 2058,
+      "rank": 6,
+      "best_for": ["feature-icon", "empty-state", "onboarding", "promo", "dashboard-highlight", "presentation"],
+      "avoid_for": ["navbar", "sidebar", "16px-toolbar", "dense-table-actions"],
+      "recommended_size_px": [48, 64, 96, 128],
+      "agent_note": "Treat as an illustrative asset, not as a normal small UI glyph."
+    }
+  ]
+}
