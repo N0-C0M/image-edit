@@ -27,8 +27,11 @@ function hash32(text) {
   return h >>> 0;
 }
 
-function symbolId(id) {
-  return `i-${hash32(id).toString(36)}`;
+function symbolId(id) { return `i-${hash32(id).toString(36)}`; }
+function sourceIdOf(item) {
+  if (item.sourceId) return String(item.sourceId);
+  const parts = String(item.id || '').split(':');
+  return parts.length >= 2 ? parts.slice(-2).join(':') : `${item.prefix || 'unknown'}:${item.name || 'icon'}`;
 }
 
 function normalizeSvgForSymbol(svg, sid) {
@@ -81,12 +84,22 @@ const manifestFiles = (await fs.readdir('.'))
   .sort();
 
 const packs = new Map();
+const sourceCandidates = new Map();
 const familyTotals = {};
 const categoryTotals = Object.fromEntries(Object.keys(taxonomy.categories).map((x) => [x, 0]));
 const styleTotals = {};
-const searchShards = new Map();
 let totalIcons = 0;
 
+const sourceRank = (record) => {
+  if (record.v === 'original' && record.f === 'core') return 50;
+  if (record.v === 'original' && record.f === 'beautiful') return 45;
+  if (record.v === 'original' && record.f === 'extended') return 40;
+  if (record.v === 'original') return 35;
+  if (record.v === 'native-freehand') return 30;
+  return 0;
+};
+
+// Pass 1: metadata only. Generated families are intentionally NOT duplicated in Pages sprites.
 for (const manifestFile of manifestFiles) {
   const family = familyFromManifest(manifestFile);
   const text = await fs.readFile(manifestFile, 'utf8');
@@ -95,14 +108,15 @@ for (const manifestFile of manifestFiles) {
     const item = JSON.parse(line);
     const prefix = item.prefix || 'unknown';
     const packId = `${family}:${prefix}`;
+    const packFileId = safeFilePart(packId);
     const { category, styles } = classify(item, family);
-    const sid = symbolId(item.id || `${packId}:${item.name}`);
     const variant = item.variant || 'original';
+    const sourceId = sourceIdOf(item);
 
     if (!packs.has(packId)) {
       packs.set(packId, {
         id: packId,
-        fileId: safeFilePart(packId),
+        fileId: packFileId,
         family,
         prefix,
         name: item.collection || prefix,
@@ -115,53 +129,83 @@ for (const manifestFile of manifestFiles) {
         icons: [],
       });
     }
-    const pack = packs.get(packId);
-    const ordinal = pack.icons.length;
+
     const record = {
       n: item.name,
       i: item.id,
-      s: sid,
+      q: sourceId,
       c: category,
       t: styles,
       p: item.path,
       v: variant,
-      o: ordinal,
+      f: family,
+      k: packId,
+      z: packFileId,
+      o: packs.get(packId).icons.length,
     };
+
+    const existingSource = sourceCandidates.get(sourceId);
+    if (sourceRank(record) > sourceRank(existingSource || {})) sourceCandidates.set(sourceId, record);
+
+    const pack = packs.get(packId);
     pack.icons.push(record);
     pack.count++;
     pack.categories[category] = (pack.categories[category] || 0) + 1;
     for (const style of styles) pack.styles[style] = (pack.styles[style] || 0) + 1;
-    if (pack.preview.length < 8) pack.preview.push(record);
 
     familyTotals[family] = (familyTotals[family] || 0) + 1;
     categoryTotals[category] = (categoryTotals[category] || 0) + 1;
     for (const style of styles) styleTotals[style] = (styleTotals[style] || 0) + 1;
-
-    const shardKeys = new Set(words(item.name).map((token) => /^[a-z0-9]/.test(token) ? token[0] : '_'));
-    if (!shardKeys.size) shardKeys.add('_');
-    for (const shardKey of shardKeys) {
-      if (!searchShards.has(shardKey)) searchShards.set(shardKey, []);
-      searchShards.get(shardKey).push([item.name, packId, sid, category, styles, item.path, variant]);
-    }
     totalIcons++;
   }
 }
 
-const packRows = [...packs.values()].sort((a,b) => b.count-a.count || a.name.localeCompare(b.name));
-for (let packIndex = 0; packIndex < packRows.length; packIndex++) {
-  const pack = packRows[packIndex];
-  const spritePath = path.join(outRoot, 'data', 'sprites', `${pack.fileId}.svg`);
-  const packPath = path.join(outRoot, 'data', 'packs', `${pack.fileId}.json`);
-  const icons = pack.icons;
-  const symbols = await mapLimit(icons, concurrency, async (icon) => {
+// Pass 2: resolve each derivative to one shared source preview. If no original source exists,
+// use the derivative itself as a fallback. This keeps the site below the 1 GiB Pages limit.
+const spriteGroups = new Map();
+const searchShards = new Map();
+for (const pack of packs.values()) {
+  for (const record of pack.icons) {
+    const source = sourceCandidates.get(record.q) || record;
+    const sourcePackFileId = source.z;
+    const sid = symbolId(source.i || `${source.k}:${source.n}`);
+    record.s = sid;
+    record.r = `data/sprites/${sourcePackFileId}.svg`;
+    record.e = source.i === record.i; // exact preview vs source-geometry preview
+
+    if (!spriteGroups.has(sourcePackFileId)) spriteGroups.set(sourcePackFileId, new Map());
+    spriteGroups.get(sourcePackFileId).set(sid, source);
+
+    if (pack.preview.length < 8) pack.preview.push(record);
+
+    const shardKeys = new Set(words(record.n).map((token) => /^[a-z0-9]/.test(token) ? token[0] : '_'));
+    if (!shardKeys.size) shardKeys.add('_');
+    for (const shardKey of shardKeys) {
+      if (!searchShards.has(shardKey)) searchShards.set(shardKey, []);
+      searchShards.get(shardKey).push([record.n, pack.id, sid, record.c, record.t, record.p, record.v, record.r, record.e]);
+    }
+  }
+}
+
+const spriteEntries = [...spriteGroups.entries()];
+for (let index = 0; index < spriteEntries.length; index++) {
+  const [fileId, iconMap] = spriteEntries[index];
+  const sources = [...iconMap.entries()];
+  const symbols = await mapLimit(sources, concurrency, async ([sid, source]) => {
     try {
-      const svg = await fs.readFile(icon.p, 'utf8');
-      return normalizeSvgForSymbol(svg, icon.s);
+      const svg = await fs.readFile(source.p, 'utf8');
+      return normalizeSvgForSymbol(svg, sid);
     } catch {
-      return `<symbol id="${icon.s}" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" fill="none" stroke="currentColor"/><path d="M8 12h8" stroke="currentColor"/></symbol>`;
+      return `<symbol id="${sid}" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" fill="none" stroke="currentColor"/><path d="M8 12h8" stroke="currentColor"/></symbol>`;
     }
   });
-  await fs.writeFile(spritePath, `<svg xmlns="http://www.w3.org/2000/svg" style="display:none">${symbols.join('')}</svg>`);
+  await fs.writeFile(path.join(outRoot, 'data', 'sprites', `${fileId}.svg`), `<svg xmlns="http://www.w3.org/2000/svg">${symbols.join('')}</svg>`);
+  console.log(`Pages sprite ${index + 1}/${spriteEntries.length}: ${fileId} (${sources.length} unique source icons)`);
+}
+
+const packRows = [...packs.values()].sort((a,b) => b.count-a.count || a.name.localeCompare(b.name));
+for (const pack of packRows) {
+  const packPath = path.join(outRoot, 'data', 'packs', `${pack.fileId}.json`);
   await fs.writeFile(packPath, JSON.stringify({
     id: pack.id,
     fileId: pack.fileId,
@@ -173,10 +217,8 @@ for (let packIndex = 0; packIndex < packRows.length; packIndex++) {
     count: pack.count,
     categories: pack.categories,
     styles: pack.styles,
-    sprite: `data/sprites/${pack.fileId}.svg`,
-    icons,
+    icons: pack.icons.map(({ f,k,z,q,...record }) => record),
   }));
-  console.log(`Pages pack ${packIndex + 1}/${packRows.length}: ${pack.id} (${pack.count})`);
 }
 
 for (const [key, rows] of searchShards) {
@@ -196,20 +238,19 @@ const catalogPacks = packRows.map((pack) => ({
   styles: pack.styles,
   dominantCategory: Object.entries(pack.categories).sort((a,b) => b[1]-a[1])[0]?.[0] || 'misc',
   dominantStyles: Object.entries(pack.styles).sort((a,b) => b[1]-a[1]).slice(0,4).map(([name]) => name),
-  sprite: `data/sprites/${pack.fileId}.svg`,
-  preview: pack.preview,
+  preview: pack.preview.map(({ f,k,z,q,...record }) => record),
 }));
 
 await fs.writeFile(path.join(outRoot, 'data', 'catalog.json'), JSON.stringify({
   generatedAt: new Date().toISOString(),
   totalIcons,
+  uniquePreviewSources: [...spriteGroups.values()].reduce((sum, group) => sum + group.size, 0),
   packCount: catalogPacks.length,
   families: familyTotals,
   categories: categoryTotals,
   styles: styleTotals,
   packs: catalogPacks,
 }));
-
 await fs.writeFile(path.join(outRoot, 'data', 'taxonomy.json'), JSON.stringify(taxonomy));
 await fs.writeFile(path.join(outRoot, '.nojekyll'), '');
-console.log(`Pages data ready: ${totalIcons} icons, ${catalogPacks.length} packs, ${searchShards.size} search shards.`);
+console.log(`Pages data ready: ${totalIcons} logical icons, ${catalogPacks.length} packs, ${spriteGroups.size} sprite packs, ${searchShards.size} search shards.`);
