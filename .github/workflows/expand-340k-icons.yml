@@ -1,0 +1,83 @@
+name: Expand icon library by 340k
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/build-ultra-library.mjs'
+      - '.github/workflows/expand-340k-icons.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ultra-icon-expansion
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Iconify utilities
+        run: npm install --no-save @iconify/utils
+
+      - name: Download current open icon sets
+        run: |
+          rm -rf .cache/iconify
+          git clone --depth 1 https://github.com/iconify/icon-sets.git .cache/iconify
+
+      - name: Add 100k originals and 240k style variants
+        env:
+          MAX_EXTENDED_PER_COLLECTION: '4000'
+          ICON_IO_CONCURRENCY: '64'
+        run: node scripts/build-ultra-library.mjs .cache/iconify 100000 60000
+
+      - name: Validate expanded library
+        run: |
+          core=$(find library -type f -name '*.svg' | wc -l)
+          handdrawn=$(find library-handdrawn -type f -name '*.svg' | wc -l)
+          beautiful=$(find library-beautiful -type f -name '*.svg' | wc -l)
+          extended=$(find library-extended -type f -name '*.svg' | wc -l)
+          neon=$(find library-neon -type f -name '*.svg' | wc -l)
+          sticker=$(find library-sticker -type f -name '*.svg' | wc -l)
+          soft=$(find library-soft -type f -name '*.svg' | wc -l)
+          glass=$(find library-glass -type f -name '*.svg' | wc -l)
+          total=$((core + handdrawn + beautiful + extended + neon + sticker + soft + glass))
+          echo "core=$core handdrawn=$handdrawn beautiful=$beautiful extended=$extended neon=$neon sticker=$sticker soft=$soft glass=$glass total=$total"
+          test "$core" -eq 100000
+          test "$handdrawn" -eq 100000
+          test "$beautiful" -eq 100000
+          test "$extended" -eq 100000
+          test "$neon" -eq 60000
+          test "$sticker" -eq 60000
+          test "$soft" -eq 60000
+          test "$glass" -eq 60000
+          test "$total" -eq 640000
+
+      - name: Commit 340k additional icons
+        run: |
+          rm -rf node_modules package-lock.json .cache
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            library-extended library-neon library-sticker library-soft library-glass \
+            manifest-extended.jsonl manifest-neon.jsonl manifest-sticker.jsonl manifest-soft.jsonl manifest-glass.jsonl \
+            collections-extended.json catalog/icon-map.json ICON_LIBRARY_STATS.md EXTENDED_LICENSES.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Add 340000 classified SVG icons"
+          git pull --rebase
+          git push
