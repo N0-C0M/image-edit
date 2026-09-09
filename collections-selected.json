@@ -1,0 +1,620 @@
+{
+  "iconmind": {
+    "name": "IconMind",
+    "total": 22722,
+    "author": {
+      "name": "IconMind",
+      "url": "https://github.com/Iconmind/iconmind"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/Iconmind/iconmind/blob/main/LICENSE"
+    },
+    "samples": [
+      "agent-outline-regular",
+      "vector-database-duotone-thin",
+      "stub-tool-outline-bold",
+      "crop-outline-bold",
+      "action-step-outline-thin",
+      "bottom-sheet-duotone-bold"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "fluent": {
+    "name": "Fluent UI System Icons",
+    "total": 19757,
+    "version": "1.1.339",
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-system-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "zoom-out-24-filled",
+      "drink-coffee-24-regular",
+      "photo-filter-24-regular",
+      "checkmark-24-filled",
+      "oval-24-filled",
+      "cloud-24-filled"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "material-symbols-light": {
+    "name": "Material Symbols Light",
+    "total": 15683,
+    "author": {
+      "name": "Google",
+      "url": "https://github.com/google/material-design-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/google/material-design-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "downloading",
+      "privacy-tip",
+      "filter-drama-outline",
+      "assignment-ind",
+      "monitoring",
+      "desktop-access-disabled-outline-sharp"
+    ],
+    "height": 24,
+    "category": "Material",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "material-symbols": {
+    "name": "Material Symbols",
+    "total": 15618,
+    "author": {
+      "name": "Google",
+      "url": "https://github.com/google/material-design-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/google/material-design-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "downloading",
+      "privacy-tip",
+      "filter-drama-outline",
+      "assignment-ind",
+      "monitoring",
+      "desktop-access-disabled-outline-sharp"
+    ],
+    "height": 24,
+    "category": "Material",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "arcticons": {
+    "name": "Arcticons",
+    "total": 15057,
+    "author": {
+      "name": "Donnnno",
+      "url": "https://github.com/Arcticons-Team/Arcticons"
+    },
+    "license": {
+      "title": "CC BY-SA 4.0",
+      "spdx": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "samples": [
+      "paperlaunch",
+      "gravadordevoz",
+      "appstract",
+      "clipious",
+      "productivity",
+      "daserste"
+    ],
+    "height": 48,
+    "displayHeight": 24,
+    "category": "Logos",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "ic": {
+    "name": "Google Material Icons",
+    "total": 10955,
+    "version": "1.0.32",
+    "author": {
+      "name": "Material Design Authors",
+      "url": "https://github.com/material-icons/material-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/material-icons/material-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "baseline-notifications-active",
+      "outline-person-outline",
+      "twotone-videocam-off",
+      "sharp-flash-on",
+      "baseline-volume-mute",
+      "twotone-battery-20"
+    ],
+    "height": 24,
+    "category": "Material",
+    "palette": false,
+    "exported": 5000
+  },
+  "ph": {
+    "name": "Phosphor",
+    "total": 9072,
+    "version": "2.1.1",
+    "author": {
+      "name": "Phosphor Icons",
+      "url": "https://github.com/phosphor-icons/core"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    },
+    "samples": [
+      "folder-open-duotone",
+      "check-square-offset-thin",
+      "pencil-line-fill",
+      "check-thin",
+      "browser-duotone",
+      "thermometer-simple-fill"
+    ],
+    "height": 24,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "solar": {
+    "name": "Solar",
+    "total": 7608,
+    "author": {
+      "name": "480 Design",
+      "url": "https://www.figma.com/community/file/1166831539721848736"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "magnifier-zoom-out-broken",
+      "armchair-2-bold-duotone",
+      "traffic-economy-line-duotone",
+      "user-rounded-bold-duotone",
+      "soundwave-linear",
+      "hamburger-menu-broken"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "mdi": {
+    "name": "Material Design Icons",
+    "total": 7447,
+    "author": {
+      "name": "Pictogrammers",
+      "url": "https://github.com/Templarian/MaterialDesign"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/Templarian/MaterialDesign/blob/master/LICENSE"
+    },
+    "samples": [
+      "account-check",
+      "bell-alert-outline",
+      "calendar-edit",
+      "skip-previous",
+      "home-variant",
+      "lock-open-outline"
+    ],
+    "height": 24,
+    "category": "Material",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "selfhst": {
+    "name": "selfh.st/icons",
+    "total": 7124,
+    "author": {
+      "name": "selfh.st",
+      "url": "https://github.com/selfhst/icons"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://github.com/selfhst/icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "salt",
+      "adobe",
+      "aviato",
+      "usertour",
+      "live-blog",
+      "vert"
+    ],
+    "category": "Logos",
+    "palette": true,
+    "exported": 5000
+  },
+  "reicon": {
+    "name": "Reicon",
+    "total": 6590,
+    "version": "1.4.1",
+    "author": {
+      "name": "REICON",
+      "url": "https://github.com/dqev/reicon"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/dqev/reicon/blob/main/LICENSE"
+    },
+    "samples": [
+      "ruler4",
+      "cart-add2-filled",
+      "search-normal2",
+      "command-filled",
+      "sort3",
+      "user2-filled"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "tabler": {
+    "name": "Tabler Icons",
+    "total": 6184,
+    "version": "3.46.0",
+    "author": {
+      "name": "Paweł Kuna",
+      "url": "https://github.com/tabler/tabler-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tabler/tabler-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "alien",
+      "device-desktop",
+      "photo",
+      "chevron-right",
+      "check",
+      "square-root"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "hugeicons": {
+    "name": "Huge Icons",
+    "total": 5979,
+    "author": {
+      "name": "Hugeicons",
+      "url": "https://icon-sets.iconify.design/icon-sets/hugeicons/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT"
+    },
+    "samples": [
+      "analytics-up",
+      "android",
+      "search-02",
+      "tick-02",
+      "not-equal-sign",
+      "text-align-left-01"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "exported": 5000
+  },
+  "thesvg-color": {
+    "name": "theSVG Color",
+    "total": 4864,
+    "author": {
+      "name": "thesvg.org",
+      "url": "https://github.com/glincker/thesvg"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/glincker/thesvg/blob/main/LICENSE"
+    },
+    "samples": [
+      "verizon",
+      "mitsubishi",
+      "peertube",
+      "cratedb",
+      "flipboard",
+      "bulma"
+    ],
+    "category": "Logos",
+    "palette": true,
+    "exported": 4864
+  },
+  "openmoji": {
+    "name": "OpenMoji",
+    "total": 4544,
+    "author": {
+      "name": "OpenMoji",
+      "url": "https://github.com/hfg-gmuend/openmoji"
+    },
+    "license": {
+      "title": "CC BY-SA 4.0",
+      "spdx": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "samples": [
+      "bicycle",
+      "bow-and-arrow",
+      "full-moon-face",
+      "plus",
+      "solar-cell",
+      "battery"
+    ],
+    "height": 36,
+    "displayHeight": 18,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": true,
+    "exported": 4651
+  },
+  "game-icons": {
+    "name": "Game Icons",
+    "total": 4133,
+    "author": {
+      "name": "GameIcons",
+      "url": "https://github.com/game-icons/icons"
+    },
+    "license": {
+      "title": "CC BY 3.0",
+      "spdx": "CC-BY-3.0",
+      "url": "https://github.com/game-icons/icons/blob/master/license.txt"
+    },
+    "samples": [
+      "diamond-trophy",
+      "thrown-spear",
+      "rank-3",
+      "stairs",
+      "table",
+      "soda-can"
+    ],
+    "category": "Thematic",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 4137
+  },
+  "token-branded": {
+    "name": "Web3 Icons Branded",
+    "total": 4077,
+    "version": "4.0.55",
+    "author": {
+      "name": "0xa3k5",
+      "url": "https://github.com/0xa3k5/web3icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/0xa3k5/web3icons/blob/main/LICENCE"
+    },
+    "samples": [
+      "bit",
+      "dog",
+      "eth",
+      "mtd",
+      "rune",
+      "vite"
+    ],
+    "height": 24,
+    "category": "Logos",
+    "palette": true,
+    "exported": 4167
+  },
+  "twemoji": {
+    "name": "Twitter Emoji",
+    "total": 3988,
+    "author": {
+      "name": "Twitter",
+      "url": "https://github.com/jdecked/twemoji"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "anguished-face",
+      "duck",
+      "bell",
+      "spoon",
+      "clipboard",
+      "wrapped-gift"
+    ],
+    "height": 36,
+    "displayHeight": 18,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": true,
+    "exported": 4728
+  },
+  "boxicons": {
+    "name": "Boxicons",
+    "total": 3768,
+    "version": "1.0.5",
+    "author": {
+      "name": "Boxicons",
+      "url": "https://github.com/box-icons/boxicons-core"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/box-icons/boxicons-core/blob/main/LICENSE"
+    },
+    "samples": [
+      "clock-2-filled",
+      "desk",
+      "battery-filled",
+      "crop",
+      "crypto-coin-filled",
+      "scan"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "exported": 3768
+  },
+  "thesvg": {
+    "name": "theSVG",
+    "total": 3751,
+    "author": {
+      "name": "thesvg.org",
+      "url": "https://github.com/glincker/thesvg"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/glincker/thesvg/blob/main/LICENSE"
+    },
+    "samples": [
+      "mitsubishi",
+      "tencent",
+      "vuedotjs",
+      "kotlin",
+      "framer",
+      "codesandbox"
+    ],
+    "category": "Logos",
+    "palette": false,
+    "exported": 3751
+  },
+  "noto": {
+    "name": "Noto Emoji",
+    "total": 3710,
+    "author": {
+      "name": "Google Inc",
+      "url": "https://github.com/googlefonts/noto-emoji"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE"
+    },
+    "samples": [
+      "beaming-face-with-smiling-eyes",
+      "computer-mouse",
+      "chart-increasing",
+      "dove",
+      "page-facing-up",
+      "red-heart"
+    ],
+    "height": 16,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": true,
+    "exported": 4104
+  },
+  "simple-icons": {
+    "name": "Simple Icons",
+    "total": 3459,
+    "version": "16.30.0",
+    "author": {
+      "name": "Simple Icons Collaborators",
+      "url": "https://github.com/simple-icons/simple-icons"
+    },
+    "license": {
+      "title": "CC0 1.0",
+      "spdx": "CC0-1.0",
+      "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md"
+    },
+    "samples": [
+      "wise",
+      "framer",
+      "vuetify",
+      "unsplash",
+      "stackblitz",
+      "mitsubishi"
+    ],
+    "height": 24,
+    "category": "Logos",
+    "palette": false,
+    "exported": 830
+  }
+}
