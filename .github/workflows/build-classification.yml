@@ -7,7 +7,6 @@ on:
       - 'manifest*.jsonl'
       - 'catalog/taxonomy.json'
       - 'scripts/build-classification.mjs'
-      - 'scripts/build-icon-map.mjs'
       - 'scripts/lib/**'
       - '.github/workflows/build-classification.yml'
 
@@ -33,21 +32,25 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Build classification indexes
+      - name: Build taxonomy, map and statistics
         run: node scripts/build-classification.mjs
 
-      - name: Rebuild human-readable icon map
-        run: node scripts/build-icon-map.mjs
-
-      - name: Commit classification and map
+      - name: Commit generated indexes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog/packs.json catalog/categories.json catalog/styles.json catalog/classification-stats.json ICON_MAP.md
+          git add \
+            catalog/packs.json \
+            catalog/categories.json \
+            catalog/styles.json \
+            catalog/classification-stats.json \
+            catalog/icon-map.json \
+            ICON_MAP.md \
+            ICON_LIBRARY_STATS.md
           if git diff --cached --quiet; then
             echo "Classification unchanged"
             exit 0
           fi
-          git commit -m "Rebuild icon taxonomy and map"
-          git pull --rebase
+          git commit -m "Rebuild icon taxonomy, map and statistics"
+          git pull --rebase --autostash
           git push
