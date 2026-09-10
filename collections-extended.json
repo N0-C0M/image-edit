@@ -1,0 +1,1745 @@
+{
+  "iconmind": {
+    "name": "IconMind",
+    "total": 22722,
+    "author": {
+      "name": "IconMind",
+      "url": "https://github.com/Iconmind/iconmind"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/Iconmind/iconmind/blob/main/LICENSE"
+    },
+    "samples": [
+      "agent-outline-regular",
+      "vector-database-duotone-thin",
+      "stub-tool-outline-bold",
+      "crop-outline-bold",
+      "action-step-outline-thin",
+      "bottom-sheet-duotone-bold"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "iconmind",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "fluent": {
+    "name": "Fluent UI System Icons",
+    "total": 19757,
+    "version": "1.1.339",
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-system-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "zoom-out-24-filled",
+      "drink-coffee-24-regular",
+      "photo-filter-24-regular",
+      "checkmark-24-filled",
+      "oval-24-filled",
+      "cloud-24-filled"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "fluent",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "material-symbols-light": {
+    "name": "Material Symbols Light",
+    "total": 15683,
+    "author": {
+      "name": "Google",
+      "url": "https://github.com/google/material-design-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/google/material-design-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "downloading",
+      "privacy-tip",
+      "filter-drama-outline",
+      "assignment-ind",
+      "monitoring",
+      "desktop-access-disabled-outline-sharp"
+    ],
+    "height": 24,
+    "category": "Material",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "material-symbols-light",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "material-symbols": {
+    "name": "Material Symbols",
+    "total": 15618,
+    "author": {
+      "name": "Google",
+      "url": "https://github.com/google/material-design-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/google/material-design-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "downloading",
+      "privacy-tip",
+      "filter-drama-outline",
+      "assignment-ind",
+      "monitoring",
+      "desktop-access-disabled-outline-sharp"
+    ],
+    "height": 24,
+    "category": "Material",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "material-symbols",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "arcticons": {
+    "name": "Arcticons",
+    "total": 15057,
+    "author": {
+      "name": "Donnnno",
+      "url": "https://github.com/Arcticons-Team/Arcticons"
+    },
+    "license": {
+      "title": "CC BY-SA 4.0",
+      "spdx": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "samples": [
+      "paperlaunch",
+      "gravadordevoz",
+      "appstract",
+      "clipious",
+      "productivity",
+      "daserste"
+    ],
+    "height": 48,
+    "displayHeight": 24,
+    "category": "Logos",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "arcticons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "ic": {
+    "name": "Google Material Icons",
+    "total": 10955,
+    "version": "1.0.32",
+    "author": {
+      "name": "Material Design Authors",
+      "url": "https://github.com/material-icons/material-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/material-icons/material-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "baseline-notifications-active",
+      "outline-person-outline",
+      "twotone-videocam-off",
+      "sharp-flash-on",
+      "baseline-volume-mute",
+      "twotone-battery-20"
+    ],
+    "height": 24,
+    "category": "Material",
+    "palette": false,
+    "prefix": "ic",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "ph": {
+    "name": "Phosphor",
+    "total": 9072,
+    "version": "2.1.1",
+    "author": {
+      "name": "Phosphor Icons",
+      "url": "https://github.com/phosphor-icons/core"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    },
+    "samples": [
+      "folder-open-duotone",
+      "check-square-offset-thin",
+      "pencil-line-fill",
+      "check-thin",
+      "browser-duotone",
+      "thermometer-simple-fill"
+    ],
+    "height": 24,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ph",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "solar": {
+    "name": "Solar",
+    "total": 7608,
+    "author": {
+      "name": "480 Design",
+      "url": "https://www.figma.com/community/file/1166831539721848736"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "magnifier-zoom-out-broken",
+      "armchair-2-bold-duotone",
+      "traffic-economy-line-duotone",
+      "user-rounded-bold-duotone",
+      "soundwave-linear",
+      "hamburger-menu-broken"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "solar",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2962
+  },
+  "mdi": {
+    "name": "Material Design Icons",
+    "total": 7447,
+    "author": {
+      "name": "Pictogrammers",
+      "url": "https://github.com/Templarian/MaterialDesign"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/Templarian/MaterialDesign/blob/master/LICENSE"
+    },
+    "samples": [
+      "account-check",
+      "bell-alert-outline",
+      "calendar-edit",
+      "skip-previous",
+      "home-variant",
+      "lock-open-outline"
+    ],
+    "height": 24,
+    "category": "Material",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "mdi",
+    "family": "extended",
+    "variant": "original",
+    "exported": 4000
+  },
+  "selfhst": {
+    "name": "selfh.st/icons",
+    "total": 7124,
+    "author": {
+      "name": "selfh.st",
+      "url": "https://github.com/selfhst/icons"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://github.com/selfhst/icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "salt",
+      "adobe",
+      "aviato",
+      "usertour",
+      "live-blog",
+      "vert"
+    ],
+    "category": "Logos",
+    "palette": true,
+    "prefix": "selfhst",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2129
+  },
+  "reicon": {
+    "name": "Reicon",
+    "total": 6590,
+    "version": "1.4.1",
+    "author": {
+      "name": "REICON",
+      "url": "https://github.com/dqev/reicon"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/dqev/reicon/blob/main/LICENSE"
+    },
+    "samples": [
+      "ruler4",
+      "cart-add2-filled",
+      "search-normal2",
+      "command-filled",
+      "sort3",
+      "user2-filled"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "reicon",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1590
+  },
+  "tabler": {
+    "name": "Tabler Icons",
+    "total": 6184,
+    "version": "3.46.0",
+    "author": {
+      "name": "Paweł Kuna",
+      "url": "https://github.com/tabler/tabler-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/tabler/tabler-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "alien",
+      "device-desktop",
+      "photo",
+      "chevron-right",
+      "check",
+      "square-root"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "tabler",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1426
+  },
+  "hugeicons": {
+    "name": "Huge Icons",
+    "total": 5979,
+    "author": {
+      "name": "Hugeicons",
+      "url": "https://icon-sets.iconify.design/icon-sets/hugeicons/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT"
+    },
+    "samples": [
+      "analytics-up",
+      "android",
+      "search-02",
+      "tick-02",
+      "not-equal-sign",
+      "text-align-left-01"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Has Padding",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "hugeicons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1031
+  },
+  "simple-icons": {
+    "name": "Simple Icons",
+    "total": 3459,
+    "version": "16.30.0",
+    "author": {
+      "name": "Simple Icons Collaborators",
+      "url": "https://github.com/simple-icons/simple-icons"
+    },
+    "license": {
+      "title": "CC0 1.0",
+      "spdx": "CC0-1.0",
+      "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md"
+    },
+    "samples": [
+      "wise",
+      "framer",
+      "vuetify",
+      "unsplash",
+      "stackblitz",
+      "mitsubishi"
+    ],
+    "height": 24,
+    "category": "Logos",
+    "palette": false,
+    "prefix": "simple-icons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2914
+  },
+  "fluent-emoji-flat": {
+    "name": "Fluent Emoji Flat",
+    "total": 3145,
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-emoji"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE"
+    },
+    "samples": [
+      "avocado",
+      "ticket",
+      "straight-ruler",
+      "diamond-suit",
+      "egg",
+      "yin-yang"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": true,
+    "prefix": "fluent-emoji-flat",
+    "family": "extended",
+    "variant": "original",
+    "exported": 3181
+  },
+  "streamline": {
+    "name": "Streamline",
+    "total": 3000,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "sign-hashtag",
+      "open-umbrella-solid",
+      "graph-bar-increase",
+      "camping-tent",
+      "add-circle-solid",
+      "filter-2"
+    ],
+    "height": 28,
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "streamline",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2
+  },
+  "pinhead": {
+    "name": "Pinhead Map Icons",
+    "total": 2657,
+    "author": {
+      "name": "Quincy Morgan",
+      "url": "https://github.com/waysidemapping/pinhead"
+    },
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "samples": [
+      "a-frame-tent",
+      "bird",
+      "boat-on-trailer",
+      "desk-lamp",
+      "bone",
+      "milestone"
+    ],
+    "height": 15,
+    "category": "Flags / Maps",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "pinhead",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2921
+  },
+  "noto-v1": {
+    "name": "Noto Emoji (v1)",
+    "total": 2162,
+    "author": {
+      "name": "Google Inc",
+      "url": "https://github.com/googlefonts/noto-emoji"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/googlefonts/noto-emoji/blob/main/svg/LICENSE"
+    },
+    "samples": [
+      "face-with-open-mouth",
+      "no-entry",
+      "scissors",
+      "card-index-dividers",
+      "key",
+      "magnifying-glass-tilted-left"
+    ],
+    "height": 16,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": true,
+    "prefix": "noto-v1",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2319
+  },
+  "whh": {
+    "name": "WebHostingHub Glyphs",
+    "total": 2125,
+    "author": {
+      "name": "WebHostingHub"
+    },
+    "license": {
+      "title": "Open Font License",
+      "spdx": "OFL-1.1",
+      "url": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+    },
+    "samples": [
+      "addtags",
+      "brightness",
+      "circlecallincoming"
+    ],
+    "palette": false,
+    "hidden": true,
+    "prefix": "whh",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2125
+  },
+  "healthicons": {
+    "name": "Health Icons",
+    "total": 2042,
+    "version": "2.0.0",
+    "author": {
+      "name": "Resolve to Save Lives",
+      "url": "https://github.com/resolvetosavelives/healthicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/resolvetosavelives/healthicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "cold-chain",
+      "emergency-post",
+      "asthma-outline",
+      "exercise",
+      "health-alt",
+      "heart"
+    ],
+    "height": 24,
+    "category": "Thematic",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "healthicons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 3391
+  },
+  "logos": {
+    "name": "SVG Logos",
+    "total": 1935,
+    "author": {
+      "name": "Gil Barbara",
+      "url": "https://github.com/gilbarbara/logos"
+    },
+    "license": {
+      "title": "CC0",
+      "spdx": "CC0-1.0",
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt"
+    },
+    "samples": [
+      "npm-icon",
+      "uikit",
+      "patreon",
+      "serverless",
+      "vue",
+      "modernizr"
+    ],
+    "category": "Logos",
+    "palette": true,
+    "prefix": "logos",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2183
+  },
+  "emojione": {
+    "name": "Emoji One (Colored)",
+    "total": 1834,
+    "version": "2.3.0",
+    "author": {
+      "name": "Emoji One",
+      "url": "https://github.com/EmojiTwo/emojitwo"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "anxious-face-with-sweat",
+      "cloud-with-snow",
+      "studio-microphone",
+      "antenna-bars",
+      "eight-spoked-asterisk",
+      "no-entry"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": true,
+    "prefix": "emojione",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2159
+  },
+  "token": {
+    "name": "Web3 Icons",
+    "total": 1784,
+    "version": "4.0.55",
+    "author": {
+      "name": "0xa3k5",
+      "url": "https://github.com/0xa3k5/web3icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/0xa3k5/web3icons/blob/main/LICENCE"
+    },
+    "samples": [
+      "bit",
+      "dog",
+      "eth",
+      "mtd",
+      "rune",
+      "vite"
+    ],
+    "height": 24,
+    "category": "Logos",
+    "palette": false,
+    "prefix": "token",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1866
+  },
+  "fluent-emoji-high-contrast": {
+    "name": "Fluent Emoji High Contrast",
+    "total": 1595,
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/fluentui-emoji"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE"
+    },
+    "samples": [
+      "avocado",
+      "ticket",
+      "straight-ruler",
+      "diamond-suit",
+      "egg",
+      "yin-yang"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "fluent-emoji-high-contrast",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1596
+  },
+  "vscode-icons": {
+    "name": "VSCode Icons",
+    "total": 1589,
+    "version": "12.19.0",
+    "author": {
+      "name": "Roberto Huertas",
+      "url": "https://github.com/vscode-icons/vscode-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/vscode-icons/vscode-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "file-type-actionscript2",
+      "file-type-json",
+      "file-type-manifest",
+      "default-file",
+      "file-type-diff",
+      "default-folder"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Programming",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": true,
+    "prefix": "vscode-icons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1597
+  },
+  "la": {
+    "name": "Line Awesome",
+    "total": 1544,
+    "version": "1.2.1",
+    "author": {
+      "name": "Icons8",
+      "url": "https://github.com/icons8/line-awesome"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    "samples": [
+      "archive-solid",
+      "female-solid",
+      "check-circle",
+      "bars",
+      "signal",
+      "columns"
+    ],
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "la",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2353
+  },
+  "emojione-monotone": {
+    "name": "Emoji One (Monotone)",
+    "total": 1403,
+    "version": "2.2.7",
+    "author": {
+      "name": "Emoji One",
+      "url": "https://github.com/EmojiTwo/emojitwo"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "face-with-tongue",
+      "envelope",
+      "frog-face",
+      "star",
+      "droplet",
+      "gem-stone"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Emoji",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "emojione-monotone",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1713
+  },
+  "fa6-solid": {
+    "name": "Font Awesome 6 Solid",
+    "total": 1402,
+    "version": "6.7.2",
+    "author": {
+      "name": "Dave Gandy",
+      "url": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "location-pin",
+      "gem",
+      "folder",
+      "mound",
+      "toggle-on",
+      "table-columns"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "fa6-solid",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1408
+  },
+  "streamline-logos": {
+    "name": "Logos free icons",
+    "total": 1362,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "microsoft-windows-logo-2",
+      "unspash-logo-solid",
+      "patreon-logo",
+      "macos-osx-logo-solid",
+      "bing-logo-2-solid",
+      "macos-osx-logo"
+    ],
+    "height": 24,
+    "category": "Logos",
+    "palette": false,
+    "prefix": "streamline-logos",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1362
+  },
+  "emojione-v1": {
+    "name": "Emoji One (v1)",
+    "total": 1262,
+    "version": "1.5.2",
+    "author": {
+      "name": "Emoji One",
+      "url": "https://github.com/joypixels/emojione-legacy"
+    },
+    "license": {
+      "title": "CC BY-SA 4.0",
+      "spdx": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "samples": [
+      "face-savoring-food",
+      "panda-face",
+      "artist-palette",
+      "lightning-mood",
+      "droplet",
+      "folder"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Emoji",
+    "palette": true,
+    "prefix": "emojione-v1",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1529
+  },
+  "line-md": {
+    "name": "Material Line Icons",
+    "total": 1218,
+    "version": "3.0.5",
+    "author": {
+      "name": "Vjacheslav Trushkin",
+      "url": "https://github.com/cyberalien/line-md"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/cyberalien/line-md/blob/main/license.txt"
+    },
+    "samples": [
+      "loading-twotone-loop",
+      "beer-alt-twotone-loop",
+      "image-twotone",
+      "account",
+      "cloud-alt-upload-twotone-loop",
+      "cog-loop"
+    ],
+    "height": 24,
+    "category": "Material",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding",
+      "Uses Stroke",
+      "Contains Animations"
+    ],
+    "palette": false,
+    "prefix": "line-md",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1279
+  },
+  "devicon": {
+    "name": "Devicon",
+    "total": 1036,
+    "author": {
+      "name": "konpa",
+      "url": "https://github.com/devicons/devicon/tree/master"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE"
+    },
+    "samples": [
+      "windows8",
+      "tensorflow",
+      "logstash",
+      "stackblitz",
+      "fsharp",
+      "vite"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Programming",
+    "palette": true,
+    "prefix": "devicon",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1045
+  },
+  "fxemoji": {
+    "name": "Firefox OS Emoji",
+    "total": 1034,
+    "version": "0.0.2",
+    "author": {
+      "name": "Mozilla",
+      "url": "https://github.com/mozilla/fxemoji"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://mozilla.github.io/fxemoji/LICENSE.md"
+    },
+    "samples": [
+      "foxweary",
+      "loveletter",
+      "openlock",
+      "blackdiamondsuit",
+      "speaker",
+      "screen"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Emoji",
+    "palette": true,
+    "prefix": "fxemoji",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1034
+  },
+  "fa-solid": {
+    "name": "Font Awesome 5 Solid",
+    "total": 1001,
+    "version": "5.15.4",
+    "author": {
+      "name": "Dave Gandy",
+      "url": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "search-plus",
+      "paste",
+      "comment-dots",
+      "bookmark",
+      "egg",
+      "volume-off"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Archive / Unmaintained",
+    "palette": false,
+    "prefix": "fa-solid",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1024
+  },
+  "garden": {
+    "name": "Garden SVG Icons",
+    "total": 932,
+    "author": {
+      "name": "Zendesk",
+      "url": "https://github.com/zendeskgarden/svg-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/zendeskgarden/svg-icons/blob/main/LICENSE.md"
+    },
+    "samples": [
+      "asterisk-stroke-12",
+      "bookmark-fill-12",
+      "moon-fill-12",
+      "x-stroke-16",
+      "menu-stroke-12",
+      "heading-stroke-12"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "garden",
+    "family": "extended",
+    "variant": "original",
+    "exported": 535
+  },
+  "file-icons": {
+    "name": "File Icons",
+    "total": 930,
+    "author": {
+      "name": "John Gardner",
+      "url": "https://github.com/file-icons/icons"
+    },
+    "license": {
+      "title": "ISC",
+      "spdx": "ISC",
+      "url": "https://github.com/file-icons/icons/blob/master/LICENSE.md"
+    },
+    "samples": [
+      "adobe",
+      "chartjs",
+      "dom",
+      "yaml",
+      "font",
+      "npm"
+    ],
+    "height": 16,
+    "category": "Programming",
+    "palette": false,
+    "prefix": "file-icons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 930
+  },
+  "qlementine-icons": {
+    "name": "Qlementine Icons",
+    "total": 905,
+    "author": {
+      "name": "Olivier Cléro",
+      "url": "https://github.com/oclero/qlementine-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/oclero/qlementine-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "windows-16",
+      "check-tick-small-16",
+      "speaker-0-16",
+      "play-16",
+      "triangle-filled-16",
+      "folder-filled-16"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "palette": false,
+    "prefix": "qlementine-icons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 910
+  },
+  "material-icon-theme": {
+    "name": "Material Icon Theme",
+    "total": 904,
+    "author": {
+      "name": "Material Extensions",
+      "url": "https://github.com/material-extensions/vscode-material-icon-theme"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/material-extensions/vscode-material-icon-theme/blob/main/LICENSE"
+    },
+    "samples": [
+      "zip",
+      "email",
+      "folder-upload",
+      "stackblitz",
+      "tree",
+      "vscode"
+    ],
+    "category": "Programming",
+    "palette": true,
+    "prefix": "material-icon-theme",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1176
+  },
+  "ant-design": {
+    "name": "Ant Design Icons",
+    "total": 848,
+    "version": "4.6.0",
+    "author": {
+      "name": "HeskeyBaozi",
+      "url": "https://github.com/ant-design/ant-design-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/ant-design/ant-design-icons/blob/master/LICENSE"
+    },
+    "samples": [
+      "pushpin-filled",
+      "pie-chart-outlined",
+      "shopping-twotone",
+      "layout-outlined",
+      "dash-outlined",
+      "cloud-twotone"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "ant-design",
+    "family": "extended",
+    "variant": "original",
+    "exported": 1888
+  },
+  "cib": {
+    "name": "CoreUI Brands",
+    "total": 830,
+    "version": "2.0.1",
+    "author": {
+      "name": "creativeLabs Łukasz Holeczek",
+      "url": "https://github.com/coreui/coreui-icons"
+    },
+    "license": {
+      "title": "CC0 1.0",
+      "spdx": "CC0-1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "samples": [
+      "cc-amazon-pay",
+      "hotjar",
+      "open-id",
+      "unsplash",
+      "framer",
+      "kotlin"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Logos",
+    "palette": false,
+    "prefix": "cib",
+    "family": "extended",
+    "variant": "original",
+    "exported": 831
+  },
+  "picon": {
+    "name": "Pico-icon",
+    "total": 824,
+    "author": {
+      "name": "Picon Contributors",
+      "url": "https://github.com/yne/picon"
+    },
+    "license": {
+      "title": "Open Font License",
+      "spdx": "OFL-1.1",
+      "url": "https://github.com/yne/picon/blob/master/OFL.txt"
+    },
+    "samples": [
+      "bookmark",
+      "rewind",
+      "folder",
+      "thunderbolt",
+      "message",
+      "east"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "picon",
+    "family": "extended",
+    "variant": "original",
+    "exported": 824
+  },
+  "bx": {
+    "name": "BoxIcons v2",
+    "total": 814,
+    "version": "2.1.4",
+    "author": {
+      "name": "Boxicons",
+      "url": "https://github.com/box-icons/boxicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/box-icons/boxicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "heart-circle",
+      "last-page",
+      "bar-chart-square",
+      "stop",
+      "heading",
+      "filter-alt"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "bx",
+    "family": "extended",
+    "variant": "original",
+    "exported": 2423
+  },
+  "si-glyph": {
+    "name": "SmartIcons Glyph",
+    "total": 799,
+    "version": "0.0.2",
+    "author": {
+      "name": "SmartIcons"
+    },
+    "license": {
+      "title": "CC BY SA 4.0",
+      "spdx": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "samples": [
+      "circle-load-left",
+      "basket-arrow-right",
+      "slide-show"
+    ],
+    "palette": false,
+    "hidden": true,
+    "prefix": "si-glyph",
+    "family": "extended",
+    "variant": "original",
+    "exported": 799
+  },
+  "streamline-emojis": {
+    "name": "Streamline Emojis",
+    "total": 787,
+    "author": {
+      "name": "Streamline",
+      "url": "https://github.com/webalys-hq/streamline-vectors"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "crescent-moon",
+      "fire",
+      "kissing-face-with-smiling-eyes",
+      "paperclip",
+      "cloud-1",
+      "balloon"
+    ],
+    "height": 24,
+    "category": "Emoji",
+    "palette": true,
+    "prefix": "streamline-emojis",
+    "family": "extended",
+    "variant": "original",
+    "exported": 787
+  },
+  "zmdi": {
+    "name": "Material Design Iconic Font",
+    "total": 777,
+    "author": {
+      "name": "MDI Community",
+      "url": "https://github.com/zavoloklom/material-design-iconic-font"
+    },
+    "license": {
+      "title": "Open Font License",
+      "spdx": "OFL-1.1"
+    },
+    "samples": [
+      "alarm-snooze",
+      "cloud-off",
+      "library"
+    ],
+    "palette": false,
+    "hidden": true,
+    "prefix": "zmdi",
+    "family": "extended",
+    "variant": "original",
+    "exported": 885
+  },
+  "devicon-plain": {
+    "name": "Devicon Plain",
+    "total": 755,
+    "author": {
+      "name": "konpa",
+      "url": "https://github.com/devicons/devicon/tree/master"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE"
+    },
+    "samples": [
+      "kotlin",
+      "bulma",
+      "logstash",
+      "flutter",
+      "vuejs",
+      "fsharp"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Programming",
+    "palette": false,
+    "prefix": "devicon-plain",
+    "family": "extended",
+    "variant": "original",
+    "exported": 787
+  },
+  "flowbite": {
+    "name": "Flowbite Icons",
+    "total": 751,
+    "author": {
+      "name": "Themesberg",
+      "url": "https://github.com/themesberg/flowbite-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/themesberg/flowbite-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "user-outline",
+      "vue-solid",
+      "list-outline",
+      "bars-from-left-outline",
+      "letter-underline-outline",
+      "table-column-solid"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "flowbite",
+    "family": "extended",
+    "variant": "original",
+    "exported": 833
+  },
+  "lsicon": {
+    "name": "Lsicon",
+    "total": 716,
+    "author": {
+      "name": "Wis Design",
+      "url": "https://www.lsicon.com/"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/wisdesignsystem/lsicon/blob/main/LICENSE"
+    },
+    "samples": [
+      "pointer-outline",
+      "column-filled",
+      "vip-outline",
+      "area-chart-outline",
+      "density-l-filled",
+      "open-new-outline"
+    ],
+    "height": 16,
+    "category": "UI 16px / 32px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "lsicon",
+    "family": "extended",
+    "variant": "original",
+    "exported": 716
+  },
+  "gg": {
+    "name": "css.gg",
+    "total": 704,
+    "version": "2.1.4",
+    "author": {
+      "name": "Astrit",
+      "url": "https://github.com/astrit/css.gg"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/astrit/css.gg/blob/master/LICENSE"
+    },
+    "samples": [
+      "align-left",
+      "server",
+      "overflow",
+      "edit-flip-v",
+      "terrain",
+      "space-between"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "gg",
+    "family": "extended",
+    "variant": "original",
+    "exported": 705
+  },
+  "fa": {
+    "name": "Font Awesome 4",
+    "total": 678,
+    "version": "4.7.0",
+    "author": {
+      "name": "Dave Gandy",
+      "url": "https://github.com/FortAwesome/Font-Awesome/tree/fa-4"
+    },
+    "license": {
+      "title": "Open Font License",
+      "spdx": "OFL-1.1",
+      "url": "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+    },
+    "samples": [
+      "wrench",
+      "bell-o",
+      "user-o",
+      "area-chart",
+      "play",
+      "css3"
+    ],
+    "category": "Archive / Unmaintained",
+    "palette": false,
+    "prefix": "fa",
+    "family": "extended",
+    "variant": "original",
+    "exported": 786
+  },
+  "bxs": {
+    "name": "BoxIcons v2 Solid",
+    "total": 665,
+    "version": "2.1.4",
+    "author": {
+      "name": "Boxicons",
+      "url": "https://github.com/box-icons/boxicons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/box-icons/boxicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "edit-alt",
+      "tree-alt",
+      "circle-half",
+      "eject",
+      "flag",
+      "download"
+    ],
+    "height": 24,
+    "category": "UI 24px",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "bxs",
+    "family": "extended",
+    "variant": "original",
+    "exported": 665
+  },
+  "catppuccin": {
+    "name": "Catppuccin Icons",
+    "total": 656,
+    "author": {
+      "name": "Catppuccin",
+      "url": "https://github.com/catppuccin/vscode-icons"
+    },
+    "license": {
+      "title": "MIT",
+      "spdx": "MIT",
+      "url": "https://github.com/catppuccin/vscode-icons/blob/main/LICENSE"
+    },
+    "samples": [
+      "folder",
+      "nuxt",
+      "vscode",
+      "amber",
+      "stackblitz",
+      "vercel"
+    ],
+    "height": 16,
+    "category": "Programming",
+    "palette": true,
+    "prefix": "catppuccin",
+    "family": "extended",
+    "variant": "original",
+    "exported": 660
+  },
+  "memory": {
+    "name": "Memory Icons",
+    "total": 651,
+    "author": {
+      "name": "Pictogrammers",
+      "url": "https://github.com/Pictogrammers/Memory"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://github.com/Pictogrammers/Memory/blob/main/LICENSE"
+    },
+    "samples": [
+      "chart-bar",
+      "application",
+      "message",
+      "card-text",
+      "monitor",
+      "poll"
+    ],
+    "height": 22,
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "memory",
+    "family": "extended",
+    "variant": "original",
+    "exported": 655
+  },
+  "codicon": {
+    "name": "Codicons",
+    "total": 651,
+    "version": "0.0.0",
+    "author": {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/vscode-codicons"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://github.com/microsoft/vscode-codicons/blob/main/LICENSE"
+    },
+    "samples": [
+      "account",
+      "bell-dot",
+      "new-file",
+      "split-vertical",
+      "debug-pause",
+      "color-mode"
+    ],
+    "category": "Programming",
+    "tags": [
+      "Precise Shapes",
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "codicon",
+    "family": "extended",
+    "variant": "original",
+    "exported": 659
+  },
+  "nrk": {
+    "name": "NRK Core Icons",
+    "total": 637,
+    "author": {
+      "name": "Norsk rikskringkasting",
+      "url": "https://github.com/nrkno/core-icons"
+    },
+    "license": {
+      "title": "CC BY 4.0",
+      "spdx": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "samples": [
+      "lyn",
+      "edit",
+      "mening",
+      "media-airplay",
+      "category-active",
+      "heart-active"
+    ],
+    "category": "UI Other / Mixed Grid",
+    "tags": [
+      "Has Padding"
+    ],
+    "palette": false,
+    "prefix": "nrk",
+    "family": "extended",
+    "variant": "original",
+    "exported": 637
+  },
+  "vaadin": {
+    "name": "Vaadin Icons",
+    "total": 636,
+    "version": "4.3.2",
+    "author": {
+      "name": "Vaadin",
+      "url": "https://github.com/vaadin/web-components"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0"
+    },
+    "samples": [
+      "area-select",
+      "file-picture",
+      "plus-circle-o",
+      "angle-up",
+      "eject",
+      "enter-arrow"
+    ],
+    "height": 32,
+    "displayHeight": 16,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes"
+    ],
+    "palette": false,
+    "prefix": "vaadin",
+    "family": "extended",
+    "variant": "original",
+    "exported": 636
+  },
+  "grommet-icons": {
+    "name": "Grommet Icons",
+    "total": 636,
+    "version": "4.14.0",
+    "author": {
+      "name": "Grommet",
+      "url": "https://github.com/grommet/grommet-icons"
+    },
+    "license": {
+      "title": "Apache 2.0",
+      "spdx": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    "samples": [
+      "user-expert",
+      "action",
+      "home",
+      "more-vertical",
+      "waypoint",
+      "terminal"
+    ],
+    "height": 24,
+    "category": "Archive / Unmaintained",
+    "tags": [
+      "Precise Shapes",
+      "Uses Stroke"
+    ],
+    "palette": false,
+    "prefix": "grommet-icons",
+    "family": "extended",
+    "variant": "original",
+    "exported": 134
+  }
+}

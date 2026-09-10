@@ -1,0 +1,61 @@
+# Extended library provenance
+
+The extended family contains additional original icons selected from open/free licensed collections. The neon/sticker/soft/glass families are deterministic visual derivatives of icons already present in the repository and preserve the original metadata in their manifests.
+
+- **IconMind** (iconmind) — MIT / MIT; 4000 additional originals
+- **Fluent UI System Icons** (fluent) — MIT / MIT; 4000 additional originals
+- **Material Symbols Light** (material-symbols-light) — Apache 2.0 / Apache-2.0; 4000 additional originals
+- **Material Symbols** (material-symbols) — Apache 2.0 / Apache-2.0; 4000 additional originals
+- **Arcticons** (arcticons) — CC BY-SA 4.0 / CC-BY-SA-4.0; 4000 additional originals
+- **Google Material Icons** (ic) — Apache 2.0 / Apache-2.0; 4000 additional originals
+- **Phosphor** (ph) — MIT / MIT; 4000 additional originals
+- **Solar** (solar) — CC BY 4.0 / CC-BY-4.0; 2962 additional originals
+- **Material Design Icons** (mdi) — Apache 2.0 / Apache-2.0; 4000 additional originals
+- **selfh.st/icons** (selfhst) — CC BY 4.0 / CC-BY-4.0; 2129 additional originals
+- **Reicon** (reicon) — MIT / MIT; 1590 additional originals
+- **Tabler Icons** (tabler) — MIT / MIT; 1426 additional originals
+- **Huge Icons** (hugeicons) — MIT / MIT; 1031 additional originals
+- **Simple Icons** (simple-icons) — CC0 1.0 / CC0-1.0; 2914 additional originals
+- **Fluent Emoji Flat** (fluent-emoji-flat) — MIT / MIT; 3181 additional originals
+- **Streamline** (streamline) — CC BY 4.0 / CC-BY-4.0; 2 additional originals
+- **Pinhead Map Icons** (pinhead) — CC0 / CC0-1.0; 2921 additional originals
+- **Noto Emoji (v1)** (noto-v1) — Apache 2.0 / Apache-2.0; 2319 additional originals
+- **WebHostingHub Glyphs** (whh) — Open Font License / OFL-1.1; 2125 additional originals
+- **Health Icons** (healthicons) — MIT / MIT; 3391 additional originals
+- **SVG Logos** (logos) — CC0 / CC0-1.0; 2183 additional originals
+- **Emoji One (Colored)** (emojione) — CC BY 4.0 / CC-BY-4.0; 2159 additional originals
+- **Web3 Icons** (token) — MIT / MIT; 1866 additional originals
+- **Fluent Emoji High Contrast** (fluent-emoji-high-contrast) — MIT / MIT; 1596 additional originals
+- **VSCode Icons** (vscode-icons) — MIT / MIT; 1597 additional originals
+- **Line Awesome** (la) — Apache 2.0 / Apache-2.0; 2353 additional originals
+- **Emoji One (Monotone)** (emojione-monotone) — CC BY 4.0 / CC-BY-4.0; 1713 additional originals
+- **Font Awesome 6 Solid** (fa6-solid) — CC BY 4.0 / CC-BY-4.0; 1408 additional originals
+- **Logos free icons** (streamline-logos) — CC BY 4.0 / CC-BY-4.0; 1362 additional originals
+- **Emoji One (v1)** (emojione-v1) — CC BY-SA 4.0 / CC-BY-SA-4.0; 1529 additional originals
+- **Material Line Icons** (line-md) — MIT / MIT; 1279 additional originals
+- **Devicon** (devicon) — MIT / MIT; 1045 additional originals
+- **Firefox OS Emoji** (fxemoji) — Apache 2.0 / Apache-2.0; 1034 additional originals
+- **Font Awesome 5 Solid** (fa-solid) — CC BY 4.0 / CC-BY-4.0; 1024 additional originals
+- **Garden SVG Icons** (garden) — Apache 2.0 / Apache-2.0; 535 additional originals
+- **File Icons** (file-icons) — ISC / ISC; 930 additional originals
+- **Qlementine Icons** (qlementine-icons) — MIT / MIT; 910 additional originals
+- **Material Icon Theme** (material-icon-theme) — MIT / MIT; 1176 additional originals
+- **Ant Design Icons** (ant-design) — MIT / MIT; 1888 additional originals
+- **CoreUI Brands** (cib) — CC0 1.0 / CC0-1.0; 831 additional originals
+- **Pico-icon** (picon) — Open Font License / OFL-1.1; 824 additional originals
+- **BoxIcons v2** (bx) — MIT / MIT; 2423 additional originals
+- **SmartIcons Glyph** (si-glyph) — CC BY SA 4.0 / CC-BY-SA-4.0; 799 additional originals
+- **Streamline Emojis** (streamline-emojis) — CC BY 4.0 / CC-BY-4.0; 787 additional originals
+- **Material Design Iconic Font** (zmdi) — Open Font License / OFL-1.1; 885 additional originals
+- **Devicon Plain** (devicon-plain) — MIT / MIT; 787 additional originals
+- **Flowbite Icons** (flowbite) — MIT / MIT; 833 additional originals
+- **Lsicon** (lsicon) — MIT / MIT; 716 additional originals
+- **css.gg** (gg) — MIT / MIT; 705 additional originals
+- **Font Awesome 4** (fa) — Open Font License / OFL-1.1; 786 additional originals
+- **BoxIcons v2 Solid** (bxs) — MIT / MIT; 665 additional originals
+- **Catppuccin Icons** (catppuccin) — MIT / MIT; 660 additional originals
+- **Memory Icons** (memory) — Apache 2.0 / Apache-2.0; 655 additional originals
+- **Codicons** (codicon) — CC BY 4.0 / CC-BY-4.0; 659 additional originals
+- **NRK Core Icons** (nrk) — CC BY 4.0 / CC-BY-4.0; 637 additional originals
+- **Vaadin Icons** (vaadin) — Apache 2.0 / Apache-2.0; 636 additional originals
+- **Grommet Icons** (grommet-icons) — Apache 2.0 / Apache-2.0; 134 additional originals
