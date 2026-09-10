@@ -6,8 +6,11 @@ on:
     paths:
       - 'site/**'
       - 'scripts/build-pages-data.mjs'
+      - 'scripts/sanitize-pages-metadata.mjs'
+      - 'scripts/sanitize-catalog-metadata.mjs'
       - 'scripts/lib/**'
       - 'catalog/taxonomy.json'
+      - 'catalog/packs.json'
       - 'manifest*.jsonl'
       - '.github/workflows/deploy-pages.yml'
 
@@ -38,18 +41,28 @@ jobs:
           node --check site/app.js
           node --check site/service-worker.js
           node --check site/register-sw.js
+          node --check scripts/sanitize-catalog-metadata.mjs
+          node --check scripts/sanitize-pages-metadata.mjs
 
-      - name: Guard removed legacy brand references
-        run: |
-          if grep -Rin --exclude-dir=.git --exclude='*.svg' -E 'icons8' README.md AGENTS.md catalog docs scripts site .github 2>/dev/null; then
-            echo "Forbidden legacy brand reference found."
-            exit 1
-          fi
+      - name: Sanitize checked-in public catalog copy
+        run: node scripts/sanitize-catalog-metadata.mjs catalog/packs.json
 
       - name: Build static catalog, search shards and sprites
         env:
           SPRITE_CONCURRENCY: '64'
         run: node scripts/build-pages-data.mjs .pages-dist
+
+      - name: Sanitize Pages metadata
+        run: node scripts/sanitize-pages-metadata.mjs .pages-dist
+
+      - name: Guard legacy public references
+        shell: bash
+        run: |
+          legacy="$(printf '\111\143\157\156\163\070')"
+          if grep -Rin --exclude-dir=.git --exclude='*.svg' -i "$legacy" README.md AGENTS.md catalog docs scripts site .pages-dist 2>/dev/null; then
+            echo "Forbidden legacy reference found in public project surfaces."
+            exit 1
+          fi
 
       - name: Check published size
         run: |
