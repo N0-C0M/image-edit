@@ -1,4 +1,4 @@
-name: Deploy AERO Icon Atlas
+name: Build AERO Icon Atlas
 
 on:
   workflow_dispatch:
@@ -12,21 +12,16 @@ on:
       - '.github/workflows/deploy-pages.yml'
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: icon-atlas-pages
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -43,26 +38,22 @@ jobs:
           SPRITE_CONCURRENCY: '64'
         run: node scripts/build-pages-data.mjs .pages-dist
 
-      - name: Check Pages size
+      - name: Check published size
         run: |
           bytes=$(du -sb .pages-dist | cut -f1)
           echo "Published site bytes: $bytes"
           max=$((950 * 1024 * 1024))
           if [ "$bytes" -gt "$max" ]; then
-            echo "Site is above the 950 MiB safety threshold. Reduce preview data before deployment."
+            echo "Site is above the 950 MiB safety threshold. Reduce preview data before publishing."
             exit 1
           fi
 
-      - name: Configure or enable Pages
-        uses: actions/configure-pages@v5
+      - name: Publish static site to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          enablement: true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .pages-dist
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.pages-dist
+          publish_branch: gh-pages
+          force_orphan: true
+          enable_jekyll: false
+          commit_message: "Publish AERO Icon Atlas"
