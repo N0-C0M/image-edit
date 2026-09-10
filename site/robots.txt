@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://n0-c0m.github.io/image-edit/sitemap.xml
