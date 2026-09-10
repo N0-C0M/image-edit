@@ -1,5 +1,4 @@
 import fs from 'node:fs/promises';
-import path from 'node:path';
 
 const taxonomy = JSON.parse(await fs.readFile('catalog/taxonomy.json', 'utf8'));
 
@@ -10,6 +9,10 @@ const manifestFiles = (await fs.readdir('.'))
 function familyFromManifest(file) {
   if (file === 'manifest.jsonl') return 'core';
   return file.replace(/^manifest-/, '').replace(/\.jsonl$/, '');
+}
+
+function rootFromFamily(family) {
+  return family === 'core' ? 'library/' : `library-${family}/`;
 }
 
 function words(value) {
@@ -62,6 +65,8 @@ export function classifyIcon(item, family) {
   if (family.includes('handdrawn') && !styles.includes('handdrawn')) styles.push('handdrawn');
   if (family.includes('neon') && !styles.includes('neon')) styles.push('neon');
   if (family.includes('sticker') && !styles.includes('sticker')) styles.push('sticker');
+  if (family.includes('soft') && !styles.includes('soft')) styles.push('soft');
+  if (family.includes('glass') && !styles.includes('glass')) styles.push('glass');
   if (item.palette === true && !styles.includes('color')) styles.push('color');
   if (/emoji/i.test(String(item.collection || '')) && !styles.includes('color')) styles.push('color');
   if (/brand|logo/i.test(`${item.category || ''} ${item.collection || ''}`) && !styles.includes('brand')) styles.push('brand');
@@ -72,6 +77,7 @@ export function classifyIcon(item, family) {
 }
 
 const packs = new Map();
+const familyTotals = {};
 const categoryTotals = Object.fromEntries(Object.keys(taxonomy.categories).map((x) => [x, 0]));
 const styleTotals = {};
 let total = 0;
@@ -107,6 +113,7 @@ for (const file of manifestFiles) {
       styleTotals[style] = (styleTotals[style] || 0) + 1;
     }
     categoryTotals[category] = (categoryTotals[category] || 0) + 1;
+    familyTotals[family] = (familyTotals[family] || 0) + 1;
     if (pack.sample.length < 8) pack.sample.push({ id: item.id, name: item.name, path: item.path, category, styles });
     total++;
   }
@@ -133,9 +140,44 @@ for (const pack of packRows) {
 for (const rows of Object.values(categoryIndex)) rows.sort((a,b) => b.count-a.count);
 for (const rows of Object.values(styleIndex)) rows.sort((a,b) => b.count-a.count);
 
-await fs.writeFile('catalog/packs.json', JSON.stringify({ generatedAt: new Date().toISOString(), totalIcons: total, packs: packRows }, null, 2) + '\n');
-await fs.writeFile('catalog/categories.json', JSON.stringify({ generatedAt: new Date().toISOString(), totals: categoryTotals, packs: categoryIndex }, null, 2) + '\n');
-await fs.writeFile('catalog/styles.json', JSON.stringify({ generatedAt: new Date().toISOString(), totals: styleTotals, packs: styleIndex }, null, 2) + '\n');
-await fs.writeFile('catalog/classification-stats.json', JSON.stringify({ generatedAt: new Date().toISOString(), totalIcons: total, manifestFiles, packCount: packRows.length, categoryTotals, styleTotals }, null, 2) + '\n');
+const generatedAt = new Date().toISOString();
+const familyOrder = ['core', 'handdrawn', 'beautiful', 'extended', 'neon', 'sticker', 'soft', 'glass'];
+const orderedFamilies = [...new Set([...familyOrder.filter((f) => familyTotals[f]), ...Object.keys(familyTotals).sort()])];
 
-console.log(`Classified ${total} icons from ${manifestFiles.length} manifests into ${packRows.length} packs.`);
+await fs.writeFile('catalog/packs.json', JSON.stringify({ generatedAt, totalIcons: total, packs: packRows }, null, 2) + '\n');
+await fs.writeFile('catalog/categories.json', JSON.stringify({ generatedAt, totals: categoryTotals, packs: categoryIndex }, null, 2) + '\n');
+await fs.writeFile('catalog/styles.json', JSON.stringify({ generatedAt, totals: styleTotals, packs: styleIndex }, null, 2) + '\n');
+await fs.writeFile('catalog/classification-stats.json', JSON.stringify({ generatedAt, totalIcons: total, manifestFiles, packCount: packRows.length, familyTotals, categoryTotals, styleTotals }, null, 2) + '\n');
+
+const iconMap = {
+  generatedAt,
+  total,
+  packCount: packRows.length,
+  families: Object.fromEntries(orderedFamilies.map((family) => [family, {
+    count: familyTotals[family],
+    root: rootFromFamily(family),
+    manifest: family === 'core' ? 'manifest.jsonl' : `manifest-${family}.jsonl`,
+    collections: packRows.filter((pack) => pack.family === family).map((pack) => pack.prefix),
+  }])),
+};
+await fs.writeFile('catalog/icon-map.json', JSON.stringify(iconMap, null, 2) + '\n');
+
+const statsRows = orderedFamilies.map((family) => `| ${family} | ${familyTotals[family].toLocaleString('en-US')} | ${rootFromFamily(family)} |`).join('\n');
+const stats = `# Icon Library Stats\n\n- Total SVG icons: **${total.toLocaleString('en-US')}**\n- Families: **${orderedFamilies.length}**\n- Packs: **${packRows.length.toLocaleString('en-US')}**\n- Manifests: **${manifestFiles.length}**\n- Generated: ${generatedAt}\n\n| Family | Icons | Root |\n|---|---:|---|\n${statsRows}\n\nSee [ICON_MAP.md](ICON_MAP.md), [docs/CLASSIFICATION.md](docs/CLASSIFICATION.md), and machine-readable indexes under \`catalog/\`.\n`;
+await fs.writeFile('ICON_LIBRARY_STATS.md', stats);
+
+const mapSections = orderedFamilies.map((family) => {
+  const rows = packRows
+    .filter((pack) => pack.family === family)
+    .map((pack) => {
+      const license = typeof pack.license === 'object' ? (pack.license.title || pack.license.spdx || 'See metadata') : (pack.license || 'See metadata');
+      return `| ${pack.prefix} | ${pack.name} | ${pack.count} | ${pack.dominantCategory} | ${pack.dominantStyles.join(', ')} | ${license} |`;
+    })
+    .join('\n');
+  return `## ${family}\n\n**${familyTotals[family].toLocaleString('en-US')} icons** · \`${rootFromFamily(family)}\`\n\n| Prefix | Pack | Icons | Dominant category | Styles | License |\n|---|---|---:|---|---|---|\n${rows}`;
+}).join('\n\n');
+
+const iconMapMd = `# AERO Icon Map\n\nAutomatically generated map of **${total.toLocaleString('en-US')} SVG icons** across **${orderedFamilies.length} families** and **${packRows.length} packs**.\n\n## Quick search\n\n\`\`\`bash\nnode scripts/search-icons.mjs settings\nnode scripts/search-icons.mjs безопасность --category=security\nnode scripts/search-icons.mjs sword --family=neon\nnode scripts/search-icons.mjs camera --style=glass\n\`\`\`\n\nFor classification rules see [docs/CLASSIFICATION.md](docs/CLASSIFICATION.md).\n\n${mapSections}\n`;
+await fs.writeFile('ICON_MAP.md', iconMapMd);
+
+console.log(`Classified ${total} icons from ${manifestFiles.length} manifests into ${packRows.length} packs across ${orderedFamilies.length} families.`);
