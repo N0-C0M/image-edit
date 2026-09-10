@@ -1,132 +1,155 @@
-# AGENTS.md — правила работы AI с библиотекой иконок
+# AGENTS.md — правила работы AI с AERO Icon Atlas
 
-Этот репозиторий предназначен для локального выбора иконок AI/Codex-агентами. После полной сборки в нём **300 000 SVG** в трёх семействах. Агент должен сначала использовать локальную библиотеку и только затем искать внешние ассеты.
+В репозитории находится **640 000 SVG-иконок**. Любой AI/Codex-агент, меняющий UI/UX, должен сначала использовать локальную библиотеку и её классификацию и только затем обращаться к внешним источникам.
 
 ## 1. Семейства
 
-- `library/` + `manifest.jsonl` — **Core**, 100k универсальных иконок.
-- `library-handdrawn/` + `manifest-handdrawn.jsonl` — **Hand-drawn**, 100k friendly/freehand вариантов.
-- `library-beautiful/` + `manifest-beautiful.jsonl` — **Beautiful**, 100k дополнительных современных UI-иконок.
-- `ICON_MAP.md` — карта коллекций для человека.
-- `catalog/icon-map.json` — компактная карта для машины.
-- `THIRD_PARTY_LICENSES.md` — авторы, лицензии и provenance.
+| Family | Manifest | Root | Count | Роль |
+|---|---|---|---:|---|
+| `core` | `manifest.jsonl` | `library/` | 100k | системный UI, brands, game, emoji, общие icons |
+| `handdrawn` | `manifest-handdrawn.jsonl` | `library-handdrawn/` | 100k | friendly/freehand |
+| `beautiful` | `manifest-beautiful.jsonl` | `library-beautiful/` | 100k | modern product UI |
+| `extended` | `manifest-extended.jsonl` | `library-extended/` | 100k | дополнительное оригинальное покрытие |
+| `neon` | `manifest-neon.jsonl` | `library-neon/` | 60k | cyber/game/neon accents |
+| `sticker` | `manifest-sticker.jsonl` | `library-sticker/` | 60k | playful/rewards/promo |
+| `soft` | `manifest-soft.jsonl` | `library-soft/` | 60k | rounded/soft consumer UI |
+| `glass` | `manifest-glass.jsonl` | `library-glass/` | 60k | glass/translucent accents |
 
-Не сканируй все SVG по содержимому. Используй индекс и CLI-поиск.
+Итого: **640k**.
 
-## 2. Главный способ поиска
+## 2. Не сканировать библиотеку вручную
+
+Не обходи сотни тысяч SVG и не загружай большие manifests целиком в контекст. Начинай с:
 
 ```bash
-node scripts/search-icons.mjs calendar
-node scripts/search-icons.mjs "security shield" --family=beautiful --limit=30
-node scripts/search-icons.mjs upload --family=handdrawn
-node scripts/search-icons.mjs sword --family=core
+node scripts/search-icons.mjs <query>
 ```
 
-Если CLI недоступен, используй `rg`/`grep` по соответствующему JSONL manifest.
+Фильтры:
 
-Не загружай в контекст десятки тысяч manifest-строк. Сначала сузь запрос до 2–10 кандидатов.
+```bash
+--family=beautiful
+--pack=tabler
+--category=security
+--style=outline
+--limit=20
+--json
+--path-only
+```
 
-## 3. Выбор family
+CLI поддерживает русские алиасы из `catalog/search-aliases.json`:
 
-### Core
-Используй для:
-- navigation/action/system UI;
-- Material/Fluent/Phosphor/Tabler-подобных интерфейсов;
-- брендов;
-- игр/RPG;
-- emoji и обычных универсальных символов.
+```bash
+node scripts/search-icons.mjs настройки
+node scripts/search-icons.mjs безопасность --family=beautiful
+node scripts/search-icons.mjs меч --category=gaming
+```
 
-### Beautiful
-Используй, когда нужен более современный или выразительный продуктовый UI: landing, SaaS, dashboard, mobile app, cards, premium-looking interface.
+## 3. Порядок выбора
 
-Не смешивай красивую коллекцию с другой только ради разнообразия — консистентность важнее.
+1. Определи точное действие/сущность.
+2. Посмотри уже существующий визуальный язык экрана.
+3. Выбери подходящий family.
+4. Выполни semantic search по точному слову и синонимам.
+5. При необходимости сузь результаты по category/style/pack.
+6. Открой 2–5 SVG-кандидатов.
+7. Сравни смысл, optical weight, canvas, fill/stroke и читаемость.
+8. Для одной toolbar/sidebar/navigation группы предпочитай один pack.
+9. Проверь accessibility.
+10. Проверь provenance/license.
+11. Только при отсутствии подходящего локального кандидата ищи внешний asset.
 
-### Hand-drawn
-Используй для:
-- onboarding;
-- empty states;
-- friendly SaaS;
-- игровых/playful интерфейсов;
-- крупных feature icons;
-- креативных карточек и иллюстративных элементов.
+## 4. Приоритет оригинальных и производных assets
 
-`variant=native-freehand` означает исходную hand-drawn иконку автора. `variant=generated-freehand` означает автоматически стилизованную производную. Для hero/marketing, где качество особенно заметно, сначала предпочитай `native-freehand`.
+Для маленьких функциональных controls сначала предпочитай **original/native** SVG из `core`, `beautiful` или `extended`.
 
-## 4. Порядок выбора
+Производные families `handdrawn`, `neon`, `sticker`, `soft`, `glass` полезны для визуального характера, но не должны ухудшать читаемость.
 
-1. Определи точную семантику: `search`, `settings`, `download`, `calendar`, `security`, `game`, `user`, `mail` и т. д.
-2. Определи визуальный язык текущего экрана.
-3. Выбери family.
-4. Ищи по английскому semantic name и 2–4 синонимам.
-5. Выбери 2–5 кандидатов.
-6. По возможности используй одну исходную коллекцию для одной панели/группы controls.
-7. Проверь optical weight и размер.
-8. Проверь accessibility.
-9. Проверь лицензию.
-10. Только после этого интегрируй SVG.
+Рекомендуемый приоритет:
 
-## 5. Рекомендуемые Core-коллекции
+- toolbar/navigation/settings → `core` / `beautiful`;
+- premium SaaS/mobile → `beautiful`;
+- редкая семантика → `extended`;
+- onboarding/empty-state/friendly cards → `handdrawn`;
+- game/cyber/horror accent → `neon`;
+- loot/reward/promo/playful → `sticker`;
+- friendly consumer/mobile → `soft`;
+- translucent/glass feature layer → `glass`.
 
-- `tabler` — чистый универсальный outline UI.
-- `ph` — Phosphor, современный UI и много вариантов.
-- `fluent` — Microsoft/Fluent.
-- `material-symbols`, `material-symbols-light` — Material.
-- `mdi` — широкое покрытие системных сценариев.
-- `hugeicons` — выразительный современный UI.
-- `solar` — rounded/duotone язык.
-- `game-icons` — игры, предметы, оружие, способности, RPG.
-- `simple-icons` — бренды.
-- `openmoji`, `twemoji`, `noto` — emoji/illustrative accents.
+## 5. Классификация
 
-Для Beautiful и Hand-drawn фактический состав всегда смотри в `ICON_MAP.md`, потому что он генерируется из актуального Iconify snapshot.
+Используй [`docs/CLASSIFICATION.md`](docs/CLASSIFICATION.md) и `catalog/taxonomy.json`.
 
-## 6. Консистентность
+Основные semantic categories:
 
-- Для navbar/sidebar/toolbar используй одну коллекцию или максимально совместимые варианты.
-- Не смешивай outline, filled, emoji, 3D и hand-drawn в одной группе controls.
-- Второй стиль допустим для feature/empty-state/decorative слоя.
-- Сохраняй aspect ratio SVG.
-- Не меняй stroke-width вручную без причины.
+`actions`, `navigation`, `communication`, `users`, `security`, `files`, `commerce`, `finance`, `media`, `devices`, `development`, `gaming`, `maps-travel`, `weather`, `health`, `education`, `time-calendar`, `social-brands`, `arrows`, `shapes`, `misc`.
+
+Style tags могут включать:
+
+`outline`, `filled`, `duotone`, `color`, `monochrome`, `rounded`, `sharp`, `thin`, `bold`, `pixel`, `emoji`, `brand`, `handdrawn`, `neon`, `sticker`, `soft`, `glass`.
+
+Классификация эвристическая. **Точное имя иконки важнее broad category.**
+
+## 6. Pack consistency
+
+Большая библиотека существует для более точного выбора, а не для смешивания максимального количества наборов.
+
+- Одна toolbar/navigation group → один pack, если возможно.
+- Не смешивай outline/fill/emoji/generated FX случайно.
+- Второй визуальный язык допускается для feature/empty-state/decorative слоя.
+- Не меняй `stroke-width` и aspect ratio без веской причины.
 - Не растягивай SVG по одной оси.
-- Не выбирай иконку только потому, что она визуально эффектнее: семантика важнее.
 
-## 7. Семантические синонимы
+## 7. Семантика важнее красоты
 
-- удалить: `delete`, `trash`, `remove`;
-- настройки: `settings`, `gear`, `cog`;
-- аккаунт: `user`, `person`, `profile`, `account`;
-- безопасность: `shield`, `lock`, `security`, `key`;
-- загрузка: `download`, `save`, `arrow-down`;
-- отправка: `send`, `paper-plane`, `arrow-up`;
-- редактирование: `edit`, `pencil`, `pen`;
-- меню: `menu`, `hamburger`, `navigation`;
-- уведомление: `bell`, `notification`, `alert`.
+Не заменяй понятный `delete` красивым, но неоднозначным символом. Для destructive действий, оплаты, безопасности и системных статусов выбирай максимально однозначные пиктограммы.
+
+Если icon-only действие может быть непонятно, добавь текст/tooltip/accessible name.
 
 ## 8. Размеры
 
-- 16 px — dense desktop UI.
-- 18–20 px — secondary actions.
-- 24 px — default navigation/action.
-- 32–48 px — cards/features.
-- 64–128 px — onboarding, empty states, decorative/hand-drawn.
+Ориентир:
 
-Сравнивай optical weight соседних иконок, а не только номинальный размер.
+- 16 px — плотный desktop UI;
+- 18–20 px — secondary actions;
+- 24 px — default navigation/action;
+- 32–48 px — cards/features;
+- 64–128 px — onboarding, empty states, decorative/generated icons.
+
+Сравнивай реальную оптическую массу соседних иконок.
 
 ## 9. Цвет
 
-- Для монохромных SVG используй design tokens/currentColor, если исходник это поддерживает.
-- Не ломай исходную палитру color/emoji коллекций.
-- Проверяй light/dark theme и контраст.
-- Не вводи новый цвет только из-за палитры иконки.
+- Монохромные SVG по возможности подчиняй design tokens/currentColor, если структура файла это позволяет.
+- Не ломай исходную палитру color/emoji packs.
+- Проверяй light/dark theme.
+- Generated neon/glass/sticker не должны создавать новые случайные цвета в системной панели.
 
 ## 10. Accessibility
 
-- Decorative icon: `aria-hidden="true"`.
-- Icon-only button: обязательный `aria-label`/accessible name.
+- Decorative icon → `aria-hidden="true"`.
+- Icon-only button → обязательный `aria-label`/accessible name.
 - Не передавай критический статус только цветом.
-- Для touch UI интерактивная область обычно должна быть около 40–44 px или больше.
+- Для touch UI целевая интерактивная зона обычно около 40–44 px или больше.
 
-## 11. Web/React
+## 11. Provenance и лицензии
+
+Оригинальные packs имеют разные открытые лицензии. Generated variants остаются производными от своих исходных SVG.
+
+- Всегда сохраняй `sourceId`, если он присутствует.
+- Проверяй `license`/`author` в manifest.
+- Для attribution-required packs сохраняй attribution.
+- Не удаляй `THIRD_PARTY_LICENSES.md` и `EXTENDED_LICENSES.md`.
+- Не заявляй авторство репозитория над сторонними оригинальными иконками.
+- Не выдавай `generated-*` asset за вручную созданный оригинал исходного автора.
+
+## 12. AERO Icon Atlas
+
+Для визуального просмотра используй web explorer из `site/` / `gh-pages`. Он предназначен для быстрого выбора pack/style и preview без перебора файлов.
+
+Документация: [`docs/ICON_ATLAS.md`](docs/ICON_ATLAS.md).
+
+## 13. Web/React
 
 ```tsx
 <button className="iconButton" aria-label="Открыть настройки">
@@ -134,7 +157,7 @@ node scripts/search-icons.mjs sword --family=core
 </button>
 ```
 
-Если SVG импортируется как компонент:
+Если build pipeline импортирует SVG как компонент:
 
 ```tsx
 <button aria-label="Поиск">
@@ -144,28 +167,19 @@ node scripts/search-icons.mjs sword --family=core
 
 Не вставляй огромные inline SVG в JSX без необходимости.
 
-## 12. Лицензии и производные
+## 14. Анти-паттерны
 
-Разные коллекции используют MIT, Apache, ISC, CC0, CC BY, CC BY-SA и другие открытые лицензии.
+Без необходимости запрещено:
 
-- Проверяй `license` в manifest выбранной иконки.
-- Сохраняй attribution, когда он требуется.
-- Не удаляй `THIRD_PARTY_LICENSES.md`.
-- `generated-freehand` остаётся производным от указанного `sourceId`; исходная лицензия продолжает применяться.
-- Не утверждай, что автоматически стилизованный hand-drawn файл является оригинальной работой автора исходной коллекции.
+- внешний поиск до локального;
+- случайные Unicode/emoji вместо подходящего SVG;
+- 3+ несовместимых styles в одной control group;
+- generated FX для мелкого функционального UI, если original читается лучше;
+- обход всех SVG вместо индекса;
+- загрузка полного manifest в LLM-контекст;
+- потеря provenance/license metadata;
+- генерация новой пиктограммы, когда качественный локальный кандидат уже существует.
 
-## 13. Анти-паттерны
+## 15. Главное правило
 
-Без веской причины запрещено:
-
-- emoji вместо обычного UI icon;
-- Unicode-символ вместо имеющейся SVG;
-- 3+ визуально разных стиля в одной toolbar/navigation группе;
-- внешний поиск до локального поиска;
-- генерация новой иконки, если локально уже есть качественный кандидат;
-- использование generated hand-drawn для мелкой плотной toolbar, если обычный outline читается лучше;
-- удаление provenance/license metadata.
-
-## 14. Главное правило
-
-**Семантика → `scripts/search-icons.mjs` → 2–5 локальных кандидатов → визуальная консистентность → accessibility/license → интеграция → внешний источник только при отсутствии подходящего локального результата.**
+**Семантика → локальный search → family/category/style → 2–5 кандидатов → pack consistency → accessibility/license → интеграция. Внешний источник — только последний шаг.**
