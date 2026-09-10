@@ -33,6 +33,19 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Validate frontend JavaScript
+        run: |
+          node --check site/app.js
+          node --check site/service-worker.js
+          node --check site/register-sw.js
+
+      - name: Guard removed legacy brand references
+        run: |
+          if grep -Rin --exclude-dir=.git --exclude='*.svg' -E 'icons8' README.md AGENTS.md catalog docs scripts site .github 2>/dev/null; then
+            echo "Forbidden legacy brand reference found."
+            exit 1
+          fi
+
       - name: Build static catalog, search shards and sprites
         env:
           SPRITE_CONCURRENCY: '64'
