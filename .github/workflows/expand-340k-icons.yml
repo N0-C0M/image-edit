@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 2
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -70,14 +70,22 @@ jobs:
           rm -rf node_modules package-lock.json .cache
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Shared generated indexes are owned by the classification workflow.
+          # Discard builder-side copies so rebasing cannot conflict with docs/taxonomy commits.
+          git restore --worktree --staged catalog/icon-map.json ICON_LIBRARY_STATS.md 2>/dev/null || true
+
           git add \
             library-extended library-neon library-sticker library-soft library-glass \
             manifest-extended.jsonl manifest-neon.jsonl manifest-sticker.jsonl manifest-soft.jsonl manifest-glass.jsonl \
-            collections-extended.json catalog/icon-map.json ICON_LIBRARY_STATS.md EXTENDED_LICENSES.md
+            collections-extended.json EXTENDED_LICENSES.md
+
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
+
           git commit -m "Add 340000 classified SVG icons"
-          git pull --rebase
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
