@@ -1,141 +1,207 @@
-# 300k Open-Source Icon Library for AI & UI Projects
+# AERO Icon Atlas — 640k Open Icon Library
 
-Локальная SVG-библиотека для сайтов, приложений, игр, SaaS, mobile UI и AI/Codex-агентов. Репозиторий собирает открытые icon sets в единую структуру, сохраняет авторов/лицензии и даёт быстрый машинный поиск без ручного просмотра сотен тысяч файлов.
+Большая локальная SVG-библиотека для сайтов, приложений, игр, SaaS, mobile UI и AI/Codex-агентов. Репозиторий объединяет открытые icon sets, хранит provenance и лицензии, классифицирует иконки по смыслу и стилю и предоставляет браузер **AERO Icon Atlas** для визуального поиска.
 
-## Что внутри
+## Масштаб
 
-После полной сборки библиотека состоит из трёх независимых семейств:
+Сейчас библиотека содержит **640 000 SVG** в восьми семействах:
 
-| Семейство | Путь | Цель | Назначение |
+| Семейство | Путь | Количество | Назначение |
 |---|---|---:|---|
-| **Core** | `library/` | 100 000 SVG | универсальный UI, Material, Fluent, Phosphor, Tabler, game, emoji, brands и др. |
-| **Hand-drawn** | `library-handdrawn/` | 100 000 SVG | friendly/creative UI, onboarding, empty states, игровые и выразительные интерфейсы |
-| **Beautiful** | `library-beautiful/` | 100 000 SVG | современные UI-наборы, Streamline, Lucide и другие аккуратные коллекции |
+| **Core** | `library/` | 100 000 | универсальный UI, system actions, brands, emoji, game icons |
+| **Hand-drawn** | `library-handdrawn/` | 100 000 | friendly UI, onboarding, cards, creative/game interfaces |
+| **Beautiful** | `library-beautiful/` | 100 000 | аккуратные современные product/UI packs |
+| **Extended** | `library-extended/` | 100 000 | дополнительные оригинальные открытые коллекции |
+| **Neon** | `library-neon/` | 60 000 | glow/neon интерфейсы, игры, hero/feature accents |
+| **Sticker** | `library-sticker/` | 60 000 | playful, promo, cards, game/reward UI |
+| **Soft** | `library-soft/` | 60 000 | мягкий rounded consumer/product UI |
+| **Glass** | `library-glass/` | 60 000 | glass/translucent visual accents |
 
-**Целевой итог: 300 000 SVG.** Текущие фактические числа всегда смотри в [`ICON_LIBRARY_STATS.md`](ICON_LIBRARY_STATS.md).
+**Итого: 640 000 SVG.** Актуальные автоматически рассчитанные цифры смотри в [`ICON_LIBRARY_STATS.md`](ICON_LIBRARY_STATS.md).
 
-## Важно про Hand-drawn
+## AERO Icon Atlas
 
-В open-source каталогах нет 100 000 уникальных вручную нарисованных freehand-иконок одного уровня качества. Поэтому слой устроен честно:
+В `site/` находится статический браузер библиотеки. Он умеет:
 
-- нативные `Streamline Freehand` и `Streamline Freehand Color` сохраняются как `native-freehand`;
-- оставшаяся часть — детерминированные `generated-freehand` варианты открытых UI-иконок с rough/freehand SVG-эффектом;
-- у каждого производного файла сохраняются `sourceId`, исходная коллекция, автор и лицензия.
+- искать иконки глобально;
+- показывать и фильтровать паки;
+- фильтровать по family, semantic category и visual style;
+- открывать большие preview;
+- показывать ID, путь, автора и лицензию;
+- копировать ID/путь;
+- переключать dark/light theme;
+- открывать pack по URL;
+- работать с sharded search index, не загружая сотни тысяч записей сразу.
 
-Это позволяет получить большой согласованный hand-drawn слой, не выдавая автоматически стилизованные ассеты за оригинальную авторскую коллекцию.
+Подробности: [`docs/ICON_ATLAS.md`](docs/ICON_ATLAS.md).
 
-## Карта библиотеки
+Workflow публикует собранный каталог в ветку `gh-pages`. Для первого запуска GitHub Pages может потребоваться один раз выбрать `gh-pages / (root)` в **Settings → Pages**.
 
-Главная точка входа — [`ICON_MAP.md`](ICON_MAP.md).
+## Классификация
 
-Она показывает:
+Каждая иконка рассматривается сразу по нескольким осям:
 
-- семейства и пути;
-- коллекции и количество иконок;
-- native/generated варианты;
-- лицензии;
-- правила выбора стиля.
+1. **family** — `core`, `beautiful`, `handdrawn`, `extended`, `neon`, `sticker`, `soft`, `glass`;
+2. **pack** — исходная коллекция внутри family;
+3. **semantic category** — например `security`, `gaming`, `commerce`, `files`, `media`, `development`, `maps-travel`, `health`, `education`;
+4. **visual style** — например `outline`, `filled`, `duotone`, `color`, `rounded`, `pixel`, `handdrawn`, `neon`, `sticker`, `soft`, `glass`;
+5. **variant/provenance** — original/native/generated + ссылка на исходный asset для производных вариантов.
 
-Для агента есть компактная машинная карта: `catalog/icon-map.json`.
+Полная модель: [`docs/CLASSIFICATION.md`](docs/CLASSIFICATION.md).
 
-Полные индексы:
+Машиночитаемые индексы:
 
-- `manifest.jsonl` — Core;
-- `manifest-handdrawn.jsonl` — Hand-drawn;
-- `manifest-beautiful.jsonl` — Beautiful.
-
-## Быстрый поиск
-
-Не сканируй 300 000 SVG напрямую. Используй индекс:
-
-```bash
-node scripts/search-icons.mjs calendar
-node scripts/search-icons.mjs "security shield" --family=beautiful --limit=30
-node scripts/search-icons.mjs upload --family=handdrawn
-node scripts/search-icons.mjs sword --family=core
+```text
+catalog/taxonomy.json
+catalog/packs.json
+catalog/categories.json
+catalog/styles.json
+catalog/classification-stats.json
+catalog/icon-map.json
 ```
 
-Вывод содержит family, variant, исходный ID, коллекцию и готовый путь к SVG.
+## Поиск из терминала / AI-агента
 
-Если нужен ручной поиск по manifest:
+Главный инструмент:
 
 ```bash
-rg -i '"name":"[^"]*(search|magnify)[^"]*"' manifest.jsonl
-rg -i 'security|shield|lock' manifest-beautiful.jsonl
+node scripts/search-icons.mjs shield --category=security
+node scripts/search-icons.mjs upload --family=beautiful --style=outline
+node scripts/search-icons.mjs sword --category=gaming
+node scripts/search-icons.mjs camera --family=neon
+node scripts/search-icons.mjs wallet --pack=ph
 ```
+
+Поддерживаются и русские запросы через `catalog/search-aliases.json`:
+
+```bash
+node scripts/search-icons.mjs настройки
+node scripts/search-icons.mjs безопасность --family=beautiful
+node scripts/search-icons.mjs меч --category=gaming
+node scripts/search-icons.mjs деньги --limit=20
+```
+
+Дополнительные режимы:
+
+```bash
+node scripts/search-icons.mjs calendar --json
+node scripts/search-icons.mjs download --path-only
+```
+
+Не сканируй 640 000 SVG напрямую. Сначала используй CLI/manifest/taxonomy и открывай только несколько подходящих кандидатов.
+
+## Manifests
+
+Полные индексы иконок:
+
+```text
+manifest.jsonl                 # core
+manifest-handdrawn.jsonl       # hand-drawn
+manifest-beautiful.jsonl       # beautiful
+manifest-extended.jsonl        # extended originals
+manifest-neon.jsonl            # generated neon
+manifest-sticker.jsonl         # generated sticker
+manifest-soft.jsonl            # generated soft
+manifest-glass.jsonl           # generated glass
+```
+
+Каждая запись хранит semantic name, pack/prefix, путь, source metadata, license и provenance. Производные варианты сохраняют `sourceId`.
+
+## Как выбирать семейство
+
+- **navbar / toolbar / settings:** начинай с `core` или `beautiful`;
+- **premium modern product UI:** `beautiful`;
+- **friendly / human / onboarding:** `handdrawn`;
+- **редкие темы и дополнительное покрытие:** `extended`;
+- **horror/cyber/game UI:** `neon` как акцент;
+- **rewards / loot / playful cards:** `sticker`;
+- **consumer/mobile rounded UI:** `soft`;
+- **glassmorphism / translucent feature blocks:** `glass`;
+- **игровые предметы/RPG:** semantic category `gaming`, затем выбирай подходящий family/pack.
+
+Для одной toolbar/navigation группы старайся использовать **один pack**. Огромное количество иконок нужно для точного выбора, а не для случайного смешивания стилей.
+
+## Hand-drawn и generated families
+
+`handdrawn` содержит как нативные freehand collections, так и детерминированные generated-freehand варианты открытых исходников. `neon`, `sticker`, `soft` и `glass` также являются визуальными производными там, где это указано в `variant`.
+
+Они не выдаются за новые авторские исходные наборы: manifest сохраняет source ID, автора и лицензию исходной коллекции.
 
 ## Структура
 
 ```text
 .
-├── library/                       # 100k core SVG
-├── library-handdrawn/             # 100k hand-drawn/native+generated SVG
-├── library-beautiful/             # 100k additional curated SVG
-├── manifest.jsonl                 # core full index
-├── manifest-handdrawn.jsonl       # hand-drawn full index
-├── manifest-beautiful.jsonl       # beautiful full index
-├── collections-selected.json
-├── collections-handdrawn.json
-├── collections-beautiful.json
-├── ICON_MAP.md                    # human-readable icon map
+├── library/                     # 100k core
+├── library-handdrawn/           # 100k
+├── library-beautiful/           # 100k
+├── library-extended/            # 100k originals
+├── library-neon/                # 60k
+├── library-sticker/             # 60k
+├── library-soft/                # 60k
+├── library-glass/               # 60k
+├── manifest*.jsonl
+├── catalog/
+│   ├── taxonomy.json
+│   ├── search-aliases.json
+│   ├── icon-map.json
+│   ├── packs.json
+│   ├── categories.json
+│   ├── styles.json
+│   └── classification-stats.json
+├── site/                        # AERO Icon Atlas frontend
+├── docs/
+│   ├── CLASSIFICATION.md
+│   ├── ICON_ATLAS.md
+│   └── ICON_WORKFLOW.md
+├── scripts/
+│   ├── search-icons.mjs
+│   ├── build-classification.mjs
+│   ├── build-pages-data.mjs
+│   ├── build-icon-library.mjs
+│   ├── build-expanded-library.mjs
+│   └── build-ultra-library.mjs
+├── AGENTS.md
+├── ICON_MAP.md
 ├── ICON_LIBRARY_STATS.md
 ├── THIRD_PARTY_LICENSES.md
-├── catalog/icon-map.json          # compact machine-readable map
-├── scripts/search-icons.mjs
-├── scripts/build-icon-library.mjs
-└── scripts/build-expanded-library.mjs
+└── EXTENDED_LICENSES.md
 ```
 
 ## Для AI / Codex
 
 Перед UI-задачей прочитай [`AGENTS.md`](AGENTS.md).
 
-Базовый алгоритм:
+Рекомендуемый цикл:
 
-1. Определи смысл иконки.
-2. Выбери family: `core`, `beautiful` или `handdrawn`.
-3. Запусти `scripts/search-icons.mjs` по нескольким английским синонимам.
-4. Выбери 2–5 кандидатов.
-5. Проверь визуальную совместимость с экраном.
-6. Предпочитай одну коллекцию для одного navigation/toolbar уровня.
-7. Проверь лицензию выбранной коллекции.
-8. Только если локального результата нет — ищи внешний ассет.
-
-## Рекомендуемый выбор
-
-- **обычный продуктовый UI:** `beautiful` → Lucide/Streamline/современные UI collections;
-- **строгая системная навигация:** `core` → Tabler, Phosphor, Fluent, Material;
-- **игры/RPG:** `core` → Game Icons и тематические наборы;
-- **onboarding / empty state / friendly SaaS:** `handdrawn`;
-- **бренды:** `core` → Simple Icons/Web3/theSVG и соответствующие наборы;
-- **emoji/illustrative accents:** `core` → OpenMoji/Twemoji/Noto, но не как замена обычным toolbar icons.
+1. определить точную семантику;
+2. выбрать family/style под текущий экран;
+3. запустить поиск по нескольким синонимам;
+4. сузить по category/pack/style;
+5. открыть 2–5 SVG-кандидатов;
+6. выбрать иконку с подходящим optical weight;
+7. сохранить консистентность соседних controls;
+8. проверить attribution/license;
+9. только после этого искать внешние ассеты, если локальной иконки действительно нет.
 
 ## Лицензии
 
-Источник данных — открытые коллекции Iconify. Iconify объединяет icon sets с разными лицензиями; лицензия Iconify как проекта не заменяет лицензию конкретного набора.
+Оригинальные иконки приходят из открытых коллекций, агрегированных Iconify. У отдельных паков разные лицензии: MIT, Apache, ISC, CC0, CC BY, CC BY-SA и другие.
 
-В репозитории сохраняются метаданные каждой исходной коллекции и генерируется [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md). Некоторые наборы требуют attribution (например CC BY), другие разрешают использование без атрибуции (MIT, Apache, ISC, CC0 и т. п.).
+- Не считай всю библиотеку одной лицензией.
+- Сохраняй attribution для коллекций, где она требуется.
+- Проверяй manifest и `THIRD_PARTY_LICENSES.md` / `EXTENDED_LICENSES.md` перед публичным распространением конкретных assets.
+- Generated variants продолжают подчиняться лицензии исходной иконки.
 
-Перед публичным распространением конкретного ассета проверь его запись в manifest и соответствующий раздел `THIRD_PARTY_LICENSES.md`.
+Этот репозиторий не заявляет авторство над сторонними исходными icon sets.
 
-## Сборка
+## Автоматизация
 
-Core:
+GitHub Actions выполняет отдельные задачи:
 
-```bash
-node scripts/build-icon-library.mjs .cache/iconify 100000
-```
+- строит/расширяет SVG-библиотеки;
+- валидирует точное число файлов;
+- пересобирает taxonomy/indexes;
+- собирает оптимизированный AERO Icon Atlas;
+- публикует статический каталог в `gh-pages`.
 
-Дополнительные 200k:
-
-```bash
-node scripts/build-expanded-library.mjs .cache/iconify 100000 100000
-```
-
-GitHub Actions автоматически проверяет точное количество SVG перед commit.
-
-## Источник
-
-Иконки берутся из проекта Iconify / `iconify/icon-sets`, который агрегирует открытые icon sets и хранит для них метаданные авторов и лицензий.
-
-Этот репозиторий не утверждает авторство над сторонними иконками. Generated hand-drawn варианты являются производными от указанных исходных коллекций и продолжают подчиняться их лицензиям.
+Так проект можно расширять дальше без ручного редактирования сотен тысяч файлов.
