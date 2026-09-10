@@ -4,8 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#0b0d12" />
-  <meta name="description" content="Open icon explorer: hundreds of thousands of SVG icons, packs, styles and semantic categories." />
+  <meta name="description" content="AERO Icon Atlas — поиск по сотням тысяч SVG-иконок, пакам, стилям и семантическим категориям." />
   <title>AERO Icon Atlas</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./variants.css" />
 </head>
@@ -13,7 +14,7 @@
   <header class="topbar">
     <a class="brand" href="./" aria-label="AERO Icon Atlas">
       <span class="brand-mark">A</span>
-      <span><b>AERO Icon Atlas</b><small>local open icon library</small></span>
+      <span><b>AERO Icon Atlas</b><small>640k open SVG library</small></span>
     </a>
     <div class="header-stats" id="headerStats">Загрузка каталога…</div>
     <button class="theme-button" id="themeButton" type="button" aria-label="Переключить тему">◐</button>
@@ -23,7 +24,7 @@
     <section class="hero">
       <p class="eyebrow">ICON EXPLORER</p>
       <h1>Найди нужную иконку<br />за несколько секунд.</h1>
-      <p class="hero-copy">Поиск по именам, пакам, семантическим категориям и визуальным стилям. SVG можно открыть, скопировать или найти в репозитории.</p>
+      <p class="hero-copy">Поиск по именам, пакам, семантическим категориям и визуальным стилям. Открывай пак, смотри SVG, копируй ID или путь и используй его в проекте.</p>
       <div class="search-shell">
         <span class="search-glyph">⌕</span>
         <input id="globalSearch" autocomplete="off" spellcheck="false" placeholder="shield, calendar, sword, download…" aria-label="Поиск иконок" />
@@ -71,6 +72,11 @@
       </section>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <span>AERO Icon Atlas · open SVG explorer</span>
+    <a href="https://github.com/N0-C0M/image-edit" target="_blank" rel="noreferrer">GitHub repository</a>
+  </footer>
 
   <dialog id="iconDialog" class="icon-dialog">
     <button class="dialog-close" id="dialogClose" type="button" aria-label="Закрыть">×</button>
