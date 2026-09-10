@@ -1,0 +1,11 @@
+{
+  "name": "AERO Icon Atlas",
+  "short_name": "Icon Atlas",
+  "description": "Browse and search the AERO open SVG icon library by pack, family, category and style.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12",
+  "icons": []
+}
