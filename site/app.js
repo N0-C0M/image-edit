@@ -7,15 +7,18 @@ const els = {
   themeButton: $('#themeButton'), iconDialog: $('#iconDialog'), dialogClose: $('#dialogClose'),
   dialogPreview: $('#dialogPreview'), dialogFamily: $('#dialogFamily'), dialogName: $('#dialogName'),
   dialogTags: $('#dialogTags'), dialogMeta: $('#dialogMeta'), copyPath: $('#copyPath'), copyId: $('#copyId'),
+  favoriteIcon: $('#favoriteIcon'), favoritesToggle: $('#favoritesToggle'), favoritesCount: $('#favoritesCount'),
   packCardTemplate: $('#packCardTemplate'), iconCardTemplate: $('#iconCardTemplate'),
 };
 
 const state = {
   catalog: null, packById: new Map(), family: 'all', category: 'all', style: 'all', packQuery: '', sort: 'count',
   activePack: null, activeIcons: [], visibleIcons: 120, activeDialogIcon: null, searchToken: 0,
+  favoritesOnly: false, favorites: new Map(),
 };
 const nf = new Intl.NumberFormat('ru-RU');
 const QUICK = ['security','calendar','game','download','user','wallet','camera','code'];
+const FAVORITES_KEY = 'aero-icon-atlas-favorites-v1';
 
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>'"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -27,6 +30,44 @@ function svgUse(sprite, symbol, variant = 'original', exact = true) {
   return `<svg class="${cls}" aria-hidden="true" focusable="false"><use href="./${sprite}#${symbol}"></use></svg>`;
 }
 function setNotice(text='') { els.notice.textContent = text; els.notice.classList.toggle('hidden', !text); }
+function favoriteKey(icon) { return icon?.id || `${icon?.packId || ''}:${icon?.name || ''}`; }
+function isFavorite(icon) { return state.favorites.has(favoriteKey(icon)); }
+function serializeFavorite(icon) {
+  return {
+    name: icon.name, id: icon.id, symbol: icon.symbol, category: icon.category, styles: icon.styles || [], path: icon.path,
+    variant: icon.variant, exact: icon.exact, sprite: icon.sprite, family: icon.family, prefix: icon.prefix,
+    packName: icon.packName, packId: icon.packId, license: icon.license, author: icon.author,
+  };
+}
+function loadFavorites() {
+  try {
+    const rows = JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]');
+    state.favorites = new Map(Array.isArray(rows) ? rows.map((icon) => [favoriteKey(icon), icon]) : []);
+  } catch { state.favorites = new Map(); }
+  updateFavoritesUi();
+}
+function saveFavorites() {
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify([...state.favorites.values()]));
+  updateFavoritesUi();
+}
+function updateFavoritesUi() {
+  if (els.favoritesCount) els.favoritesCount.textContent = nf.format(state.favorites.size);
+  if (els.favoritesToggle) els.favoritesToggle.setAttribute('aria-pressed', String(state.favoritesOnly));
+  if (els.favoriteIcon && state.activeDialogIcon) {
+    const active = isFavorite(state.activeDialogIcon);
+    els.favoriteIcon.classList.toggle('is-favorite', active);
+    els.favoriteIcon.textContent = active ? '★ В избранном' : '☆ В избранное';
+  }
+}
+function toggleFavorite(icon) {
+  const key = favoriteKey(icon);
+  if (!key) return;
+  if (state.favorites.has(key)) state.favorites.delete(key);
+  else state.favorites.set(key, serializeFavorite(icon));
+  saveFavorites();
+  if (state.activePack) renderIcons();
+  else if (state.favoritesOnly) renderFavoriteIcons();
+}
 
 function filterButton(label,count,active,onClick) {
   const button = document.createElement('button');
@@ -40,21 +81,21 @@ function filterButton(label,count,active,onClick) {
 function renderFilters() {
   const c = state.catalog;
   els.familyFilters.replaceChildren();
-  els.familyFilters.append(filterButton('Все', c.totalIcons, state.family === 'all', () => { state.family='all'; renderFilters(); renderPacks(); }));
+  els.familyFilters.append(filterButton('Все', c.totalIcons, state.family === 'all', () => { state.family='all'; state.favoritesOnly=false; updateFavoritesUi(); renderFilters(); renderPacks(); }));
   for (const [family,count] of Object.entries(c.families).sort((a,b)=>b[1]-a[1])) {
-    els.familyFilters.append(filterButton(family,count,state.family===family,()=>{state.family=family;renderFilters();renderPacks();}));
+    els.familyFilters.append(filterButton(family,count,state.family===family,()=>{state.family=family;state.favoritesOnly=false;updateFavoritesUi();renderFilters();renderPacks();}));
   }
   els.categoryFilters.replaceChildren();
-  els.categoryFilters.append(filterButton('Все',c.totalIcons,state.category==='all',()=>{state.category='all';renderFilters();renderPacks();}));
+  els.categoryFilters.append(filterButton('Все',c.totalIcons,state.category==='all',()=>{state.category='all';state.favoritesOnly=false;updateFavoritesUi();renderFilters();renderPacks();}));
   for (const [category,count] of Object.entries(c.categories).sort((a,b)=>b[1]-a[1])) {
     if (!count) continue;
-    els.categoryFilters.append(filterButton(category,count,state.category===category,()=>{state.category=category;renderFilters();renderPacks();}));
+    els.categoryFilters.append(filterButton(category,count,state.category===category,()=>{state.category=category;state.favoritesOnly=false;updateFavoritesUi();renderFilters();renderPacks();}));
   }
   els.styleFilters.replaceChildren();
-  els.styleFilters.append(filterButton('Все',c.totalIcons,state.style==='all',()=>{state.style='all';renderFilters();renderPacks();}));
+  els.styleFilters.append(filterButton('Все',c.totalIcons,state.style==='all',()=>{state.style='all';state.favoritesOnly=false;updateFavoritesUi();renderFilters();renderPacks();}));
   for (const [style,count] of Object.entries(c.styles).sort((a,b)=>b[1]-a[1])) {
     if (!count) continue;
-    els.styleFilters.append(filterButton(style,count,state.style===style,()=>{state.style=style;renderFilters();renderPacks();}));
+    els.styleFilters.append(filterButton(style,count,state.style===style,()=>{state.style=style;state.favoritesOnly=false;updateFavoritesUi();renderFilters();renderPacks();}));
   }
 }
 
@@ -105,6 +146,7 @@ function renderPacks() {
 }
 
 async function openPack(pack) {
+  state.favoritesOnly=false; updateFavoritesUi();
   setNotice('Загружаю индекс пака…');
   const response = await fetch(`./data/packs/${pack.fileId}.json`);
   if (!response.ok) { setNotice('Не удалось загрузить pack index.'); return; }
@@ -135,6 +177,7 @@ function iconModelFromSearch(record) {
 }
 function renderIconCard(icon,fragment) {
   const card=els.iconCardTemplate.content.firstElementChild.cloneNode(true);
+  card.classList.toggle('is-favorite', isFavorite(icon));
   card.querySelector('.icon-preview').innerHTML=svgUse(icon.sprite,icon.symbol,icon.variant,icon.exact);
   card.querySelector('.icon-name').textContent=icon.name;
   card.querySelector('.icon-pack').textContent=`${icon.family} · ${icon.packName}`;
@@ -145,6 +188,15 @@ function renderIcons() {
   els.iconGrid.replaceChildren(); const fragment=document.createDocumentFragment();
   for (const record of state.activeIcons.slice(0,state.visibleIcons)) renderIconCard(iconModelFromPack(record),fragment);
   els.iconGrid.append(fragment); els.loadMore.classList.toggle('hidden',state.visibleIcons>=state.activeIcons.length);
+}
+function renderFavoriteIcons() {
+  state.activePack=null; state.favoritesOnly=true; updateFavoritesUi();
+  els.packGrid.classList.add('hidden'); els.iconGrid.classList.remove('hidden'); els.loadMore.classList.add('hidden');
+  els.sectionKicker.textContent='FAVORITES'; els.sectionTitle.textContent=`Избранное · ${nf.format(state.favorites.size)}`;
+  els.iconGrid.replaceChildren(); const fragment=document.createDocumentFragment();
+  for (const icon of state.favorites.values()) renderIconCard(icon,fragment);
+  els.iconGrid.append(fragment);
+  setNotice(state.favorites.size ? 'Избранное хранится только в этом браузере.' : 'Пока ничего не сохранено. Открой иконку и нажми «В избранное».');
 }
 
 function openIcon(icon) {
@@ -160,6 +212,7 @@ function openIcon(icon) {
     ['License',icon.license||'Unknown'],['Author',typeof icon.author==='object'?(icon.author.name||'See metadata'):(icon.author||'Unknown')],
   ];
   els.dialogMeta.innerHTML=rows.map(([k,v])=>`<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('');
+  updateFavoritesUi();
   els.iconDialog.showModal();
 }
 async function copyText(text,button) {
@@ -168,6 +221,7 @@ async function copyText(text,button) {
 function shardKey(query) { const match=query.toLowerCase().match(/[a-z0-9]/); return match?match[0]:'_'; }
 
 async function globalSearch(query) {
+  state.favoritesOnly=false; updateFavoritesUi();
   const normalized=query.trim().toLowerCase(); if(!normalized){renderPacks();return;}
   const token=++state.searchToken;
   els.packGrid.classList.add('hidden'); els.iconGrid.classList.remove('hidden'); els.loadMore.classList.add('hidden');
@@ -189,7 +243,7 @@ function initQuickChips(){for(const word of QUICK){const b=document.createElemen
 function restoreTheme(){const saved=localStorage.getItem('icon-atlas-theme');if(saved)document.documentElement.dataset.theme=saved;}
 
 async function init(){
-  restoreTheme();initQuickChips();
+  restoreTheme(); loadFavorites(); initQuickChips();
   const response=await fetch('./data/catalog.json');if(!response.ok)throw new Error('catalog.json unavailable');
   state.catalog=await response.json();state.packById=new Map(state.catalog.packs.map((pack)=>[pack.id,pack]));
   els.headerStats.textContent=`${nf.format(state.catalog.totalIcons)} icons · ${nf.format(state.catalog.packCount)} packs`;
@@ -199,12 +253,14 @@ async function init(){
 
 let searchTimer;
 els.globalSearch.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>globalSearch(els.globalSearch.value),160);});
-els.packSearch.addEventListener('input',()=>{state.packQuery=els.packSearch.value.trim().toLowerCase();renderPacks();});
+els.packSearch.addEventListener('input',()=>{state.packQuery=els.packSearch.value.trim().toLowerCase();state.favoritesOnly=false;updateFavoritesUi();renderPacks();});
 els.sortSelect.addEventListener('change',()=>{state.sort=els.sortSelect.value;renderPacks();});
 els.loadMore.addEventListener('click',()=>{state.visibleIcons+=120;renderIcons();});
 els.dialogClose.addEventListener('click',()=>els.iconDialog.close());
 els.copyPath.addEventListener('click',()=>copyText(state.activeDialogIcon?.path,els.copyPath));
 els.copyId.addEventListener('click',()=>copyText(state.activeDialogIcon?.id,els.copyId));
+els.favoriteIcon.addEventListener('click',()=>state.activeDialogIcon&&toggleFavorite(state.activeDialogIcon));
+els.favoritesToggle.addEventListener('click',()=>{if(state.favoritesOnly){state.favoritesOnly=false;updateFavoritesUi();renderPacks();}else renderFavoriteIcons();});
 els.themeButton.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=next;localStorage.setItem('icon-atlas-theme',next);});
 document.addEventListener('keydown',(event)=>{if(event.key==='/'&&document.activeElement?.tagName!=='INPUT'){event.preventDefault();els.globalSearch.focus();}if(event.key==='Escape'&&els.iconDialog.open)els.iconDialog.close();});
 
