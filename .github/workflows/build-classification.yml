@@ -7,6 +7,7 @@ on:
       - 'manifest*.jsonl'
       - 'catalog/taxonomy.json'
       - 'scripts/build-classification.mjs'
+      - 'scripts/sanitize-catalog-metadata.mjs'
       - 'scripts/lib/**'
       - '.github/workflows/build-classification.yml'
 
@@ -34,6 +35,9 @@ jobs:
 
       - name: Build taxonomy, map and statistics
         run: node scripts/build-classification.mjs
+
+      - name: Sanitize public catalog metadata
+        run: node scripts/sanitize-catalog-metadata.mjs
 
       - name: Commit generated indexes
         run: |
